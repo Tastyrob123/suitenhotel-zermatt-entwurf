@@ -1,0 +1,293 @@
+/* Suitenhotel Zurbriggen, Zermatt · Designstudie von Tasty Studios (Station 07, 18.10.2026). Markenbuch «Rot und Schnee» (Robert 18.10.2026).
+   Eine Datei, ein Kommentar je Block. Bewegung nach Website-Briefing 8.2 mit der Korrektur vom 16.10.: nur Weg von unten und Zoom im Bild,
+   nichts wird aus der Deckkraft eingeblendet, kein Überschwingen. Nur transform. Keine Einkerbungen, kein Muster im Hintergrund. */
+
+/* Schriften: Bricolage Grotesque (Titel), Instrument Sans (Lauf), DM Mono (Etiketten), alle vom eigenen Server, OFL 1.1 */
+@font-face{font-family:'Bricolage';font-weight:800;font-display:swap;src:url(../fonts/BricolageGrotesque-ExtraBold.woff2) format('woff2')}
+@font-face{font-family:'Instrument Sans';font-weight:400 600;font-display:swap;src:url(../fonts/InstrumentSans-normal-400_600.woff2) format('woff2')}
+@font-face{font-family:'DM Mono';font-weight:400;font-display:swap;src:url(../fonts/DMMono-normal-400.woff2) format('woff2')}
+@font-face{font-family:'Bricolage Ersatz';src:local('Arial Black'),local('Arial Bold');size-adjust:96%}
+
+/* Farben (Markenbuch 05 › farben.css): Schnee, Schnee getönt, Silber, Anthrazit, Pinsel-Rot, Samtrot */
+:root{--schnee:#F7F6EC;--getoent:#E7E7E4;--silber-h:#D6D7D9;--silber:#B1B2B4;--anthrazit:#2E2C30;--tief:#1F1E22;--rot:#E2001A;--samt:#AA0615;
+  --titel:'Bricolage','Bricolage Ersatz',Arial,sans-serif;--sans:'Instrument Sans',Arial,sans-serif;--mono:'DM Mono',ui-monospace,Menlo,monospace;
+  --e1:cubic-bezier(.16,1,.3,1);--e2:cubic-bezier(.32,.72,0,1);--flip:cubic-bezier(.36,0,.1,1);
+  --rand:clamp(18px,4.8vw,80px);--max:1320px;--abschnitt:clamp(72px,8vw,128px);--rund:26px}
+
+/* Grundlage */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;overflow-x:clip}
+body{margin:0;background:var(--schnee);color:var(--anthrazit);font-family:var(--sans);font-size:17.5px;line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:clip}
+h1,h2,h3,h4,p,ul,ol,figure,blockquote{margin:0;padding:0} ul,ol{list-style:none} a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%;height:auto} button,input,select,textarea{font:inherit;color:inherit}
+button{background:none;border:0;padding:0;cursor:pointer}
+.in{max-width:var(--max);margin:0 auto;position:relative}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--rot);outline-offset:3px;border-radius:6px}
+
+/* Flächen: hell (getönter Schnee), Schnee, dunkel (Anthrazit); Blätter schieben sich mit runder Kante übereinander */
+.fl{position:relative;padding:var(--abschnitt) var(--rand);z-index:1}
+.fl--hell{background:var(--getoent)} .fl--schnee{background:var(--schnee)} .fl--dunkel{background:var(--anthrazit);color:var(--schnee)}
+.blatt{border-radius:40px 40px 0 0;margin-top:-40px}
+
+/* Schrift: Ortszeile gesperrt wie «S U I T E N H O T E L», Titel in Bricolage, Betonung über Rot, nie kursiv */
+.ort{font-family:var(--sans);font-size:12.5px;letter-spacing:.38em;text-transform:uppercase;color:color-mix(in srgb,var(--anthrazit) 70%,transparent)}
+.fl--dunkel .ort{color:var(--silber-h)}
+.t1,.t2,.t3{font-family:var(--titel);font-weight:800;letter-spacing:-.012em;text-wrap:balance}
+.t1{font-size:clamp(2.6rem,6.4vw,6.2rem);line-height:1.02} .t2{font-size:clamp(1.9rem,3.8vw,3.5rem);line-height:1.06} .t3{font-size:clamp(1.25rem,1.8vw,1.6rem);line-height:1.15}
+.t1 em,.t2 em,.t3 em{font-style:normal;color:var(--rot)} .fl--dunkel .t2 em{color:var(--silber-h)}
+.lauf{font-size:clamp(1.04rem,1.18vw,1.18rem);line-height:1.66;max-width:58ch}
+.fl--dunkel .lauf{color:color-mix(in srgb,var(--schnee) 86%,transparent)}
+.klein{font-size:15px;line-height:1.55;color:color-mix(in srgb,var(--anthrazit) 76%,transparent)} .fl--dunkel .klein{color:color-mix(in srgb,var(--schnee) 70%,transparent)}
+.mono{font-family:var(--mono);font-size:11.5px;letter-spacing:.15em;text-transform:uppercase}
+.zitat{font-family:var(--titel);font-weight:800;font-size:clamp(1.3rem,2.2vw,1.9rem);line-height:1.2;max-width:30ch}
+
+/* Pinselstrich: rot unter dem wichtigsten Wort, zieht sich einmal von links (transform) */
+.strich{position:relative;display:inline-block;color:inherit!important;z-index:0}
+.strich::after{content:'';position:absolute;left:-.04em;right:-.06em;bottom:-.1em;height:.17em;background:var(--rot);border-radius:.1em .3em .14em .4em;z-index:-1;transform:scaleX(0);transform-origin:0 50%;transition:transform 1.1s var(--e1) .5s}
+.da .strich::after,.strich.da::after{transform:none}
+
+/* Überschriften rollen zeilenweise aus dem Schlitz */
+.z{display:block;overflow:hidden;padding:.08em .06em .22em;margin:-.08em -.06em -.22em}
+.z>span{display:block;transform:translateY(108%);transition:transform 1.35s var(--e1);transition-delay:calc(var(--n,0)*95ms)}
+.z:nth-child(2)>span{--n:1} .z:nth-child(3)>span{--n:2}
+.da .z>span{transform:none}
+
+/* Auftritt der Texte: Weg von unten, deckend (kein Einblenden) */
+[data-r]{transform:translateY(30px);transition:transform 1.9s var(--e1);transition-delay:calc(var(--i,0)*110ms)}
+.da [data-r],[data-r].da{transform:none}
+
+/* Auftritt der Fotos und Gruppen: Weg am Scrollen, danach Zoom im Rahmen (8.2) */
+[data-zug]{transform:translateY(var(--weg,90px));transition:transform 1.6s var(--e1)}
+[data-zug].da{transform:none}
+@supports (animation-timeline:view()){
+  [data-zug]{transform:none;transition:none;animation:zug linear both;animation-timeline:view();animation-range:cover 0% cover 58vh}
+}
+@keyframes zug{from{transform:translateY(var(--weg,90px))}to{transform:none}}
+.zoom{overflow:hidden} .zoom img{transform:scale(1.14);transition:transform 2.7s var(--e1)}
+.da .zoom img,.zoom.da img{transform:none}
+
+/* Knöpfe: Pille mit rundem Knauf und Pfeil, rot mit Samtrot-Tiefe; helle Form für zweite Wege */
+.kn{position:relative;overflow:hidden;isolation:isolate;display:inline-flex;align-items:center;gap:14px;height:56px;padding:0 8px 0 26px;border-radius:999px;
+  font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;color:#fff;
+  background:linear-gradient(180deg,color-mix(in srgb,var(--rot) 76%,white) 0%,var(--rot) 50%,var(--samt) 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.4),inset 0 -3px 0 rgba(70,0,8,.45),0 1px 1px rgba(0,0,0,.25),0 16px 26px -14px rgba(120,0,14,.5);transition:transform .55s var(--e2)}
+.kn:hover{transform:translateY(-2px)} .kn:active{transform:translateY(1px) scale(.985)}
+.kn::after{content:'';position:absolute;z-index:-1;top:-20%;bottom:-20%;left:0;width:38%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);transform:translateX(-180%) skewX(-18deg)}
+.kn:hover::after{transform:translateX(360%) skewX(-18deg);transition:transform 1s var(--e1)}
+.kn i{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(180deg,#fff,var(--getoent));color:var(--anthrazit);box-shadow:inset 0 1px 0 #fff,inset 0 -2px 0 rgba(0,0,0,.12),0 3px 6px rgba(0,0,0,.28);transition:transform .6s var(--e2)}
+.kn:hover i{transform:translateX(2px)} .kn svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:1.4}
+.kn--hell{color:var(--anthrazit);background:linear-gradient(180deg,#fff 0%,var(--schnee) 50%,var(--getoent) 100%);box-shadow:inset 0 1px 0 #fff,inset 0 -3px 0 rgba(46,44,48,.18),0 1px 1px rgba(0,0,0,.2),0 16px 26px -14px rgba(46,44,48,.45)}
+.kn--hell i{background:linear-gradient(180deg,color-mix(in srgb,var(--rot) 76%,white),var(--samt));color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 3px 6px rgba(0,0,0,.25)}
+.kn--klein{height:46px;font-size:11px;padding-left:20px;gap:10px} .kn--klein i{width:32px;height:32px}
+.knr{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+
+/* Leiste oben: schmale Insel in Anthrazit, Logo auf heller Platte (Querform am Rechner, quadratisch am Handy wie heute), Buchen immer rot */
+.leiste{position:fixed;z-index:50;left:50%;top:14px;transform:translateX(-50%);width:min(calc(100% - 28px),1240px);display:flex;align-items:center;gap:18px;padding:7px 7px 7px 8px;
+  border-radius:999px;background:var(--anthrazit);color:var(--schnee);box-shadow:0 18px 40px -22px rgba(0,0,0,.6),inset 0 0 0 1px rgba(255,255,255,.06)}
+.leiste__logo{flex:none;display:block;background:#fff;border-radius:999px;padding:5px 16px 5px 10px}
+.leiste__logo img{height:44px;width:auto} .leiste__logo .q{display:none}
+.leiste nav{display:flex;gap:4px;margin-left:auto;font-family:var(--mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase}
+.leiste nav a{padding:10px 12px;border-radius:999px;transition:background .4s var(--e2)} .leiste nav a:hover{background:rgba(255,255,255,.08)}
+.leiste__buchen{flex:none} .leiste__menu{display:none;width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.08)}
+.leiste__menu span{display:block;width:18px;height:2px;background:currentColor;margin:4px auto;border-radius:2px}
+@media (max-width:1060px){.leiste nav{display:none} .leiste__menu{display:block;margin-left:auto}}
+@media (max-width:600px){.leiste{top:10px;width:calc(100% - 20px);gap:8px} .leiste__logo{padding:4px 8px;border-radius:14px} .leiste__logo .r{display:none} .leiste__logo .q{display:block;height:40px}
+  .leiste__buchen span{display:none} .leiste__buchen{padding:0 6px;gap:0}}
+.menu{border:0;padding:0;margin:auto 0 0;width:100%;max-width:100%;max-height:none;background:var(--anthrazit);color:var(--schnee);border-radius:28px 28px 0 0}
+.menu::backdrop{background:rgba(20,20,24,.55)} .menu nav{display:grid;padding:28px var(--rand) 34px;gap:4px}
+.menu a{font-family:var(--titel);font-weight:800;font-size:1.6rem;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.08)} .menu .zu{position:absolute;right:16px;top:14px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.1);font-size:20px}
+
+/* Auftakt: das Haus am Abend, Satz des Hauses unten links mit Pinselstrich, Buchungsleiste als helle Platte */
+.auftakt{position:relative;min-height:max(100svh,620px);display:grid;align-items:end;color:#fff;isolation:isolate;overflow:hidden}
+.auftakt__b{position:absolute;inset:0;z-index:-2} .auftakt__b img{width:100%;height:100%;object-fit:cover;object-position:50% 58%}
+.auftakt::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(20,20,24,.45) 0%,rgba(20,20,24,0) 22%,rgba(20,20,24,.08) 48%,rgba(20,20,24,.78) 100%)}
+.auftakt__in{width:100%;padding:0 var(--rand) clamp(26px,5vh,54px);display:grid;gap:18px;justify-items:start}
+.auftakt .ort{color:#fff;text-shadow:0 1px 14px rgba(0,0,0,.45)} .auftakt .t1{text-shadow:0 2px 34px rgba(0,0,0,.28);max-width:12ch}
+.auftakt .lauf{color:#fff;max-width:50ch;text-shadow:0 1px 18px rgba(0,0,0,.5)}
+.buchung{margin-top:clamp(10px,2vh,22px);width:min(100%,940px);display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto;gap:6px;align-items:stretch;padding:8px;border-radius:30px;
+  background:var(--schnee);color:var(--anthrazit);box-shadow:0 30px 60px -30px rgba(0,0,0,.7),inset 0 1px 0 #fff}
+.buchung label{display:grid;gap:2px;padding:10px 18px;border-radius:22px;background:var(--getoent);box-shadow:inset 0 2px 5px rgba(46,44,48,.12)}
+.buchung label span{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;opacity:.65}
+.buchung input,.buchung select{border:0;background:none;padding:0;font-size:16px;font-weight:600;min-width:0;width:100%}
+.buchung .kn{height:auto;min-height:56px}
+@media (max-width:760px){.buchung{grid-template-columns:1fr 1fr;border-radius:26px} .buchung label:nth-child(3){grid-column:1/-1} .buchung .kn{grid-column:1/-1;justify-content:space-between}}
+
+/* Willkommen: Gastgeber-Blatt, Familienfoto als 3D-Kachel, Satz des Hauses, Apéro */
+.kachel{position:relative;border-radius:var(--rund);overflow:hidden;background:var(--silber-h);box-shadow:0 40px 70px -40px rgba(30,30,34,.6),0 0 0 1px rgba(46,44,48,.06);isolation:isolate}
+.kachel img{width:100%;height:100%;object-fit:cover}
+.schild{position:absolute;left:14px;bottom:14px;z-index:2;padding:7px 14px 6px;border-radius:999px;background:rgba(46,44,48,.74);color:var(--schnee);font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;line-height:1.3;max-width:calc(100% - 28px)}
+.gast{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(30px,5vw,90px);align-items:center}
+.gast .kachel{aspect-ratio:5/3.4}
+.gast__t{display:grid;gap:22px;justify-items:start}
+.apero{display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px;align-items:center;padding:18px 22px;border-radius:22px;background:var(--schnee);box-shadow:inset 0 2px 6px rgba(46,44,48,.12),inset 0 -1px 0 #fff;max-width:560px}
+.apero b{font-family:var(--titel);font-weight:800;font-size:1.05rem;display:block} .apero svg{width:46px;height:43px;fill:var(--rot)}
+.gruss{font-family:var(--titel);font-weight:800;font-size:1.25rem}
+@media (max-width:900px){.gast{grid-template-columns:1fr}}
+
+/* Suiten: Startnummern (Markenbuch, tragender Baustein), darunter das Foto der gewählten Suite; Wechsel fährt von unten über das alte */
+.suiten__kopf{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:24px clamp(30px,5vw,80px);align-items:end;margin-bottom:38px}
+.bibs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-bottom:22px}
+.bib{position:relative;width:100%;background:linear-gradient(180deg,#fff,var(--schnee));color:var(--anthrazit);border-radius:18px 18px 26px 26px;padding:32px 12px 18px;display:grid;justify-items:center;text-align:center;gap:6px;
+  box-shadow:0 26px 40px -26px rgba(0,0,0,.85);transition:transform .7s var(--e2)}
+.bib::before,.bib::after{content:'';position:absolute;top:12px;width:9px;height:9px;border-radius:50%;background:var(--anthrazit);box-shadow:inset 0 1px 2px rgba(0,0,0,.5)} .bib::before{left:14px} .bib::after{right:14px}
+.bib:hover,.bib[aria-pressed="true"]{transform:translateY(-8px)}
+.bib[aria-pressed="true"]{box-shadow:0 0 0 2px var(--rot),0 30px 44px -26px rgba(0,0,0,.9)}
+.bib__n{font-family:var(--titel);font-weight:800;font-size:clamp(2.6rem,4.4vw,4.2rem);line-height:1;color:var(--rot)}
+.bib b{font-family:var(--titel);font-weight:800;font-size:.95rem;letter-spacing:.03em;text-transform:uppercase;line-height:1.15}
+.bib small{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--anthrazit) 62%,transparent)}
+.buehne{position:relative;aspect-ratio:16/7.2;border-radius:var(--rund);overflow:hidden;background:var(--tief);box-shadow:0 40px 70px -40px rgba(0,0,0,.85)}
+.buehne figure{position:absolute;inset:0} .buehne img{width:100%;height:100%;object-fit:cover}
+.buehne figure.neu{transform:translateY(100%);transition:transform .9s var(--flip)} .buehne figure.neu.an{transform:none}
+.buehne__info{position:absolute;right:16px;bottom:16px;z-index:3;display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.buehne__info span{padding:8px 14px;border-radius:999px;background:rgba(46,44,48,.78);color:#fff;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase}
+.suiten__fuss{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:22px;align-items:center;margin-top:28px}
+.weitere{display:flex;flex-wrap:wrap;gap:10px}
+.weitere a{display:flex;align-items:center;gap:12px;padding:6px 16px 6px 6px;border-radius:999px;background:rgba(255,255,255,.07);box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+.weitere img{width:46px;height:46px;border-radius:50%;object-fit:cover} .weitere b{font-weight:600;font-size:14.5px} .weitere small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.1em;opacity:.65;text-transform:uppercase}
+.quelle{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;opacity:.55}
+@media (max-width:900px){.suiten__kopf,.suiten__fuss{grid-template-columns:1fr} .bibs{grid-template-columns:repeat(3,minmax(0,1fr))} .buehne{aspect-ratio:4/3}}
+@media (max-width:520px){.bibs{grid-template-columns:repeat(2,minmax(0,1fr))} .bibs .bib:last-child{grid-column:1/-1}}
+
+/* Laufbahn: Band zum Blättern, je Karte ein Ort aus dem Palmarès, Jahr gross, die Suite mit gleichem Namen */
+.lb__kopf{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:30px;flex-wrap:wrap}
+.band{display:flex;gap:16px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;padding:6px var(--rand) 30px;margin:0 calc(var(--rand)*-1)}
+.band::-webkit-scrollbar{display:none}
+.strecke{flex:none;width:min(78vw,330px);display:grid;gap:10px;align-content:start;padding:26px 24px 22px;border-radius:24px;background:var(--schnee);box-shadow:0 26px 44px -30px rgba(30,30,34,.55),0 0 0 1px rgba(46,44,48,.06)}
+.strecke__j{font-family:var(--titel);font-weight:800;font-size:clamp(2.6rem,4vw,3.4rem);line-height:1;color:var(--rot);min-height:1em}
+.strecke__o{font-family:var(--titel);font-weight:800;font-size:1.25rem;text-transform:uppercase;letter-spacing:.04em}
+.strecke__s{margin-top:8px;padding-top:12px;border-top:1px solid var(--silber-h);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.strecke__s a{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--rot)}
+.pfeile{display:flex;gap:8px;align-items:center} .pfeil{width:48px;height:48px;border-radius:50%;background:var(--anthrazit);color:#fff;display:grid;place-items:center;box-shadow:0 10px 20px -12px rgba(0,0,0,.6)}
+.pfeil svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.6}
+.laufbalken{height:3px;border-radius:3px;background:var(--silber-h);overflow:hidden;max-width:var(--max);margin:0 auto} .laufbalken i{display:block;height:100%;width:30%;background:var(--rot);transform-origin:0 50%;transform:translateX(var(--x,0))}
+
+/* Fenster: stehendes Bild zwischen zwei Abschnitten, die Seite zieht darüber (fest hinter der Seite, nur sichtbar, solange das Fenster im Blick ist) */
+.bruch{position:relative;height:min(66vh,640px);display:grid;place-items:center;text-align:center;color:#fff;z-index:0}
+.bruch__b{position:fixed;inset:0;z-index:-1;visibility:hidden} .bruch.an .bruch__b{visibility:visible}
+.bruch__b img{width:100%;height:100%;object-fit:cover}
+.bruch__b::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 46% at 50% 50%,rgba(20,20,24,.42),rgba(20,20,24,0) 72%)}
+.bruch p{position:relative;font-family:var(--titel);font-weight:800;font-size:clamp(1.6rem,3.4vw,3rem);line-height:1.1;max-width:22ch;padding:0 var(--rand);text-shadow:0 2px 30px rgba(0,0,0,.45);text-wrap:balance}
+
+/* Morgen: Bildgruppe (1 gross + 2), kleine Bilder fahren per Klick an die grosse Stelle (FLIP), drei Kuhlen */
+.morgen{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:center}
+.gruppe{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;gap:14px;aspect-ratio:5/3.6}
+.gruppe button{position:relative;border-radius:22px;overflow:hidden;box-shadow:0 30px 50px -34px rgba(30,30,34,.6)} .gruppe button:first-child{grid-row:span 2;cursor:default}
+.gruppe img{width:100%;height:100%;object-fit:cover}
+.kuhlen{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%}
+.kuhle{border-radius:18px;padding:16px 18px;background:var(--schnee);box-shadow:inset 0 2px 6px rgba(46,44,48,.14),inset 0 -1px 0 #fff}
+.kuhle b{display:block;font-family:var(--titel);font-weight:800;font-size:.92rem;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px} .kuhle span{font-size:14px;line-height:1.5;display:block}
+.morgen__t{display:grid;gap:22px;justify-items:start}
+@media (max-width:900px){.morgen{grid-template-columns:1fr} .kuhlen{grid-template-columns:1fr}}
+
+/* Der Hang: Winter und Sommer nebeneinander, unten die Linie mit Talstation, Haus und Bus */
+.hang__kopf{max-width:760px;display:grid;gap:18px;margin-bottom:36px}
+.hang{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.hang figure{position:relative;aspect-ratio:4/5;border-radius:var(--rund);overflow:hidden;box-shadow:0 40px 70px -40px rgba(30,30,34,.6)}
+.hang figure img{width:100%;height:100%;object-fit:cover}
+.hang figcaption{position:absolute;left:0;right:0;bottom:0;padding:70px 26px 24px;color:#fff;background:linear-gradient(180deg,transparent,rgba(20,20,24,.72))}
+.hang figcaption b{display:block;font-family:var(--titel);font-weight:800;font-size:clamp(1.3rem,2vw,1.8rem);margin-bottom:6px} .hang figcaption span{font-size:15px;line-height:1.5;display:block;max-width:40ch}
+.linie{position:relative;margin-top:30px;padding-top:22px;display:flex;justify-content:space-between;gap:14px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;flex-wrap:wrap}
+.linie::before{content:'';position:absolute;left:0;right:0;top:0;height:2px;background:var(--anthrazit);transform:scaleX(0);transform-origin:0 50%;transition:transform 1.6s var(--e1) .3s}
+.da .linie::before,.linie.da::before{transform:none}
+.linie span{display:flex;align-items:center;gap:8px} .linie span::before{content:'';width:10px;height:10px;border-radius:50%;background:var(--rot)}
+@media (max-width:760px){.hang{grid-template-columns:1fr} .hang figure{aspect-ratio:4/3.6}}
+
+/* Wellness: Ziegelverband aus vier Bildern, daneben die Angebote in einer Platte mit Kuhle */
+.well{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:start}
+.ziegel{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-rows:clamp(120px,12vw,200px);gap:14px}
+.ziegel figure{position:relative;border-radius:22px;overflow:hidden;box-shadow:0 30px 50px -34px rgba(0,0,0,.8)} .ziegel img{width:100%;height:100%;object-fit:cover}
+.ziegel figure:nth-child(1){grid-column:span 4;grid-row:span 2} .ziegel figure:nth-child(2){grid-column:span 2;grid-row:span 2}
+.ziegel figure:nth-child(3){grid-column:span 3} .ziegel figure:nth-child(4){grid-column:span 3}
+.platte{border-radius:var(--rund);padding:clamp(22px,2.4vw,32px);background:linear-gradient(180deg,color-mix(in srgb,var(--anthrazit) 84%,white),var(--anthrazit));box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 0 0 1px rgba(0,0,0,.25),0 30px 50px -34px rgba(0,0,0,.8)}
+.platte--hell{background:linear-gradient(180deg,#fff,var(--schnee));box-shadow:inset 0 1px 0 #fff,0 0 0 1px rgba(46,44,48,.07),0 30px 50px -34px rgba(30,30,34,.5)}
+.platte .kuhle--d{margin-top:16px;border-radius:18px;padding:16px 18px;background:var(--tief);box-shadow:inset 0 2px 8px rgba(0,0,0,.45),inset 0 -1px 0 rgba(255,255,255,.05)}
+.angebote{columns:2;column-gap:22px} .angebote li{break-inside:avoid;padding:7px 0 7px 18px;position:relative;font-size:15px;line-height:1.45;border-bottom:1px solid rgba(255,255,255,.07)}
+.angebote li::before{content:'';position:absolute;left:0;top:.95em;width:8px;height:2px;background:var(--rot)}
+.well__t{display:grid;gap:20px}
+@media (max-width:900px){.well{grid-template-columns:1fr} .angebote{columns:1}}
+
+/* Abend: Fondue auf dem Balkon und die Rennkarte, die Gänge der Abendkarte als Rennverlauf */
+.abend{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:center}
+.abend .kachel{aspect-ratio:4/4.4}
+.rennkarte{display:grid;gap:22px}
+.gang{display:grid;gap:8px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12)}
+.gang h3{font-family:var(--titel);font-weight:800;font-size:clamp(1.3rem,2vw,1.7rem)} .gang h3 small{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:var(--rot);margin-right:12px;vertical-align:middle}
+.gang ul{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--titel);font-weight:800;font-size:.92rem;letter-spacing:.05em;text-transform:uppercase;color:var(--silber-h)}
+@media (max-width:900px){.abend{grid-template-columns:1fr} .abend .kachel{aspect-ratio:4/3.4}}
+
+/* Instagram: Laufband der Beiträge, läuft nur über transform und hält nie an */
+.ig__kopf{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:28px}
+.laufband{overflow:hidden;margin:0 calc(var(--rand)*-1)} .laufband__zug{display:flex;gap:14px;width:max-content;animation:lauf 60s linear infinite}
+.laufband a{flex:none;width:clamp(170px,18vw,240px);aspect-ratio:9/14;border-radius:20px;overflow:hidden;box-shadow:0 24px 40px -28px rgba(30,30,34,.6)} .laufband img{width:100%;height:100%;object-fit:cover}
+@keyframes lauf{to{transform:translateX(-50%)}}
+
+/* Zieltafel: drei Noten stehend, getrennt durch feine Silberlinien */
+.tafel{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:36px;border-top:1px solid rgba(255,255,255,.14);border-bottom:1px solid rgba(255,255,255,.14)}
+.tafel div{display:grid;justify-items:center;gap:6px;padding:34px 12px;text-align:center} .tafel div+div{border-left:1px solid rgba(255,255,255,.14)}
+.tafel b{font-family:var(--titel);font-weight:800;font-size:clamp(3.4rem,8vw,7rem);line-height:1;color:var(--schnee)} .tafel span{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--silber-h)}
+.tafel small{font-size:13.5px;opacity:.7}
+.mitte{text-align:center;display:grid;justify-items:center;gap:16px}
+@media (max-width:640px){.tafel{grid-template-columns:1fr} .tafel div+div{border-left:0;border-top:1px solid rgba(255,255,255,.14)}}
+
+/* Haus-Finder der Familie: drei Fragen als Schalter, die Antwort tauscht an derselben Stelle */
+.finder{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,4vw,60px);align-items:stretch}
+.frage{display:grid;gap:10px;margin-bottom:20px} .frage>span{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.7}
+.schalter{display:flex;flex-wrap:wrap;gap:8px}
+.schalter button{padding:12px 18px;border-radius:999px;background:var(--schnee);box-shadow:inset 0 2px 5px rgba(46,44,48,.14);font-weight:600;font-size:15px;transition:transform .4s var(--e2)}
+.schalter button:active{transform:scale(.97)} .schalter button[aria-pressed="true"]{background:var(--anthrazit);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 8px 16px -10px rgba(0,0,0,.6)}
+.treffer{position:relative;min-height:340px;border-radius:var(--rund);overflow:hidden;background:var(--anthrazit);color:#fff;display:grid;align-content:end;padding:28px;isolation:isolate}
+.treffer img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2} .treffer::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(20,20,24,.05),rgba(20,20,24,.78))}
+.treffer .kn{justify-self:start}
+.treffer b{font-family:var(--titel);font-weight:800;font-size:clamp(1.5rem,2.6vw,2.2rem);line-height:1.1} .treffer p{margin:8px 0 18px;max-width:44ch;font-size:15.5px}
+@media (max-width:900px){.finder{grid-template-columns:1fr}}
+
+/* Anreise: Bild über die volle Breite, helle Tafel darüber, zweite Buchungsleiste */
+.anreise{position:relative;padding:clamp(120px,16vw,220px) var(--rand) clamp(60px,8vw,110px);isolation:isolate;z-index:1}
+.anreise__b{position:absolute;inset:0;z-index:-1} .anreise__b img{width:100%;height:100%;object-fit:cover}
+.anreise__t{max-width:980px;margin:0 auto;padding:clamp(26px,3.4vw,44px);border-radius:30px;background:var(--schnee);box-shadow:0 40px 80px -40px rgba(0,0,0,.7);display:grid;gap:20px}
+.anreise__z{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.anreise__z div{border-radius:18px;padding:14px 16px;background:var(--getoent);box-shadow:inset 0 2px 5px rgba(46,44,48,.12)} .anreise__z b{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;opacity:.65;margin-bottom:4px}
+.anreise .buchung{margin-top:6px;width:100%;box-shadow:inset 0 0 0 1px rgba(46,44,48,.08)}
+@media (max-width:760px){.anreise__z{grid-template-columns:1fr}}
+
+/* Fuss: die Häuser der Familie nach Gastgebern, Kontakt, Rechtstexte, Hinweis Designstudie */
+.fuss{background:var(--tief);color:var(--schnee);padding:clamp(64px,7vw,100px) var(--rand) 30px;position:relative;z-index:1}
+.fuss__oben{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(30px,5vw,80px)}
+.fuss__logo{display:inline-block;background:#fff;border-radius:18px;padding:10px 16px} .fuss__logo img{width:200px}
+.fuss .ort{color:var(--silber)}
+.fuss__k{display:grid;gap:8px;margin-top:22px;font-size:15px} .fuss__k a{text-decoration:underline;text-decoration-color:rgba(255,255,255,.3);text-underline-offset:3px}
+.haeuser{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.haeuser section{border-radius:22px;padding:20px;background:rgba(255,255,255,.04);box-shadow:inset 0 0 0 1px rgba(255,255,255,.07)}
+.haeuser h3{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--silber);font-weight:400;margin-bottom:12px}
+.haeuser a{display:block;padding:8px 0;border-top:1px solid rgba(255,255,255,.07)} .haeuser a b{font-family:var(--titel);font-weight:800;font-size:1.02rem;display:block} .haeuser a span{font-size:13.5px;opacity:.65}
+.haeuser a[aria-current] b{color:var(--rot)}
+.fuss__unten{margin-top:50px;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px;opacity:.7}
+.fuss__unten nav{display:flex;gap:18px;flex-wrap:wrap}
+@media (max-width:900px){.fuss__oben,.haeuser{grid-template-columns:1fr}}
+
+/* Rechtstexte: Wortlaut des Hauses auf einem hellen Blatt */
+.rechttext{display:grid;gap:14px;font-size:15.5px;line-height:1.62} .rechttext h2{font-family:var(--titel);font-weight:800;font-size:1.15rem;margin-top:14px} .rechttext a{text-decoration:underline;text-underline-offset:3px}
+
+/* Fenster (Dialoge): Buchen mit Zimmer-Finder, Bestellen; mittig, deckend, nichts springt */
+dialog.fenster{border:0;padding:0;border-radius:30px;width:min(calc(100% - 24px),760px);max-height:calc(100svh - 40px);background:var(--schnee);color:var(--anthrazit);box-shadow:0 50px 100px -40px rgba(0,0,0,.7)}
+dialog.fenster::backdrop{background:rgba(20,20,24,.55)}
+.fenster__in{padding:clamp(24px,3vw,38px);display:grid;gap:18px}
+.fenster__kopf{display:flex;justify-content:space-between;align-items:start;gap:16px} .fenster__zu{flex:none;width:44px;height:44px;border-radius:50%;background:var(--getoent);font-size:20px}
+.wahl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.wahl label{display:grid;gap:4px;padding:12px 16px;border-radius:18px;background:var(--getoent);box-shadow:inset 0 2px 5px rgba(46,44,48,.12)}
+.wahl label span{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;opacity:.65} .wahl input,.wahl select{border:0;background:none;font-weight:600;font-size:16px;padding:0;width:100%}
+.passend{display:grid;gap:10px;min-height:120px}
+.passend a{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:14px;align-items:center;padding:8px 14px 8px 8px;border-radius:20px;background:#fff;box-shadow:0 0 0 1px rgba(46,44,48,.08)}
+.passend img{width:72px;height:56px;border-radius:14px;object-fit:cover} .passend b{font-family:var(--titel);font-weight:800} .passend small{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;opacity:.65}
+.passend .nr{font-family:var(--titel);font-weight:800;font-size:1.6rem;color:var(--rot)}
+.hinweis{font-size:13.5px;line-height:1.5;padding:12px 16px;border-radius:14px;background:var(--getoent)}
+.feld{display:grid;gap:4px} .feld span{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;opacity:.65}
+.feld input,.feld select,.feld textarea{border:0;border-radius:14px;padding:12px 14px;background:var(--getoent);box-shadow:inset 0 2px 5px rgba(46,44,48,.12);font-size:16px}
+.zwei{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.danke{display:none;padding:16px 18px;border-radius:16px;background:var(--anthrazit);color:#fff} form.gesendet .danke{display:block}
+@media (max-width:640px){.wahl,.zwei{grid-template-columns:1fr} .passend a{grid-template-columns:56px minmax(0,1fr)} .passend a .kn{display:none} .passend img{width:56px;height:48px}}
+
+/* Ruhe: wer weniger Bewegung wünscht, sieht alles sofort */
+@media (prefers-reduced-motion:reduce){.z>span,[data-r],[data-zug],.zoom img,.strich::after,.linie::before,.buehne figure.neu{transition:none!important;animation:none!important;transform:none!important}
+  .laufband__zug{animation:none}}

@@ -1,0 +1,101 @@
+/* Probe «Aus einem Guss» (Robert 20.10.2026): ein Kopf für jedes Kapitel, Bildwände ohne Lücken, alles kommt in einem Zug von unten.
+   Grundlage: Tasty-Sprache Stufe 2.1 (Gästeordnung), 2.2 (Bild zuerst), 2.3 (Bewegung), 2.5 (mittig, keine Leere), E (Fotos aneinander). */
+
+.g{position:relative;padding:clamp(110px,11vw,180px) var(--rand) clamp(90px,9vw,150px)}
+.g--nacht{background:var(--nacht);color:#F7F6EC}
+.g--schnee{background:var(--schnee);color:var(--nacht)}
+.g .eb{box-shadow:none}
+
+/* Kapitelkopf, immer mittig: Marke, Titel, ein Satz des Hauses */
+.g-kopf{max-width:860px;margin:0 auto clamp(56px,6vw,90px);text-align:center;display:grid;justify-items:center;gap:20px}
+.g-kopf .mono{display:inline-flex;align-items:center;gap:12px;color:var(--silber)}
+.g-kopf h2{font-size:clamp(2.6rem,5.4vw,5.6rem);font-weight:400}
+.g-kopf__satz{max-width:640px;font-size:clamp(15.5px,1.15vw,17.5px);line-height:1.7;color:color-mix(in srgb,currentColor 72%,transparent)}
+
+/* Bildwand: ein grosses Foto, daran zwei anstossend; Fuge 4 px */
+.g-wand{position:relative;display:grid;grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);grid-template-rows:1fr 1fr;gap:4px;height:clamp(520px,50vw,860px);max-width:1520px;margin:0 auto}
+.g-wand .eb{height:100%}
+.g-wand__a{grid-column:1;grid-row:1/3}
+.g-wand__b{grid-column:2;grid-row:1}
+.g-wand__c{grid-column:2;grid-row:2}
+.g-wand--sommer{grid-template-columns:minmax(0,1fr) minmax(0,1.9fr);margin-top:clamp(70px,8vw,130px)}
+.g-wand--sommer .g-wand__a{grid-column:2}
+.g-wand--sommer .g-wand__b,.g-wand--sommer .g-wand__c{grid-column:1}
+/* Zeile unter der Wand, an der Kante des grossen Fotos */
+.g-wand__zeile{position:absolute;top:calc(100% + 26px);left:0;width:min(62%,760px);display:grid;gap:8px}
+.g-wand--sommer .g-wand__zeile{left:auto;right:0;text-align:right;justify-items:end}
+.g-wand__zeile .mono{color:var(--grau)}
+.g-wand__zeile b{font-size:clamp(1.5rem,2.2vw,2.2rem);font-weight:400}
+.g-wand__zeile p:not(.mono){font-size:15px;line-height:1.7;color:var(--grau);max-width:620px}
+.g-wand--winter{margin-bottom:clamp(110px,10vw,170px)}
+.g-wand--sommer{margin-bottom:clamp(190px,15vw,250px)}
+.g-weiter{display:flex;justify-content:center}
+
+/* Gastgeber: Bilder links aneinander, Text rechts auf halber Höhe */
+.g-gast{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(40px,6vw,110px);align-items:center;max-width:1520px;margin:clamp(70px,8vw,130px) auto 0}
+.g-gast__bilder{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto auto;gap:4px}
+.g-gast__a{grid-column:1/-1;aspect-ratio:16/10}
+.g-gast__b,.g-gast__c{aspect-ratio:4/3.4}
+.g-gast__text{display:grid;gap:18px;max-width:520px}
+.g-gast__text .mono{color:var(--silber)}
+.g-gast__text h3{font-size:clamp(2.1rem,3.4vw,3.4rem);font-weight:400}
+.g-gast__text p{font-size:15.5px;line-height:1.7;color:rgba(247,246,236,.78)}
+.g-gast__apero b{font-weight:500;color:#F7F6EC}
+.g--nacht .weiter{color:#F7F6EC}
+
+/* Suiten: der Kopf wie alle Kapitel mittig */
+.guss .s4__kopf{grid-template-columns:1fr;justify-items:center;text-align:center;max-width:860px;margin-left:auto;margin-right:auto}
+.guss .s4__kopf h2{font-size:clamp(2.6rem,5.4vw,5.6rem)}
+.guss .s4__kopf>p{max-width:640px}
+.guss .s4{padding-bottom:clamp(100px,10vw,160px)}
+
+/* Balkon: Übergang ins Draussen, der Satz liegt auf einer weichen Schattenfläche */
+.g-balkon{position:relative;height:clamp(520px,62vw,980px);overflow:hidden;background:var(--tief)}
+.g-balkon__bild{position:absolute;inset:0;height:100%}
+.g-balkon__satz{position:absolute;left:50%;bottom:clamp(40px,6vw,90px);width:min(86%,1100px);translate:-50% 0;text-align:center;color:#fff;font-size:clamp(1.8rem,3.6vw,3.6rem);font-weight:400;text-shadow:0 2px 30px rgba(0,0,0,.35)}
+.g-balkon::after{content:'';position:absolute;left:0;right:0;bottom:0;height:46%;background:radial-gradient(ellipse 70% 90% at 50% 100%,rgba(20,18,22,.55),rgba(20,18,22,0) 70%);pointer-events:none}
+.g-balkon__satz{z-index:2}
+
+/* Schluss: das Haus in der Winternacht, mittig zwei Sätze und das Buchen */
+.g-schluss{position:relative;min-height:max(100svh,760px);display:grid;place-items:center;overflow:hidden;background:var(--tief);color:#fff;text-align:center}
+.g-schluss__bild{position:absolute;inset:0}
+.g-schluss__bild img{width:100%;height:100%;object-fit:cover}
+.g-schluss::before{content:'';position:absolute;inset:0;z-index:1;background:radial-gradient(ellipse 62% 58% at 50% 50%,rgba(16,15,22,.74),rgba(16,15,22,.3) 80%)}
+.g-schluss__mitte{position:relative;z-index:2;display:grid;justify-items:center;gap:22px;padding:120px var(--rand);max-width:980px}
+.g-schluss__mitte>.mono{color:rgba(255,255,255,.75)}
+.g-schluss h2{font-size:clamp(3rem,7vw,7rem);font-weight:400}
+.g-schluss h2 em{color:rgba(255,255,255,.62)}
+.g-schluss__satz{max-width:600px;font-size:16.5px;line-height:1.7;color:rgba(255,255,255,.85)}
+.g-schluss .startliste{margin-top:10px}
+.g-schluss__noten{display:flex;gap:clamp(28px,5vw,70px);justify-content:center;margin-top:24px}
+.g-schluss__noten li{display:grid;justify-items:center;gap:4px}
+.g-schluss__noten b{font:300 clamp(2rem,3vw,2.8rem)/1 var(--text);letter-spacing:-.03em}
+.g-schluss__noten span{font:400 10px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+.g-schluss__stand{color:rgba(255,255,255,.55);font-size:10px}
+
+/* Fuss: drei ruhige Spalten, Instagram als Reihe aneinander, dann das Familienband */
+.g-fuss{background:var(--tief);color:#F7F6EC;padding:clamp(70px,7vw,110px) 0 0}
+.g-fuss__zeilen{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(30px,4vw,70px);max-width:1320px;margin:0 auto;padding:0 var(--rand)}
+.g-fuss__zeilen .mono{color:var(--silber);margin-bottom:10px}
+.g-fuss__zeilen p{font-size:15px;line-height:1.7;color:rgba(247,246,236,.82)}
+.g-fuss__zeilen .weiter{color:#F7F6EC;margin-top:14px}
+.g-fuss__ig{max-width:1320px;margin:clamp(60px,6vw,90px) auto 0;padding:0 var(--rand)}
+.g-fuss__ig .mono{color:var(--silber);margin-bottom:16px;text-align:center}
+.g-fuss__ig-bilder{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}
+.g-fuss__ig-bilder img{width:100%;aspect-ratio:1;object-fit:cover}
+
+@media (max-width:760px){
+  .g{padding:90px var(--rand) 80px}
+  .g-wand{grid-template-columns:1fr 1fr;grid-template-rows:auto auto;height:auto}
+  .g-wand .g-wand__a,.g-wand--sommer .g-wand__a{grid-column:1/-1;grid-row:1;aspect-ratio:4/3.3;height:auto}
+  .g-wand .g-wand__b,.g-wand .g-wand__c,.g-wand--sommer .g-wand__b,.g-wand--sommer .g-wand__c{grid-column:auto;grid-row:2;aspect-ratio:1;height:auto}
+  .g-wand__zeile,.g-wand--sommer .g-wand__zeile{position:static;grid-column:1/-1;width:auto;text-align:left;justify-items:start;margin-top:22px}
+  .g-wand--winter,.g-wand--sommer{margin-bottom:60px}
+  .g-gast{grid-template-columns:1fr;gap:36px}
+  .g-schluss__noten{gap:22px}
+  .g-fuss__zeilen{grid-template-columns:1fr}
+  .g-fuss__ig-bilder{grid-template-columns:1fr 1fr}
+}
+
+.g-fuss__noten{display:grid;justify-items:center;gap:14px;padding:0 var(--rand) clamp(60px,6vw,90px);margin-bottom:clamp(50px,5vw,80px);border-bottom:1px solid rgba(177,178,180,.18)}
+.g-fuss__noten .g-schluss__noten{margin-top:0}

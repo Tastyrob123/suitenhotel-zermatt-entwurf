@@ -1,0 +1,62 @@
+[
+ [
+  "01",
+  "01-anfrage",
+  "Ihre Anfrage",
+  "Antwort auf eine Anfrage nach einer Suite: welche Suite passt, wie gross sie ist, und der Weg zur Buchung über Mews."
+ ],
+ [
+  "02",
+  "02-anreise",
+  "Vor Ihrer Anreise",
+  "Kommt einige Tage vor der Anreise: Check-in, der Shuttle vom Bahnhof und der Weg bis vor die Tür."
+ ],
+ [
+  "03",
+  "03-shuttle",
+  "Wir holen Sie ab",
+  "Bestätigt den Shuttle vom Bahnhof: Ankunft, Treffpunkt und dass jemand vom Haus wartet."
+ ],
+ [
+  "04",
+  "04-fruehstueck",
+  "Ihr Frühstück",
+  "Bestätigt das Frühstück für den nächsten Morgen: Uhrzeit, Suite und was auf den Tisch kommt."
+ ],
+ [
+  "05",
+  "05-fondue",
+  "Fondue auf dem Balkon",
+  "Bestätigt das Fondue auf dem eigenen Balkon: welches Fondue, für wie viele, ab wann."
+ ],
+ [
+  "06",
+  "06-abendessen",
+  "Ihr Abendessen",
+  "Bestätigt das Abendessen von der Karte «Renntag», bestellt bis 18.00 Uhr: welche Gänge, für wie viele."
+ ],
+ [
+  "07",
+  "07-apero",
+  "Apéro mit Moni und Pirmin",
+  "Lädt im Winter alle Gäste im Haus zum Apéro mit Moni und Pirmin ein."
+ ],
+ [
+  "08",
+  "08-danke",
+  "Danke für Ihren Besuch",
+  "Kommt am Tag nach der Abreise: ein Dank und der Weg zurück, wann immer der Gast wiederkommen möchte."
+ ],
+ [
+  "09",
+  "09-pakete",
+  "Die Pakete des Winters",
+  "Kommt zum Start der Saison an frühere Gäste: die Pakete des Hauses mit ihren Daten."
+ ],
+ [
+  "10",
+  "10-golf",
+  "Golf im Sommer",
+  "Kommt zum Start des Sommers: als Gast des Hauses spielen Sie im Matterhorn Golfclub die ganze Saison gratis."
+ ]
+]

@@ -1,0 +1,2994 @@
+{
+ "haus": "Suitenhotel Zurbriggen, Zermatt",
+ "ort": "Zermatt",
+ "fotos": [
+  {
+   "k": "haus-abend",
+   "t": {
+    "de": "Das Suitenhotel Zurbriggen am Abend, davor der Garten"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2560,
+   "h": 1707,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_2184-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/haus-abend-2560.webp",
+   "fm": "../../assets/bilder/haus-abend-1600.webp",
+   "fs": "../../assets/bilder/haus-abend-900.webp"
+  },
+  {
+   "k": "balkon",
+   "t": {
+    "de": "Balkon einer Suite mit Blick aufs Matterhorn"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2560,
+   "h": 1707,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1092-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/balkon-2560.webp",
+   "fm": "../../assets/bilder/balkon-1600.webp",
+   "fs": "../../assets/bilder/balkon-900.webp"
+  },
+  {
+   "k": "haus-pool",
+   "t": {
+    "de": "Das Haus in der Dämmerung mit dem beleuchteten Pool"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2560,
+   "h": 1707,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_2202-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/haus-pool-2560.webp",
+   "fm": "../../assets/bilder/haus-pool-1600.webp",
+   "fs": "../../assets/bilder/haus-pool-900.webp"
+  },
+  {
+   "k": "haus-winter",
+   "t": {
+    "de": "Das Haus im Winter"
+   },
+   "b": "haus",
+   "s": "winter",
+   "f": "quer",
+   "w": 840,
+   "h": 460,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2020/11/118252431.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/haus-winter-840.webp",
+   "fm": "../../assets/bilder/haus-winter-840.webp",
+   "fs": "../../assets/bilder/haus-winter-840.webp"
+  },
+  {
+   "k": "lounge",
+   "t": {
+    "de": "Die Lounge am Abend"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2020/04/DSC03179-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/lounge-1920.webp",
+   "fm": "../../assets/bilder/lounge-1200.webp",
+   "fs": "../../assets/bilder/lounge-640.webp"
+  },
+  {
+   "k": "haus-winter-nacht",
+   "t": {
+    "de": "Das Haus in einer Winternacht"
+   },
+   "b": "haus",
+   "s": "winter",
+   "f": "quer",
+   "w": 1600,
+   "h": 1067,
+   "art": "haus",
+   "q": "Galerie des Hauses bei Zermatt Tourismus",
+   "u": "https://zermatt.swiss/en/p/suitenhotel-zurbriggen-01tVj000007A7tqIAC",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/haus-winter-nacht-1600.webp",
+   "fm": "../../assets/bilder/haus-winter-nacht-1600.webp",
+   "fs": "../../assets/bilder/haus-winter-nacht-900.webp"
+  },
+  {
+   "k": "kamin",
+   "t": {
+    "de": "Die Lounge mit Kaminfeuer"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2020/04/DSC03183-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/kamin-1920.webp",
+   "fm": "../../assets/bilder/kamin-1200.webp",
+   "fs": "../../assets/bilder/kamin-640.webp"
+  },
+  {
+   "k": "winter-terrasse",
+   "t": {
+    "de": "Winterliche Terrasse mit Windlicht"
+   },
+   "b": "haus",
+   "s": "winter",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/winter-terrasse-1920.webp",
+   "fm": "../../assets/bilder/winter-terrasse-1200.webp",
+   "fs": "../../assets/bilder/winter-terrasse-640.webp"
+  },
+  {
+   "k": "winter-lounge",
+   "t": {
+    "de": "Liegen im Schnee am Wintergarten"
+   },
+   "b": "haus",
+   "s": "winter",
+   "f": "quer",
+   "w": 1305,
+   "h": 1080,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/winter-lounge-1305.webp",
+   "fm": "../../assets/bilder/winter-lounge-1305.webp",
+   "fs": "../../assets/bilder/winter-lounge-640.webp"
+  },
+  {
+   "k": "kerzen",
+   "t": {
+    "de": "Kerzenlicht am Abend"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2019/12/DSC02854-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/kerzen-1920.webp",
+   "fm": "../../assets/bilder/kerzen-1200.webp",
+   "fs": "../../assets/bilder/kerzen-640.webp"
+  },
+  {
+   "k": "feuer",
+   "t": {
+    "de": "Feuer und Kerze"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1200,
+   "h": 1800,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2019/12/DSC02979-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/feuer-1200.webp",
+   "fm": "../../assets/bilder/feuer-1200.webp",
+   "fs": "../../assets/bilder/feuer-640.webp"
+  },
+  {
+   "k": "garten-abend",
+   "t": {
+    "de": "Der Garten am Abend, Laterne und Matterhorn (Standbild aus einem Video des Hauses)"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1600,
+   "h": 2844,
+   "art": "haus",
+   "q": "Standbild aus einem Video in der Mediathek der Website des Hauses",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/garten-abend-1600.webp",
+   "fm": "../../assets/bilder/garten-abend-1600.webp",
+   "fs": "../../assets/bilder/garten-abend-700.webp"
+  },
+  {
+   "k": "lounge-tulpen",
+   "t": {
+    "de": "In der Lounge, Tulpen auf dem Tisch"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/lounge-tulpen-1920.webp",
+   "fm": "../../assets/bilder/lounge-tulpen-1200.webp",
+   "fs": "../../assets/bilder/lounge-tulpen-640.webp"
+  },
+  {
+   "k": "kissen",
+   "t": {
+    "de": "Kissen auf der Terrasse, gegenüber das Matterhorn"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/kissen-1920.webp",
+   "fm": "../../assets/bilder/kissen-1200.webp",
+   "fs": "../../assets/bilder/kissen-640.webp"
+  },
+  {
+   "k": "haus-garten-abend",
+   "t": {
+    "de": "Das Haus am Abend, davor der Garten mit Laternen"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_2213-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/haus-garten-abend-1920.webp",
+   "fm": "../../assets/bilder/haus-garten-abend-1200.webp",
+   "fs": "../../assets/bilder/haus-garten-abend-640.webp"
+  },
+  {
+   "k": "eingang-gross",
+   "t": {
+    "de": "Der Eingang des Hauses am Abend"
+   },
+   "b": "haus",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_2225-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/eingang-gross-1920.webp",
+   "fm": "../../assets/bilder/eingang-gross-1200.webp",
+   "fs": "../../assets/bilder/eingang-gross-640.webp"
+  },
+  {
+   "k": "olympia",
+   "t": {
+    "de": "Die Olympia Suite unter dem Lärchendach"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_0890-HDR-1.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/olympia-1920.webp",
+   "fm": "../../assets/bilder/olympia-1200.webp",
+   "fs": "../../assets/bilder/olympia-640.webp"
+  },
+  {
+   "k": "cryder",
+   "t": {
+    "de": "Die Cry d’Er Suite"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1293-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/cryder-1920.webp",
+   "fm": "../../assets/bilder/cryder-1200.webp",
+   "fs": "../../assets/bilder/cryder-640.webp"
+  },
+  {
+   "k": "streif",
+   "t": {
+    "de": "Die Saslonch | Streif Suite"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1172-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/streif-1920.webp",
+   "fm": "../../assets/bilder/streif-1200.webp",
+   "fs": "../../assets/bilder/streif-640.webp"
+  },
+  {
+   "k": "lauberhorn",
+   "t": {
+    "de": "Die Lauberhorn | Stelvio Suite"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1204-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/lauberhorn-1920.webp",
+   "fm": "../../assets/bilder/lauberhorn-1200.webp",
+   "fs": "../../assets/bilder/lauberhorn-640.webp"
+  },
+  {
+   "k": "matterhornsuite",
+   "t": {
+    "de": "Die Matterhorn Suite"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1077-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/matterhornsuite-1920.webp",
+   "fm": "../../assets/bilder/matterhornsuite-1200.webp",
+   "fs": "../../assets/bilder/matterhornsuite-640.webp"
+  },
+  {
+   "k": "deluxe",
+   "t": {
+    "de": "Das Deluxe Doppelzimmer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 680,
+   "h": 453,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-do4.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/deluxe-680.webp",
+   "fm": "../../assets/bilder/deluxe-680.webp",
+   "fs": "../../assets/bilder/deluxe-680.webp"
+  },
+  {
+   "k": "standard",
+   "t": {
+    "de": "Das Standard Doppelzimmer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 680,
+   "h": 453,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-do51.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/standard-680.webp",
+   "fm": "../../assets/bilder/standard-680.webp",
+   "fs": "../../assets/bilder/standard-680.webp"
+  },
+  {
+   "k": "littledream",
+   "t": {
+    "de": "Das Chalet Little Dream"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 680,
+   "h": 453,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-ld1.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/littledream-680.webp",
+   "fm": "../../assets/bilder/littledream-680.webp",
+   "fs": "../../assets/bilder/littledream-680.webp"
+  },
+  {
+   "k": "ol-2",
+   "t": {
+    "de": "Olympia Suite, Wohnraum unter dem Lärchendach"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Olympia-2.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ol-2-1920.webp",
+   "fm": "../../assets/bilder/ol-2-1200.webp",
+   "fs": "../../assets/bilder/ol-2-640.webp"
+  },
+  {
+   "k": "ol-3",
+   "t": {
+    "de": "Olympia Suite, Essplatz vor den Fenstern"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1391,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Olympia-1.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ol-3-1920.webp",
+   "fm": "../../assets/bilder/ol-3-1200.webp",
+   "fs": "../../assets/bilder/ol-3-640.webp"
+  },
+  {
+   "k": "ol-4",
+   "t": {
+    "de": "Olympia Suite im Winter, draussen das Matterhorn"
+   },
+   "b": "suiten",
+   "s": "winter",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Olympia.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ol-4-1920.webp",
+   "fm": "../../assets/bilder/ol-4-1200.webp",
+   "fs": "../../assets/bilder/ol-4-640.webp"
+  },
+  {
+   "k": "cr-2",
+   "t": {
+    "de": "Cry d’Er Suite, Wohnraum mit Blick in den Garten"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1200,
+   "h": 799,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-cr21.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/cr-2-1200.webp",
+   "fm": "../../assets/bilder/cr-2-1200.webp",
+   "fs": "../../assets/bilder/cr-2-640.webp"
+  },
+  {
+   "k": "cr-3",
+   "t": {
+    "de": "Cry d’Er Suite, Schlafzimmer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1030,
+   "h": 687,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Cry-der-3.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/cr-3-1030.webp",
+   "fm": "../../assets/bilder/cr-3-1030.webp",
+   "fs": "../../assets/bilder/cr-3-640.webp"
+  },
+  {
+   "k": "cr-4",
+   "t": {
+    "de": "Cry d’Er Suite, Wohn- und Essbereich"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 680,
+   "h": 469,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Cry-der-Suite.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/cr-4-680.webp",
+   "fm": "../../assets/bilder/cr-4-680.webp",
+   "fs": "../../assets/bilder/cr-4-680.webp"
+  },
+  {
+   "k": "sa-2",
+   "t": {
+    "de": "Saslonch | Streif Suite, Wohnraum"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1200,
+   "h": 799,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-sa11.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/sa-2-1200.webp",
+   "fm": "../../assets/bilder/sa-2-1200.webp",
+   "fs": "../../assets/bilder/sa-2-640.webp"
+  },
+  {
+   "k": "sa-3",
+   "t": {
+    "de": "Saslonch | Streif Suite, Kissen und Kerze"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1108,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/sasslon.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/sa-3-1920.webp",
+   "fm": "../../assets/bilder/sa-3-1200.webp",
+   "fs": "../../assets/bilder/sa-3-640.webp"
+  },
+  {
+   "k": "sa-4",
+   "t": {
+    "de": "Saslonch | Streif Suite, Bad mit Blick in den Schnee"
+   },
+   "b": "suiten",
+   "s": "winter",
+   "f": "quer",
+   "w": 680,
+   "h": 453,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-sa4.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/sa-4-680.webp",
+   "fm": "../../assets/bilder/sa-4-680.webp",
+   "fs": "../../assets/bilder/sa-4-680.webp"
+  },
+  {
+   "k": "sa-plan",
+   "t": {
+    "de": "Grundriss der Saslonch | Streif Suite"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 680,
+   "h": 453,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-sa5.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/sa-plan-680.webp",
+   "fm": "../../assets/bilder/sa-plan-680.webp",
+   "fs": "../../assets/bilder/sa-plan-680.webp"
+  },
+  {
+   "k": "la-2",
+   "t": {
+    "de": "Lauberhorn | Stelvio, Essplatz mit Matterhorn"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1200,
+   "h": 799,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-la31.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/la-2-1200.webp",
+   "fm": "../../assets/bilder/la-2-1200.webp",
+   "fs": "../../assets/bilder/la-2-640.webp"
+  },
+  {
+   "k": "la-3",
+   "t": {
+    "de": "Lauberhorn | Stelvio, Schlafzimmer mit Blick in den Schnee"
+   },
+   "b": "suiten",
+   "s": "winter",
+   "f": "quer",
+   "w": 680,
+   "h": 453,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-la5.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/la-3-680.webp",
+   "fm": "../../assets/bilder/la-3-680.webp",
+   "fs": "../../assets/bilder/la-3-680.webp"
+  },
+  {
+   "k": "la-4",
+   "t": {
+    "de": "Lauberhorn | Stelvio, Küche"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 680,
+   "h": 453,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-la6.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/la-4-680.webp",
+   "fm": "../../assets/bilder/la-4-680.webp",
+   "fs": "../../assets/bilder/la-4-680.webp"
+  },
+  {
+   "k": "la-plan",
+   "t": {
+    "de": "Grundriss der Lauberhorn | Stelvio"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 680,
+   "h": 453,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-la7.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/la-plan-680.webp",
+   "fm": "../../assets/bilder/la-plan-680.webp",
+   "fs": "../../assets/bilder/la-plan-680.webp"
+  },
+  {
+   "k": "ma-2",
+   "t": {
+    "de": "Matterhorn Suite, Sitzplatz am Balkon"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Matterhorn-Suite-1.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ma-2-1920.webp",
+   "fm": "../../assets/bilder/ma-2-1200.webp",
+   "fs": "../../assets/bilder/ma-2-640.webp"
+  },
+  {
+   "k": "ma-3",
+   "t": {
+    "de": "Matterhorn Suite, Wohn- und Schlafraum"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1199,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Matterhorn-Suite-31.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ma-3-1920.webp",
+   "fm": "../../assets/bilder/ma-3-1200.webp",
+   "fs": "../../assets/bilder/ma-3-640.webp"
+  },
+  {
+   "k": "ma-4",
+   "t": {
+    "de": "Matterhorn Suite, Rose und Zeichen des Hauses"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Matterhorn-Suite-2.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ma-4-1920.webp",
+   "fm": "../../assets/bilder/ma-4-1200.webp",
+   "fs": "../../assets/bilder/ma-4-640.webp"
+  },
+  {
+   "k": "do-plan",
+   "t": {
+    "de": "Grundriss des Doppelzimmers"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 680,
+   "h": 453,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/b-su-do3.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/do-plan-680.webp",
+   "fm": "../../assets/bilder/do-plan-680.webp",
+   "fs": "../../assets/bilder/do-plan-680.webp"
+  },
+  {
+   "k": "ld-2",
+   "t": {
+    "de": "Chalet «Little Dream», Wohnraum"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1296,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Little-Dream.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ld-2-1920.webp",
+   "fm": "../../assets/bilder/ld-2-1200.webp",
+   "fs": "../../assets/bilder/ld-2-640.webp"
+  },
+  {
+   "k": "ld-3",
+   "t": {
+    "de": "Chalet «Little Dream», Schlafzimmer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Little-Dream-4.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ld-3-1920.webp",
+   "fm": "../../assets/bilder/ld-3-1200.webp",
+   "fs": "../../assets/bilder/ld-3-640.webp"
+  },
+  {
+   "k": "ld-4",
+   "t": {
+    "de": "Chalet «Little Dream», Kaminfeuer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Little-Dream-3.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ld-4-1920.webp",
+   "fm": "../../assets/bilder/ld-4-1200.webp",
+   "fs": "../../assets/bilder/ld-4-640.webp"
+  },
+  {
+   "k": "ld-5",
+   "t": {
+    "de": "Chalet «Little Dream», Dusche mit Glasdach"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1163,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Little-Dream-5.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ld-5-1920.webp",
+   "fm": "../../assets/bilder/ld-5-1200.webp",
+   "fs": "../../assets/bilder/ld-5-640.webp"
+  },
+  {
+   "k": "ol-wohn",
+   "t": {
+    "de": "Olympia Suite, Wohnraum mit Blick ins Tal"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_0928-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ol-wohn-1920.webp",
+   "fm": "../../assets/bilder/ol-wohn-1200.webp",
+   "fs": "../../assets/bilder/ol-wohn-640.webp"
+  },
+  {
+   "k": "ol-kamin",
+   "t": {
+    "de": "Olympia Suite, Sitzplatz am Kamin"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_0938-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ol-kamin-1920.webp",
+   "fm": "../../assets/bilder/ol-kamin-1200.webp",
+   "fs": "../../assets/bilder/ol-kamin-640.webp"
+  },
+  {
+   "k": "ol-kueche",
+   "t": {
+    "de": "Olympia Suite, Küche und Essplatz unter dem Lärchendach"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_0885-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ol-kueche-1920.webp",
+   "fm": "../../assets/bilder/ol-kueche-1200.webp",
+   "fs": "../../assets/bilder/ol-kueche-640.webp"
+  },
+  {
+   "k": "ol-schlaf",
+   "t": {
+    "de": "Olympia Suite, Schlafzimmer unter dem Dach"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_0954-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ol-schlaf-1920.webp",
+   "fm": "../../assets/bilder/ol-schlaf-1200.webp",
+   "fs": "../../assets/bilder/ol-schlaf-640.webp"
+  },
+  {
+   "k": "ol-schlaf2",
+   "t": {
+    "de": "Olympia Suite, zweites Schlafzimmer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_0981-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ol-schlaf2-1920.webp",
+   "fm": "../../assets/bilder/ol-schlaf2-1200.webp",
+   "fs": "../../assets/bilder/ol-schlaf2-640.webp"
+  },
+  {
+   "k": "ol-schlaf3",
+   "t": {
+    "de": "Olympia Suite, drittes Schlafzimmer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_0987-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ol-schlaf3-1920.webp",
+   "fm": "../../assets/bilder/ol-schlaf3-1200.webp",
+   "fs": "../../assets/bilder/ol-schlaf3-640.webp"
+  },
+  {
+   "k": "ol-bad",
+   "t": {
+    "de": "Olympia Suite, Bad mit Dusche"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_0963-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ol-bad-1920.webp",
+   "fm": "../../assets/bilder/ol-bad-1200.webp",
+   "fs": "../../assets/bilder/ol-bad-640.webp"
+  },
+  {
+   "k": "cr-lounge",
+   "t": {
+    "de": "Cry d’Er Suite, Wohnraum mit Sofa"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1323-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/cr-lounge-1920.webp",
+   "fm": "../../assets/bilder/cr-lounge-1200.webp",
+   "fs": "../../assets/bilder/cr-lounge-640.webp"
+  },
+  {
+   "k": "cr-fenster",
+   "t": {
+    "de": "Cry d’Er Suite, Bett vor dem grossen Fenster in den Garten"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1272-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/cr-fenster-1920.webp",
+   "fm": "../../assets/bilder/cr-fenster-1200.webp",
+   "fs": "../../assets/bilder/cr-fenster-640.webp"
+  },
+  {
+   "k": "cr-schlaf",
+   "t": {
+    "de": "Cry d’Er Suite, Schlafzimmer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1254-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/cr-schlaf-1920.webp",
+   "fm": "../../assets/bilder/cr-schlaf-1200.webp",
+   "fs": "../../assets/bilder/cr-schlaf-640.webp"
+  },
+  {
+   "k": "cr-schlaf2",
+   "t": {
+    "de": "Cry d’Er Suite, zweites Schlafzimmer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1283-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/cr-schlaf2-1920.webp",
+   "fm": "../../assets/bilder/cr-schlaf2-1200.webp",
+   "fs": "../../assets/bilder/cr-schlaf2-640.webp"
+  },
+  {
+   "k": "cr-bad",
+   "t": {
+    "de": "Cry d’Er Suite, Bad"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1279-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/cr-bad-1920.webp",
+   "fm": "../../assets/bilder/cr-bad-1200.webp",
+   "fs": "../../assets/bilder/cr-bad-640.webp"
+  },
+  {
+   "k": "cr-sessel",
+   "t": {
+    "de": "Cry d’Er Suite, Sessel am Fenster zum Balkon"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1309-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/cr-sessel-1920.webp",
+   "fm": "../../assets/bilder/cr-sessel-1200.webp",
+   "fs": "../../assets/bilder/cr-sessel-640.webp"
+  },
+  {
+   "k": "sa-wohn",
+   "t": {
+    "de": "Saslonch | Streif Suite, Wohnraum und Essplatz"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1145-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/sa-wohn-1920.webp",
+   "fm": "../../assets/bilder/sa-wohn-1200.webp",
+   "fs": "../../assets/bilder/sa-wohn-640.webp"
+  },
+  {
+   "k": "sa-ess",
+   "t": {
+    "de": "Saslonch | Streif Suite, Essplatz vor dem Wald"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1139-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/sa-ess-1920.webp",
+   "fm": "../../assets/bilder/sa-ess-1200.webp",
+   "fs": "../../assets/bilder/sa-ess-640.webp"
+  },
+  {
+   "k": "sa-blick",
+   "t": {
+    "de": "Saslonch | Streif Suite, Blick vom Fenster aufs Matterhorn"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1150-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/sa-blick-1920.webp",
+   "fm": "../../assets/bilder/sa-blick-1200.webp",
+   "fs": "../../assets/bilder/sa-blick-640.webp"
+  },
+  {
+   "k": "sa-schlaf",
+   "t": {
+    "de": "Saslonch | Streif Suite, Schlafzimmer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1128-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/sa-schlaf-1920.webp",
+   "fm": "../../assets/bilder/sa-schlaf-1200.webp",
+   "fs": "../../assets/bilder/sa-schlaf-640.webp"
+  },
+  {
+   "k": "sa-bad",
+   "t": {
+    "de": "Saslonch | Streif Suite, Bad mit Wanne"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1122-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/sa-bad-1920.webp",
+   "fm": "../../assets/bilder/sa-bad-1200.webp",
+   "fs": "../../assets/bilder/sa-bad-640.webp"
+  },
+  {
+   "k": "la-wohn",
+   "t": {
+    "de": "Lauberhorn | Stelvio, Wohnraum mit Küche"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1200-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/la-wohn-1920.webp",
+   "fm": "../../assets/bilder/la-wohn-1200.webp",
+   "fs": "../../assets/bilder/la-wohn-640.webp"
+  },
+  {
+   "k": "la-schlaf",
+   "t": {
+    "de": "Lauberhorn | Stelvio, Schlafzimmer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1178-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/la-schlaf-1920.webp",
+   "fm": "../../assets/bilder/la-schlaf-1200.webp",
+   "fs": "../../assets/bilder/la-schlaf-640.webp"
+  },
+  {
+   "k": "la-schlaf2",
+   "t": {
+    "de": "Lauberhorn | Stelvio, Bett mit Blick zum Bad"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1183-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/la-schlaf2-1920.webp",
+   "fm": "../../assets/bilder/la-schlaf2-1200.webp",
+   "fs": "../../assets/bilder/la-schlaf2-640.webp"
+  },
+  {
+   "k": "la-bad",
+   "t": {
+    "de": "Lauberhorn | Stelvio, Bad mit Dusche"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1193-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/la-bad-1920.webp",
+   "fm": "../../assets/bilder/la-bad-1200.webp",
+   "fs": "../../assets/bilder/la-bad-640.webp"
+  },
+  {
+   "k": "ma-wohn",
+   "t": {
+    "de": "Matterhorn Suite, Wohn- und Schlafraum"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1066-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ma-wohn-1920.webp",
+   "fm": "../../assets/bilder/ma-wohn-1200.webp",
+   "fs": "../../assets/bilder/ma-wohn-640.webp"
+  },
+  {
+   "k": "ma-schlaf",
+   "t": {
+    "de": "Matterhorn Suite, Bett"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1098-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ma-schlaf-1920.webp",
+   "fm": "../../assets/bilder/ma-schlaf-1200.webp",
+   "fs": "../../assets/bilder/ma-schlaf-640.webp"
+  },
+  {
+   "k": "ma-bett",
+   "t": {
+    "de": "Matterhorn Suite, Bett und Sitzplatz"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1085-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ma-bett-1920.webp",
+   "fm": "../../assets/bilder/ma-bett-1200.webp",
+   "fs": "../../assets/bilder/ma-bett-640.webp"
+  },
+  {
+   "k": "ma-bad",
+   "t": {
+    "de": "Matterhorn Suite, Bad mit Wanne"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1072-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ma-bad-1920.webp",
+   "fm": "../../assets/bilder/ma-bad-1200.webp",
+   "fs": "../../assets/bilder/ma-bad-640.webp"
+  },
+  {
+   "k": "dx-raum",
+   "t": {
+    "de": "Deluxe Doppelzimmer unter dem Lärchendach"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1016-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/dx-raum-1920.webp",
+   "fm": "../../assets/bilder/dx-raum-1200.webp",
+   "fs": "../../assets/bilder/dx-raum-640.webp"
+  },
+  {
+   "k": "dx-bett",
+   "t": {
+    "de": "Deluxe Doppelzimmer, Bett unter dem Dachfenster"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1042-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/dx-bett-1920.webp",
+   "fm": "../../assets/bilder/dx-bett-1200.webp",
+   "fs": "../../assets/bilder/dx-bett-640.webp"
+  },
+  {
+   "k": "dx-balkon",
+   "t": {
+    "de": "Deluxe Doppelzimmer, Balkon mit Blick aufs Matterhorn"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1049-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/dx-balkon-1920.webp",
+   "fm": "../../assets/bilder/dx-balkon-1200.webp",
+   "fs": "../../assets/bilder/dx-balkon-640.webp"
+  },
+  {
+   "k": "dx-bad",
+   "t": {
+    "de": "Deluxe Doppelzimmer, Bad"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1022-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/dx-bad-1920.webp",
+   "fm": "../../assets/bilder/dx-bad-1200.webp",
+   "fs": "../../assets/bilder/dx-bad-640.webp"
+  },
+  {
+   "k": "st-raum",
+   "t": {
+    "de": "Standard Doppelzimmer"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1221-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/st-raum-1920.webp",
+   "fm": "../../assets/bilder/st-raum-1200.webp",
+   "fs": "../../assets/bilder/st-raum-640.webp"
+  },
+  {
+   "k": "st-bad",
+   "t": {
+    "de": "Standard Doppelzimmer, Bad"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_1240-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/st-bad-1920.webp",
+   "fm": "../../assets/bilder/st-bad-1200.webp",
+   "fs": "../../assets/bilder/st-bad-640.webp"
+  },
+  {
+   "k": "ld-6",
+   "t": {
+    "de": "Chalet «Little Dream», Sitzplatz am Fenster"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Little-Dream-6.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ld-6-1920.webp",
+   "fm": "../../assets/bilder/ld-6-1200.webp",
+   "fs": "../../assets/bilder/ld-6-640.webp"
+  },
+  {
+   "k": "ld-kueche",
+   "t": {
+    "de": "Chalet «Little Dream», Küche und Sofa"
+   },
+   "b": "suiten",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/Little-Dream-2-3.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ld-kueche-1920.webp",
+   "fm": "../../assets/bilder/ld-kueche-1200.webp",
+   "fs": "../../assets/bilder/ld-kueche-640.webp"
+  },
+  {
+   "k": "fruehstueck",
+   "t": {
+    "de": "Das Frühstück in der Suite"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1209,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2023/11/Frhstck-2.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/fruehstueck-1920.webp",
+   "fm": "../../assets/bilder/fruehstueck-1200.webp",
+   "fs": "../../assets/bilder/fruehstueck-640.webp"
+  },
+  {
+   "k": "fruehstueck2",
+   "t": {
+    "de": "Frühstück mit Hauswurst und Käse"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 900,
+   "h": 600,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2023/11/Frhstck.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/fruehstueck2-900.webp",
+   "fm": "../../assets/bilder/fruehstueck2-900.webp",
+   "fs": "../../assets/bilder/fruehstueck2-480.webp"
+  },
+  {
+   "k": "fondue",
+   "t": {
+    "de": "Fondue auf dem Balkon"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2022/06/Fondueabend.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/fondue-1920.webp",
+   "fm": "../../assets/bilder/fondue-1200.webp",
+   "fs": "../../assets/bilder/fondue-640.webp"
+  },
+  {
+   "k": "apero",
+   "t": {
+    "de": "Zwei Gläser zum Apéro mit dem Zeichen des Hauses"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/sonst.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/apero-1920.webp",
+   "fm": "../../assets/bilder/apero-1200.webp",
+   "fs": "../../assets/bilder/apero-640.webp"
+  },
+  {
+   "k": "garten",
+   "t": {
+    "de": "Frühstückstisch im Garten, oben das Matterhorn"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2020/04/O4I1359-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/garten-1920.webp",
+   "fm": "../../assets/bilder/garten-1200.webp",
+   "fs": "../../assets/bilder/garten-640.webp"
+  },
+  {
+   "k": "pool-fruehstueck",
+   "t": {
+    "de": "Frühstück am Pool mit Blick aufs Matterhorn"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_2471-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pool-fruehstueck-1920.webp",
+   "fm": "../../assets/bilder/pool-fruehstueck-1200.webp",
+   "fs": "../../assets/bilder/pool-fruehstueck-640.webp"
+  },
+  {
+   "k": "glaeser",
+   "t": {
+    "de": "Müsli, Nüsse und Früchte in Gläsern"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2023/11/IMG_5169-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/glaeser-1920.webp",
+   "fm": "../../assets/bilder/glaeser-1200.webp",
+   "fs": "../../assets/bilder/glaeser-640.webp"
+  },
+  {
+   "k": "bircher",
+   "t": {
+    "de": "Bircher-Müsli"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2020/05/LM200806_89_Birchermuesli-2560x1707-1.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/bircher-1920.webp",
+   "fm": "../../assets/bilder/bircher-1200.webp",
+   "fs": "../../assets/bilder/bircher-640.webp"
+  },
+  {
+   "k": "joghurt",
+   "t": {
+    "de": "Joghurt mit Früchten und Müsli"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2023/11/IMG_5175-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/joghurt-1920.webp",
+   "fm": "../../assets/bilder/joghurt-1200.webp",
+   "fs": "../../assets/bilder/joghurt-640.webp"
+  },
+  {
+   "k": "wurst",
+   "t": {
+    "de": "Hauswurst und Brot"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/wurst.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/wurst-1920.webp",
+   "fm": "../../assets/bilder/wurst-1200.webp",
+   "fs": "../../assets/bilder/wurst-640.webp"
+  },
+  {
+   "k": "dinner",
+   "t": {
+    "de": "Abendessen draussen bei Kerzenlicht"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_2095-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/dinner-1920.webp",
+   "fm": "../../assets/bilder/dinner-1200.webp",
+   "fs": "../../assets/bilder/dinner-640.webp"
+  },
+  {
+   "k": "teller",
+   "t": {
+    "de": "Ein Teller vom Abend"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_2056-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/teller-1920.webp",
+   "fm": "../../assets/bilder/teller-1200.webp",
+   "fs": "../../assets/bilder/teller-640.webp"
+  },
+  {
+   "k": "anstossen",
+   "t": {
+    "de": "Anstossen vor dem Matterhorn"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1634-1.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/anstossen-1920.webp",
+   "fm": "../../assets/bilder/anstossen-1200.webp",
+   "fs": "../../assets/bilder/anstossen-640.webp"
+  },
+  {
+   "k": "karaffe",
+   "t": {
+    "de": "Säfte und Blumen am Morgen"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/karaffe-1920.webp",
+   "fm": "../../assets/bilder/karaffe-1200.webp",
+   "fs": "../../assets/bilder/karaffe-640.webp"
+  },
+  {
+   "k": "apero-platte",
+   "t": {
+    "de": "Eine Platte mit Trockenfleisch und Käse am Fenster, draussen das Matterhorn im Schnee"
+   },
+   "b": "genuss",
+   "s": "winter",
+   "f": "hoch",
+   "w": 1920,
+   "h": 2560,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/apero-platte-1920.webp",
+   "fm": "../../assets/bilder/apero-platte-1200.webp",
+   "fs": "../../assets/bilder/apero-platte-640.webp"
+  },
+  {
+   "k": "bademantel-gross",
+   "t": {
+    "de": "Frühstück am Pool im Bademantel"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/07/IMG_2501-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/bademantel-gross-1920.webp",
+   "fm": "../../assets/bilder/bademantel-gross-1200.webp",
+   "fs": "../../assets/bilder/bademantel-gross-640.webp"
+  },
+  {
+   "k": "anstossen-balkon",
+   "t": {
+    "de": "Anstossen auf dem Balkon, gegenüber das Matterhorn"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1372.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/anstossen-balkon-1920.webp",
+   "fm": "../../assets/bilder/anstossen-balkon-1200.webp",
+   "fs": "../../assets/bilder/anstossen-balkon-640.webp"
+  },
+  {
+   "k": "garten-nacht",
+   "t": {
+    "de": "Abendessen im Garten unter dem Sonnensegel"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_2181.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/garten-nacht-1920.webp",
+   "fm": "../../assets/bilder/garten-nacht-1200.webp",
+   "fs": "../../assets/bilder/garten-nacht-640.webp"
+  },
+  {
+   "k": "garten-matterhorn",
+   "t": {
+    "de": "Frühstück im Garten, oben das Matterhorn"
+   },
+   "b": "genuss",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1040,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/garten-matterhorn-1920.webp",
+   "fm": "../../assets/bilder/garten-matterhorn-1200.webp",
+   "fs": "../../assets/bilder/garten-matterhorn-640.webp"
+  },
+  {
+   "k": "erlebnisbad",
+   "t": {
+    "de": "Das Erlebnisbad unter dem Glasdach"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_1902-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/erlebnisbad-1920.webp",
+   "fm": "../../assets/bilder/erlebnisbad-1200.webp",
+   "fs": "../../assets/bilder/erlebnisbad-640.webp"
+  },
+  {
+   "k": "pool-nacht",
+   "t": {
+    "de": "Das Erlebnisbad am Abend unter dem Glasdach"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1200,
+   "h": 1800,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2020/04/DSC02813-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pool-nacht-1200.webp",
+   "fm": "../../assets/bilder/pool-nacht-1200.webp",
+   "fs": "../../assets/bilder/pool-nacht-640.webp"
+  },
+  {
+   "k": "whirlpool",
+   "t": {
+    "de": "Im warmen Wasser draussen, gegenüber das Matterhorn"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/07/IMG_2358-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/whirlpool-1920.webp",
+   "fm": "../../assets/bilder/whirlpool-1200.webp",
+   "fs": "../../assets/bilder/whirlpool-640.webp"
+  },
+  {
+   "k": "pool-gruen",
+   "t": {
+    "de": "Der Aussen-Sole-Pool in der Dämmerung"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/07/IMG_2208-HDR-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pool-gruen-1920.webp",
+   "fm": "../../assets/bilder/pool-gruen-1200.webp",
+   "fs": "../../assets/bilder/pool-gruen-640.webp"
+  },
+  {
+   "k": "massage",
+   "t": {
+    "de": "Der Massageraum vor der Steinwand"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1600,
+   "h": 1200,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/massage-1600.webp",
+   "fm": "../../assets/bilder/massage-1600.webp",
+   "fs": "../../assets/bilder/massage-900.webp"
+  },
+  {
+   "k": "pool-lounge",
+   "t": {
+    "de": "Am Pool am Abend"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1040,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pool-lounge-1920.webp",
+   "fm": "../../assets/bilder/pool-lounge-1200.webp",
+   "fs": "../../assets/bilder/pool-lounge-640.webp"
+  },
+  {
+   "k": "pool-glas",
+   "t": {
+    "de": "Liegen im Wintergarten am Pool"
+   },
+   "b": "wellness",
+   "s": "winter",
+   "f": "quer",
+   "w": 1920,
+   "h": 1040,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pool-glas-1920.webp",
+   "fm": "../../assets/bilder/pool-glas-1200.webp",
+   "fs": "../../assets/bilder/pool-glas-640.webp"
+  },
+  {
+   "k": "wellness-nacht",
+   "t": {
+    "de": "Licht am Pool am Abend"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1040,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/wellness-nacht-1920.webp",
+   "fm": "../../assets/bilder/wellness-nacht-1200.webp",
+   "fs": "../../assets/bilder/wellness-nacht-640.webp"
+  },
+  {
+   "k": "pool-nacht2",
+   "t": {
+    "de": "Das Erlebnisbad am Abend"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2020/04/DSC03199-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pool-nacht2-1920.webp",
+   "fm": "../../assets/bilder/pool-nacht2-1200.webp",
+   "fs": "../../assets/bilder/pool-nacht2-640.webp"
+  },
+  {
+   "k": "aussenpool",
+   "t": {
+    "de": "Im Aussen-Sole-Pool"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_2328-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/aussenpool-1920.webp",
+   "fm": "../../assets/bilder/aussenpool-1200.webp",
+   "fs": "../../assets/bilder/aussenpool-640.webp"
+  },
+  {
+   "k": "relax-sw",
+   "t": {
+    "de": "Relaxliegen im Wintergarten"
+   },
+   "b": "wellness",
+   "s": "winter",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/IMG_5952.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/relax-sw-1920.webp",
+   "fm": "../../assets/bilder/relax-sw-1200.webp",
+   "fs": "../../assets/bilder/relax-sw-640.webp"
+  },
+  {
+   "k": "pool-kerzen",
+   "t": {
+    "de": "Im Aussen-Sole-Pool am Abend, Kerzen und Matterhorn (Standbild aus einem Video des Hauses)"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1080,
+   "h": 1920,
+   "art": "haus",
+   "q": "Standbild aus einem Video in der Mediathek der Website des Hauses",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pool-kerzen-1080.webp",
+   "fm": "../../assets/bilder/pool-kerzen-1080.webp",
+   "fs": "../../assets/bilder/pool-kerzen-700.webp"
+  },
+  {
+   "k": "sauna-gross",
+   "t": {
+    "de": "Sauna und Duschen"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/07/IMG_1334-HDR-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/sauna-gross-1920.webp",
+   "fm": "../../assets/bilder/sauna-gross-1200.webp",
+   "fs": "../../assets/bilder/sauna-gross-640.webp"
+  },
+  {
+   "k": "ruheraum-gross",
+   "t": {
+    "de": "Ruheraum der Wellness"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/07/IMG_1328-HDR-scaled.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/ruheraum-gross-1920.webp",
+   "fm": "../../assets/bilder/ruheraum-gross-1200.webp",
+   "fs": "../../assets/bilder/ruheraum-gross-640.webp"
+  },
+  {
+   "k": "pool-matterhorn",
+   "t": {
+    "de": "Gäste im Aussen-Sole-Pool, gegenüber das Matterhorn"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1040,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pool-matterhorn-1920.webp",
+   "fm": "../../assets/bilder/pool-matterhorn-1200.webp",
+   "fs": "../../assets/bilder/pool-matterhorn-640.webp"
+  },
+  {
+   "k": "pool-kinder",
+   "t": {
+    "de": "Im warmen Aussenpool, über dem Garten das Matterhorn"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1040,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pool-kinder-1920.webp",
+   "fm": "../../assets/bilder/pool-kinder-1200.webp",
+   "fs": "../../assets/bilder/pool-kinder-640.webp"
+  },
+  {
+   "k": "pool-garten",
+   "t": {
+    "de": "Der Aussenpool im Garten, oben das Matterhorn"
+   },
+   "b": "wellness",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1040,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pool-garten-1920.webp",
+   "fm": "../../assets/bilder/pool-garten-1200.webp",
+   "fs": "../../assets/bilder/pool-garten-640.webp"
+  },
+  {
+   "k": "dorf-winter",
+   "t": {
+    "de": "Zermatt im Schnee"
+   },
+   "b": "draussen",
+   "s": "winter",
+   "f": "quer",
+   "w": 1920,
+   "h": 1078,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2016/12/DJI_0015.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/dorf-winter-1920.webp",
+   "fm": "../../assets/bilder/dorf-winter-1200.webp",
+   "fs": "../../assets/bilder/dorf-winter-640.webp"
+  },
+  {
+   "k": "golf",
+   "t": {
+    "de": "Golf im Sommer"
+   },
+   "b": "draussen",
+   "s": "sommer",
+   "f": "quer",
+   "w": 1020,
+   "h": 977,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2025/07/goldangebot.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/golf-1020.webp",
+   "fm": "../../assets/bilder/golf-1020.webp",
+   "fs": "../../assets/bilder/golf-1020.webp"
+  },
+  {
+   "k": "sommer",
+   "t": {
+    "de": "Der Garten im Sommer, oben das Matterhorn"
+   },
+   "b": "draussen",
+   "s": "sommer",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Foto des Hauses auf seiner Seite bei Schweiz Tourismus (MySwitzerland)",
+   "u": "https://www.myswitzerland.com/de-ch/unterkuenfte/suitenhotel-zurbriggen/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/sommer-1920.webp",
+   "fm": "../../assets/bilder/sommer-1200.webp",
+   "fs": "../../assets/bilder/sommer-640.webp"
+  },
+  {
+   "k": "blaue-stunde",
+   "t": {
+    "de": "Blaue Stunde über Zermatt, hinten das Matterhorn"
+   },
+   "b": "draussen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2560,
+   "h": 1707,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2021/06/IMG_2237-HDR.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/blaue-stunde-2560.webp",
+   "fm": "../../assets/bilder/blaue-stunde-1600.webp",
+   "fs": "../../assets/bilder/blaue-stunde-900.webp"
+  },
+  {
+   "k": "winter-hang",
+   "t": {
+    "de": "Winter vor dem Matterhorn"
+   },
+   "b": "draussen",
+   "s": "winter",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/matterhorn.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/winter-hang-1920.webp",
+   "fm": "../../assets/bilder/winter-hang-1200.webp",
+   "fs": "../../assets/bilder/winter-hang-640.webp"
+  },
+  {
+   "k": "waldweg",
+   "t": {
+    "de": "Verschneiter Lärchenwald bei Zermatt"
+   },
+   "b": "draussen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2016/12/Way_.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/waldweg-1920.webp",
+   "fm": "../../assets/bilder/waldweg-1200.webp",
+   "fs": "../../assets/bilder/waldweg-640.webp"
+  },
+  {
+   "k": "garten-yoga",
+   "t": {
+    "de": "Yoga im Garten vor dem Matterhorn"
+   },
+   "b": "draussen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 472,
+   "h": 315,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2015/09/yoga.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/garten-yoga-640.webp",
+   "fm": "../../assets/bilder/garten-yoga-640.webp",
+   "fs": "../../assets/bilder/garten-yoga-640.webp"
+  },
+  {
+   "k": "garten-hell",
+   "t": {
+    "de": "Der Garten im Sommer, oben das Matterhorn"
+   },
+   "b": "draussen",
+   "s": "sommer",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Foto des Hauses, vom Haus selbst auf Booking.com hochgeladen",
+   "u": "https://www.booking.com/hotel/ch/suitenhotel-zurbriggen.de.html",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/garten-hell-1920.webp",
+   "fm": "../../assets/bilder/garten-hell-1200.webp",
+   "fs": "../../assets/bilder/garten-hell-640.webp"
+  },
+  {
+   "k": "familie",
+   "t": {
+    "de": "Die Familie Zurbriggen"
+   },
+   "b": "familie",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1156,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2016/12/Family-Kopie1-e1492986036264.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/familie-1920.webp",
+   "fm": "../../assets/bilder/familie-1200.webp",
+   "fs": "../../assets/bilder/familie-640.webp"
+  },
+  {
+   "k": "familie2",
+   "t": {
+    "de": "Moni und Pirmin Zurbriggen mit ihren Kindern"
+   },
+   "b": "familie",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1515,
+   "art": "haus",
+   "q": "Mediathek der Website des Hauses (zurbriggen.ch)",
+   "u": "https://zurbriggen.ch/zermatt/wp-content/uploads/2016/12/Family-Kopie-e1492985971757.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/familie2-1920.webp",
+   "fm": "../../assets/bilder/familie2-1200.webp",
+   "fs": "../../assets/bilder/familie2-640.webp"
+  },
+  {
+   "k": "pirmin-2014",
+   "t": {
+    "de": "Pirmin Zurbriggen, 2014 (Foto: Christophe95, Wikimedia Commons, CC BY-SA 3.0)"
+   },
+   "b": "familie",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 889,
+   "h": 1369,
+   "art": "frei",
+   "q": "Foto: Christophe95, Wikimedia Commons, Lizenz CC BY-SA 3.0 (Nennung Pflicht), 2014",
+   "u": "https://commons.wikimedia.org/wiki/File:Pirmin_Zurbriggen.JPG",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pirmin-2014-889.webp",
+   "fm": "../../assets/bilder/pirmin-2014-889.webp",
+   "fs": "../../assets/bilder/pirmin-2014-640.webp"
+  },
+  {
+   "k": "pirmin-matterhorn",
+   "t": {
+    "de": "Pirmin Zurbriggen vor dem Matterhorn (Foto: Wallis Promotion)"
+   },
+   "b": "familie",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1200,
+   "h": 861,
+   "art": "fremd",
+   "q": "Foto von Wallis Promotion (Geschichte «Skiing Legend» auf valais.ch); für Werbung und Druck nur mit Freigabe",
+   "u": "https://www.valais.ch/en/stories/skiing-legend",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pirmin-matterhorn-1200.webp",
+   "fm": "../../assets/bilder/pirmin-matterhorn-1200.webp",
+   "fs": "../../assets/bilder/pirmin-matterhorn-640.webp"
+  },
+  {
+   "k": "pirmin-sessel",
+   "t": {
+    "de": "Pirmin Zurbriggen im Sessel (Foto: Wallis Promotion)"
+   },
+   "b": "familie",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1200,
+   "h": 787,
+   "art": "fremd",
+   "q": "Foto von Wallis Promotion (Geschichte «Skiing Legend» auf valais.ch); für Werbung und Druck nur mit Freigabe",
+   "u": "https://www.valais.ch/en/stories/skiing-legend",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bilder/pirmin-sessel-1200.webp",
+   "fm": "../../assets/bilder/pirmin-sessel-1200.webp",
+   "fs": "../../assets/bilder/pirmin-sessel-640.webp"
+  }
+ ],
+ "dateien": [
+  {
+   "k": "logo",
+   "var": [
+    {
+     "k": "quer",
+     "grund": "hell",
+     "dateien": [
+      "suitenhotel-zurbriggen-logo-quer.png"
+     ],
+     "px": [
+      368,
+      170
+     ]
+    },
+    {
+     "k": "quadrat",
+     "grund": "hell",
+     "dateien": [
+      "suitenhotel-zurbriggen-logo-quadrat.png"
+     ],
+     "px": [
+      276,
+      170
+     ]
+    }
+   ]
+  },
+  {
+   "k": "zeichen",
+   "var": [
+    {
+     "k": "rot",
+     "grund": "hell",
+     "dateien": [
+      "suitenhotel-zurbriggen-zeichen-rot.svg",
+      "suitenhotel-zurbriggen-zeichen-rot.png"
+     ],
+     "px": [
+      1200,
+      1119
+     ]
+    },
+    {
+     "k": "anthrazit",
+     "grund": "hell",
+     "dateien": [
+      "suitenhotel-zurbriggen-zeichen-anthrazit.svg",
+      "suitenhotel-zurbriggen-zeichen-anthrazit.png"
+     ],
+     "px": [
+      1200,
+      1119
+     ]
+    },
+    {
+     "k": "samtrot",
+     "grund": "hell",
+     "dateien": [
+      "suitenhotel-zurbriggen-zeichen-samtrot.svg",
+      "suitenhotel-zurbriggen-zeichen-samtrot.png"
+     ],
+     "px": [
+      1200,
+      1119
+     ]
+    },
+    {
+     "k": "silber",
+     "grund": "dunkel",
+     "dateien": [
+      "suitenhotel-zurbriggen-zeichen-silber.svg",
+      "suitenhotel-zurbriggen-zeichen-silber.png"
+     ],
+     "px": [
+      1200,
+      1119
+     ]
+    },
+    {
+     "k": "schnee",
+     "grund": "dunkel",
+     "dateien": [
+      "suitenhotel-zurbriggen-zeichen-schnee.svg",
+      "suitenhotel-zurbriggen-zeichen-schnee.png"
+     ],
+     "px": [
+      1200,
+      1119
+     ]
+    }
+   ]
+  },
+  {
+   "k": "farben",
+   "var": [
+    {
+     "k": "alle",
+     "grund": "hell",
+     "dateien": [
+      "suitenhotel-zurbriggen-farben.css",
+      "suitenhotel-zurbriggen-farben.json",
+      "suitenhotel-zurbriggen-farben.ase"
+     ]
+    }
+   ]
+  },
+  {
+   "k": "schriften",
+   "var": [
+    {
+     "k": "alle",
+     "grund": "hell",
+     "dateien": [
+      "suitenhotel-zurbriggen-schriften.zip"
+     ]
+    }
+   ]
+  }
+ ],
+ "farben": [
+  {
+   "k": "schnee",
+   "n": "Schnee",
+   "h": "#F7F6EC",
+   "rgb": [
+    247,
+    246,
+    236
+   ],
+   "r": "Grund der hellen Flächen: der Schnee vor dem Haus",
+   "g": "schnee",
+   "woher": "zermatt-tourismus-winter.jpg (Galerie des Hauses bei Zermatt Tourismus), Schnee im Licht vor dem Haus"
+  },
+  {
+   "k": "getoent",
+   "n": "Schnee getönt",
+   "h": "#E7E7E4",
+   "rgb": [
+    231,
+    231,
+    228
+   ],
+   "r": "zweite helle Fläche, nie Weiss auf Weiss",
+   "g": "schnee",
+   "woher": "abgeleitet: Schnee mit Silber, der helle Grund der Seite (nie weiss auf weiss)"
+  },
+  {
+   "k": "nacht",
+   "n": "Anthrazit",
+   "h": "#2E2C30",
+   "rgb": [
+    46,
+    44,
+    48
+   ],
+   "r": "Schrift, Knöpfe und dunkle Flächen, wie ZURBRIGGEN im Logo",
+   "g": "anthrazit",
+   "woher": "210_logo_neu1.png, Schriftzug «ZURBRIGGEN» (Median aus 1.620 Pixeln)"
+  },
+  {
+   "k": "tief",
+   "n": "Anthrazit tief",
+   "h": "#1F1E22",
+   "rgb": [
+    31,
+    30,
+    34
+   ],
+   "r": "tiefste Fläche, Fuss und Kanten auf Dunkel",
+   "g": "anthrazit",
+   "woher": "abgeleitet: Anthrazit, um ein Drittel abgedunkelt, für Kuhlen und Kanten auf Dunkel"
+  },
+  {
+   "k": "grau",
+   "n": "Grau",
+   "h": "#6F6D73",
+   "rgb": [
+    111,
+    109,
+    115
+   ],
+   "r": "leise Schrift: zweite Zeilen, Bildunterschriften",
+   "g": "anthrazit",
+   "woher": "Wert der Website (zm.css)"
+  },
+  {
+   "k": "silber",
+   "n": "Silber",
+   "h": "#B1B2B4",
+   "rgb": [
+    177,
+    178,
+    180
+   ],
+   "r": "Linien von 1 px, wie ZERMATT im Logo",
+   "g": "silber",
+   "woher": "210_logo_neu1.png, «ZERMATT» (Median aus 972 Pixeln); 56_logo_quadrat3.png, graues Dreieck (#B2B3B5)"
+  },
+  {
+   "k": "silber-h",
+   "n": "Silber hell",
+   "h": "#D6D7D9",
+   "rgb": [
+    214,
+    215,
+    217
+   ],
+   "r": "feine Linien auf Schnee und auf Dunkel",
+   "g": "silber",
+   "woher": "210_logo_neu1.png, Glanzkante von «ZERMATT» (hellste Pixel)"
+  },
+  {
+   "k": "laerche",
+   "n": "Lärche",
+   "h": "#B9824E",
+   "rgb": [
+    185,
+    130,
+    78
+   ],
+   "r": "nur im Holz: Glastür, Rahmen, Wärme der Suiten",
+   "g": "silber",
+   "woher": "Wert der Website (zm.css)"
+  },
+  {
+   "k": "rot",
+   "n": "Pinsel-Rot",
+   "h": "#E2001A",
+   "rgb": [
+    226,
+    0,
+    26
+   ],
+   "r": "nur als Punkt und Strich: Zeichen, Unterstrich, Ziellinie; nie als Fläche",
+   "g": "rot",
+   "woher": "210_logo_neu1.png (Median aus 5.606 Pixeln) und 56_logo_quadrat3.png (1.030 Pixel), das Pinselzeichen"
+  },
+  {
+   "k": "samt",
+   "n": "Samtrot",
+   "h": "#AA0615",
+   "rgb": [
+    170,
+    6,
+    21
+   ],
+   "r": "nur für Tiefe, nie als Fläche",
+   "g": "rot",
+   "woher": "3728_rot.jpg, roter Samt in der Mediathek der heutigen Seite, 38,5 % des Bildes"
+  }
+ ],
+ "gruppen": [
+  {
+   "k": "schnee",
+   "n": "Schnee",
+   "s": "Die hellen Flächen, so hell wie der Neuschnee vor dem Haus. Getönter Schnee setzt eine zweite Fläche ab, nie Weiss auf Weiss.",
+   "bild": "../../assets/bilder/haus-winter-nacht-1600.webp",
+   "bild_t": "Das Haus in einer Winternacht. Daraus kommt das helle Weiss der Seite."
+  },
+  {
+   "k": "anthrazit",
+   "n": "Anthrazit",
+   "s": "Das Anthrazit des Namens im Logo. Es schreibt, es trägt die Knöpfe und die dunklen Flächen; Grau ist die leise zweite Zeile.",
+   "bild": "../../assets/bilder/apero-1200.webp",
+   "bild_t": "Zwei Gläser zum Apéro vor dem Zeichen des Hauses auf dunkler Karte: Anthrazit trägt, das Helle zeichnet."
+  },
+  {
+   "k": "silber",
+   "n": "Silber und Lärche",
+   "s": "Silber wie «ZERMATT» im Logo zieht die feinen Linien. Lärche steht nur im Holz des Hauses, nie als Fläche der Gestaltung.",
+   "bild": "../../assets/bilder/ol-kueche-1200.webp",
+   "bild_t": "Unter dem Lärchendach der Olympia Suite: Holz, Glas und das Silber des Schnees."
+  },
+  {
+   "k": "rot",
+   "n": "Pinsel-Rot",
+   "s": "Das Rot des Pinselzugs ist der einzige Akzent: ein Punkt, ein Unterstrich, die Ziellinie. Samtrot gibt nur Tiefe.",
+   "bild": "../../assets/bilder/ma-4-1200.webp",
+   "bild_t": "Die rote Rose neben dem Zeichen des Hauses in der Matterhorn Suite: Rot steht als einziger Punkt im Raum."
+  }
+ ],
+ "glanz": [],
+ "groessen": {
+  "suitenhotel-zurbriggen-farben.ase": 464,
+  "suitenhotel-zurbriggen-farben.css": 940,
+  "suitenhotel-zurbriggen-farben.json": 2635,
+  "suitenhotel-zurbriggen-logo-quadrat.png": 30057,
+  "suitenhotel-zurbriggen-logo-quer.png": 39929,
+  "suitenhotel-zurbriggen-marke.zip": 483299,
+  "suitenhotel-zurbriggen-schriften.zip": 144835,
+  "suitenhotel-zurbriggen-zeichen-anthrazit.png": 54115,
+  "suitenhotel-zurbriggen-zeichen-anthrazit.svg": 7671,
+  "suitenhotel-zurbriggen-zeichen-rot.png": 50817,
+  "suitenhotel-zurbriggen-zeichen-rot.svg": 7671,
+  "suitenhotel-zurbriggen-zeichen-samtrot.png": 52758,
+  "suitenhotel-zurbriggen-zeichen-samtrot.svg": 7671,
+  "suitenhotel-zurbriggen-zeichen-schnee.png": 52490,
+  "suitenhotel-zurbriggen-zeichen-schnee.svg": 7671,
+  "suitenhotel-zurbriggen-zeichen-silber.png": 53625,
+  "suitenhotel-zurbriggen-zeichen-silber.svg": 7671
+ },
+ "bereiche": [
+  "haus",
+  "suiten",
+  "genuss",
+  "wellness",
+  "draussen",
+  "familie"
+ ],
+ "schriften": [
+  {
+   "k": "t",
+   "n": "Instrument Sans",
+   "d": "InstrumentSans-normal-400_600.woff2",
+   "r": "Titel",
+   "e": "gross und leicht (440), eng gesetzt, nie in Versalien",
+   "p": "Willkommen zu Hause.",
+   "w": 440,
+   "bild": "listen/schrift-t.webp"
+  },
+  {
+   "k": "s",
+   "n": "Instrument Sans",
+   "d": "InstrumentSans-normal-400_600.woff2",
+   "r": "Lesetext",
+   "e": "400, 18 px, Zeilenabstand 1,62",
+   "p": "Mit Blick auf das Matterhorn starten Sie entspannt und genüsslich in Ihren Urlaubstag.",
+   "w": 400,
+   "bild": "listen/schrift-s.webp"
+  },
+  {
+   "k": "e",
+   "n": "DM Mono",
+   "d": "DMMono-normal-400.woff2",
+   "r": "Etiketten, Knöpfe und Zahlen",
+   "e": "400, Versalien, 0,17 em gesperrt, Zahlen mit gleich breiten Ziffern",
+   "p": "Check-in 14 bis 21 Uhr · 145 m²",
+   "w": 400,
+   "bild": "listen/schrift-e.webp"
+  },
+  {
+   "k": "z",
+   "n": "Bricolage Grotesque",
+   "d": "BricolageGrotesque-ExtraBold.woff2",
+   "r": "Einzelne grosse Wörter",
+   "e": "ExtraBold 800, Versalien, nur für Wörter wie ZERMATT oder ZIEL",
+   "p": "ZERMATT",
+   "w": 800
+  }
+ ],
+ "namen": {
+  "zentrale": "Kontrollpanel",
+  "website": "Website bearbeiten",
+  "karten": "Karten & Preislisten",
+  "gaeste": "Anfragen & Chat",
+  "marke": "Das Markenbuch",
+  "besuche": "Besucher",
+  "druck": "Drucksachen & Feed"
+ },
+ "zusammen": {
+  "garten-tisch": "sommer",
+  "eingang": "eingang-gross",
+  "pool-tag": "erlebnisbad",
+  "apero2": "apero",
+  "schlitten": "winter-hang",
+  "glaeser-gross": "glaeser",
+  "joghurt-gross": "joghurt",
+  "teller-gross": "teller",
+  "im-pool": "aussenpool",
+  "saefte": "karaffe",
+  "bademantel": "bademantel-gross",
+  "spa2": "sauna-gross",
+  "spa1": "ruheraum-gross"
+ },
+ "ton": {
+  "eigene_worte": [
+   "Willkommen zu Hause",
+   "Ihre Familie Zurbriggen",
+   "Erleben Sie das Frühstück auf Ihre ganz persönliche Weise",
+   "Alle Suiten haben einen Südbalkon mit wunderschöner, freier Sicht aufs Matterhorn",
+   "gelebte, herzliche Gastfreundschaft in familiärem Ambiente",
+   "Komm zu dir selbst, komm zur Ruhe"
+  ],
+  "nicht": [
+   "Du-Ansprache",
+   "Luxushotel Zermatt",
+   "Wohlfühloase",
+   "Erholung pur",
+   "atemberaubend, einzigartig, exklusiv in eigenen Sätzen",
+   "Pirmins Siege als Werbung",
+   "Zimmerzahl und alte Preise"
+  ]
+ },
+ "stand": {
+  "fotos": 129,
+  "haus": 126,
+  "frei": 1,
+  "ki": 0,
+  "fremd": 2,
+  "partner": 0,
+  "ue": 0,
+  "vn": 0,
+  "original": 0,
+  "hoch": 6,
+  "dateien": 17,
+  "datum": "08.11.2026"
+ }
+}

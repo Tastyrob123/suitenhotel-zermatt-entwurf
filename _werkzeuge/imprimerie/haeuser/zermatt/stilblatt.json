@@ -1,0 +1,408 @@
+{
+ "haus": "zermatt",
+ "stand": "2026-11-08",
+ "quelle": "Website des Hauses (website/assets/css/zm.css :root, .t, .mono, .marke), Markenbuch «Rot und Schnee» (_kette/05-markenbauer/marke.json), Kleid _werkzeuge/oberflaeche/kleid/zermatt.css",
+ "masseinheit": "u = kurze Seite des Formats in mm; Schriftgrad gr in mm",
+ "rollen": {
+  "titel": {
+   "rolle": [
+    "titel"
+   ],
+   "schrift": [
+    "Instrument Sans",
+    "Instrument Sans 440"
+   ],
+   "schnitt": "Instrument Sans 440 (gross und leicht, Website .t)",
+   "versalien": false,
+   "kursiv": false,
+   "fett": false,
+   "quelle": "website/assets/css/zm.css .t{font-weight:440;letter-spacing:-.032em}"
+  },
+  "versalwort": {
+   "rolle": [
+    "kapitale",
+    "plakat",
+    "plakatfett"
+   ],
+   "schrift": [
+    "Bricolage",
+    "Bricolage Grotesque",
+    "Bricolage Grotesque ExtraBold"
+   ],
+   "versalien": true,
+   "sperr_max": 0.12,
+   "quelle": "ZERMATT/ZIEL-artige Versalien-Wörter in Bricolage ExtraBold (Website .marke, Logo «ZURBRIGGEN»)",
+   "sparsam": "nur einzelne Wörter oder der Name des Hauses"
+  },
+  "text": {
+   "rolle": [
+    "text",
+    "kursiv"
+   ],
+   "schrift": [
+    "Instrument Sans",
+    "Instrument Sans 400",
+    "Instrument Sans 500"
+   ],
+   "kursiv": false,
+   "quelle": "Lesetext der Website, Betonung über Stärke 500, nie kursiv"
+  },
+  "etikett": {
+   "rolle": [
+    "mono",
+    "kopf"
+   ],
+   "schrift": [
+    "DM Mono"
+   ],
+   "schnitt": "DM Mono 400",
+   "versalien": true,
+   "sperr": [
+    0.04,
+    0.17
+   ],
+   "ziffern": "tabular-nums",
+   "quelle": "website/assets/css/zm.css .mono{font:400 11.5px/1.55 DM Mono;letter-spacing:.17em;text-transform:uppercase}"
+  }
+ },
+ "verboten": {
+  "versalien_in_rolle": [
+   "titel",
+   "text",
+   "kursiv"
+  ],
+  "sperr_max": 0.17,
+  "rollen_fremd": "jede Rolle ausser titel, kapitale, text, kursiv, mono, plakat, plakatfett, kopf, detail",
+  "schriften_fremd": "nur Instrument Sans, Bricolage Grotesque und DM Mono; Fraunces, Urbanist, Prata, Hanken, Rammetto gibt es hier nicht"
+ },
+ "trenner": {
+  "menue": " · ",
+  "karte": " · ",
+  "ort": " · ",
+  "datum": "1. November bis 6. Dezember 2026",
+  "umbruch": "nur zwischen Gliedern, Trenner am Zeilenende entfaellt",
+  "falsch": "« / » und « | » als Trenner im Lauftext (ausser in den Namen der Suiten «Saslonch | Streif», «Lauberhorn | Stelvio», wie das Haus sie schreibt)"
+ },
+ "achse": {
+  "regel": "eine Achse je Seite; Textelemente mittig, ausser Aufbau 'geteilt', Zeitleiste und Liste zum Ankreuzen (Türhänger, als Block mittig)",
+  "mittig_toleranz_mm": 0.8,
+  "ausnahmen_aufbau": [
+   "ansicht",
+   "geteilt",
+   "kartengruss"
+  ],
+  "ausnahme_zeitleiste": "Elemente mit ausr 'l' in Paaren (Uhrzeit im Etikett | Schritt) duerfen links stehen, wenn der Block als Ganzes mittig ist",
+  "ausnahme_liste": "Türhänger: die Zeilen der Liste zum Ankreuzen stehen links an ihren Kästchen (el.frei), der Block mittig",
+  "ausnahmen_quer": [
+   "fenster",
+   "geteilt",
+   "einladung",
+   "rueckseite",
+   "deckel",
+   "gutschein"
+  ],
+  "ausnahmen_quer_grund": "Querformat mit Bild links und Textspalte rechts: Achse ist die Mitte der Textspalte (Entscheid Oberchef 29.10.); Einladung und Rückseite in A6/DL quer zweispaltig (Entscheid Oberchef 30.10., siehe zweispaltig_quer)",
+  "zweispaltig_quer": {
+   "aufbauten": [
+    "einladung",
+    "rueckseite",
+    "deckel",
+    "gutschein"
+   ],
+   "formate": [
+    "a6q",
+    "dlq",
+    "a5q"
+   ],
+   "regel": "zwei Spalten, jede mit eigener Mittelachse: links Zeichen, Etikett, Titel, Linie (Spaltenmitte bei 7 % u + 23 % der Innenbreite), rechts Datum, Ort, Satz, Instagram; beide Gruppen auf derselben optischen Mitte; Etiketten beider Spalten gleich gross",
+   "grund": "wenig Höhe und wenig Inhalt: zweispaltig grösser statt einspaltig klein (Robert «wenig Inhalt = grösser», Entscheid Oberchef 30.10.2026)",
+   "pruefung": "jeder Text steht mittig auf einer der zwei Spaltenachsen (Toleranz mittig_toleranz_mm); die Achsen sind die Mitten der linken und der rechten Textgruppe"
+  }
+ },
+ "komposition": {
+  "optische_mitte": "Gruppenmitte 4 % der freien Hoehe ueber der geometrischen Mitte zwischen Kopf- und Fusszeile",
+  "toleranz_mitte_anteil": 0.06,
+  "fuellung_min": 0.45,
+  "fuellung_max": 0.78,
+  "kopf_fuss_gleich_toleranz_mm": 1.0,
+  "zeichen_in_gruppe": "Abstand Zeichen zur naechsten Zeile hoechstens 0.6 x Zeichenbreite; Zeichen nie naeher als 8 % u am Rahmen ohne Nachbar",
+  "loch_max_textzeilen": 2.5,
+  "fuellung_max_aufbau": {
+   "menue": 0.92,
+   "karte": 0.9,
+   "grund": "Karten verteilen die Drinks über die Höhe (keine Leere unten)"
+  }
+ },
+ "groessen_anteil_u": {
+  "aushang": {
+   "formate": [
+    "a3h",
+    "a4h",
+    "a5h"
+   ],
+   "titel": 0.105,
+   "text": 0.038,
+   "etikett": 0.0165,
+   "zeichen": 0.13
+  },
+  "karte": {
+   "formate": [
+    "a6h",
+    "dlh"
+   ],
+   "titel": 0.118,
+   "text": 0.047,
+   "etikett": 0.02,
+   "zeichen": 0.15
+  },
+  "quer": {
+   "formate": [
+    "a7q",
+    "a6q"
+   ],
+   "titel": 0.14,
+   "text": 0.055,
+   "etikett": 0.022,
+   "zeichen": 0.13
+  },
+  "handy": {
+   "formate": [
+    "story",
+    "mail",
+    "insta",
+    "ig11"
+   ],
+   "titel": 0.115,
+   "text": 0.046,
+   "etikett": 0.02,
+   "zeichen": 0.15
+  },
+  "kurzer_titel": {
+   "zeichen_max": 16,
+   "faktor_max": 1.3
+  }
+ },
+ "verhaeltnisse": {
+  "titel_zu_text": [
+   2.5,
+   3.2
+  ],
+  "etikett_zu_text": [
+   0.4,
+   0.5
+  ],
+  "zeichenbreite_zu_titelgrad": [
+   1.2,
+   1.4
+  ]
+ },
+ "mindestgrade_mm": {
+  "a3h": {
+   "titel": 15,
+   "text": 6,
+   "etikett": 2.6
+  },
+  "a4h": {
+   "titel": 15,
+   "text": 6,
+   "etikett": 2.6
+  },
+  "a5h": {
+   "titel": 11,
+   "text": 4.2,
+   "etikett": 2.0
+  },
+  "a6h": {
+   "titel": 6,
+   "text": 2.1,
+   "etikett": 1.5
+  },
+  "dlh": {
+   "titel": 6,
+   "text": 2.1,
+   "etikett": 1.5
+  },
+  "a7q": {
+   "titel": 5,
+   "text": 2.0,
+   "etikett": 1.5
+  },
+  "story": {
+   "titel": 7,
+   "text": 3.6,
+   "etikett": 1.6
+  },
+  "insta": {
+   "titel": 7,
+   "text": 3.6,
+   "etikett": 1.6
+  },
+  "mail": {
+   "titel": 7,
+   "text": 3.6,
+   "etikett": 1.6
+  },
+  "_detail": "Rolle 'detail' (Drink unter dem Gericht, Menükarte/Karte) darf eine Stufe kleiner sein; Untergrenze 2.1 mm",
+  "tuer": {
+   "titel": 6,
+   "text": 2.85,
+   "etikett": 1.6
+  }
+ },
+ "farben": {
+  "hell": {
+   "grund": [
+    "weiss"
+   ],
+   "titel": [
+    "tanne"
+   ],
+   "text": [
+    "tinte"
+   ],
+   "etikett": [
+    "taupe"
+   ],
+   "linie": [
+    "gold"
+   ],
+   "strich": [
+    "rot"
+   ],
+   "zeichen": [
+    "logo"
+   ]
+  },
+  "creme": {
+   "grund": [
+    "papier"
+   ],
+   "titel": [
+    "tanne"
+   ],
+   "text": [
+    "tinte"
+   ],
+   "etikett": [
+    "taupe"
+   ],
+   "linie": [
+    "gold"
+   ],
+   "strich": [
+    "rot"
+   ],
+   "zeichen": [
+    "logo"
+   ]
+  },
+  "dunkel": {
+   "grund": [
+    "navy"
+   ],
+   "titel": [
+    "weiss"
+   ],
+   "text": [
+    "papier"
+   ],
+   "etikett": [
+    "silber"
+   ],
+   "linie": [
+    "gold"
+   ],
+   "strich": [
+    "rot"
+   ],
+   "zeichen": [
+    "logo"
+   ]
+  },
+  "werte": {
+   "schnee": "#F7F6EC",
+   "schnee_getoent": "#E7E7E4",
+   "weiss": "#FFFFFF",
+   "silber": "#B1B2B4",
+   "silber_hell": "#D6D7D9",
+   "anthrazit": "#2E2C30",
+   "anthrazit_tief": "#1F1E22",
+   "grau": "#6F6D73",
+   "pinsel_rot": "#E2001A",
+   "samtrot": "#AA0615"
+  },
+  "regel": "«Rot und Schnee»: Schnee und Weiss als Fläche, Anthrazit als Dunkel, Silber als Linie (Rahmen, Trennlinien). Pinsel-Rot nur als Punkt und Strich: das Zeichen und die kurze Ziellinie unter dem Titel, nie als Fläche, nie als Schrift. Samtrot nur Tiefe."
+ },
+ "linien": {
+  "rahmen": {
+   "abstand_anteil_u": 0.045,
+   "abstand_min_mm": 4.5,
+   "staerke_anteil_u": 0.0018,
+   "staerke_min_mm": 0.25,
+   "ecke_anteil_u": 0.011
+  },
+  "titellinie": {
+   "laenge_anteil_u": [
+    0.08,
+    0.1
+   ],
+   "staerke_anteil_u": 0.0024,
+   "staerke_min_mm": 0.3,
+   "farbe": "Pinsel-Rot"
+  },
+  "zwischen_posten": "keine groben Linien; nur Luft oder kurzer feiner Strich in Silber, Staerke 0.25 mm"
+ },
+ "raender_anteil_u": {
+  "rahmen": 0.045,
+  "satz_innen": [
+   0.08,
+   0.09
+  ],
+  "kopf_fuss_innen": 0.055,
+  "lesetext_max_breite": 0.74
+ },
+ "marke": {
+  "wortmarke_je_seite_max": 1,
+  "zeichen_und_wortmarke_zusammen": false,
+  "zeichen": "der rote Pinselzug des Logos (kleid/zermatt-zeichen.svg, unverändert), immer im Pinsel-Rot, auch auf Anthrazit",
+  "wortmarke": "Pinselzug + SUITENHOTEL / ZURBRIGGEN / ZERMATT nur als Bild (kleid/zermatt-marke.svg, Kopf der Mails), nie als Schrift nachgebaut"
+ },
+ "bilder": {
+  "plakatmotiv_anschnitt": false,
+  "verzerren": false,
+  "quelle": "nur Fotos der Website (website/assets/bilder), keine Fotos anderer Häuser der Familie"
+ },
+ "umbruch": {
+  "einzelwort_letzte_zeile": false,
+  "ausnahme": "Titel aus einem Wort"
+ },
+ "schmuck": {
+  "zeichen_je_haus": "der rote Pinselzug",
+  "zierzeichen_verboten": [
+   "x",
+   "×",
+   "*",
+   "◆"
+  ],
+  "kreise_als_schmuck": false,
+  "akzent_voll_max": 1
+ },
+ "mindestgrade_zweck": {
+  "tisch": {
+   "aufbau": [
+    "menue"
+   ],
+   "wie": "dlh",
+   "grund": "Karten liegen in der Suite und werden aus Armlänge gelesen"
+  }
+ },
+ "schreibung": {
+  "sprache": "Schweizer Schreibung: ss statt ß, «Guillemets», Sie-Ansprache",
+  "preis": "CHF 29.– (Fondue, Flyer des Hauses), «p. P.» oder «Preise pro Person» im Fuss",
+  "uhrzeit": "18.00 Uhr, 14 bis 21 Uhr, 7.30 bis 11 Uhr (Punkt, nicht Doppelpunkt)",
+  "datum": "1. November bis 6. Dezember 2026; Saison «Winter 2026/27»",
+  "adresse": "Schluhmattstrasse 68 · 3920 Zermatt",
+  "name": "Suitenhotel Zurbriggen; Gastgeber Moni und Pirmin Zurbriggen; Abendkarte «Renntag»",
+  "offen": "kein Wochentag des Apéros, keine Öffnungszeiten der Wellness, keine Preise der Suiten, keine Grösse des Chalets"
+ }
+}

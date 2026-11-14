@@ -1,0 +1,2367 @@
+{
+ "haus-abend": {
+  "quelle": "_quelle/website/mediathek/2445_IMG_2184-HDR.jpg",
+  "frei": false,
+  "original": [
+   5590,
+   3727
+  ],
+  "breiten": [
+   900,
+   1600,
+   2560
+  ],
+  "alt": "Das Suitenhotel Zurbriggen am Abend, davor der Garten",
+  "abbild": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JbACdACPOGG1ScgRiwewuXjgwAP6qHHsKEcODBRMqIBMXgz4bIk+y24FcWIOTKiRqnagg6lwyLRd0MMTb5pJUf5vkZm+n6XRfnQ/06tQHwNTKN2tgl4NUS0YdTcVhTC4oE3+1OWd0D5MIHQnpqnQGbskPY3jcT9XC/1rbC4AAAA=="
+ },
+ "familie": {
+  "quelle": "_quelle/website/mediathek/897_Family-Kopie1-e1492986036264.jpg",
+  "frei": false,
+  "original": [
+   3289,
+   1981
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Die Familie Zurbriggen",
+  "abbild": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JYwAIEAHSzhSS+rOomw0AAMmtpBuP2c05tR4BdzyXuxoQCh9eArtK+FPU3gbVa5KHQ1RY+TdemN3sV6nR2vR1Ku20HttMI3hjiqXc075QoeV28PI07H60dkt5jmRjHkLo0Nykw3o2wo3j+1jJJ7amWi/ewJwQAAA="
+ },
+ "eingang": {
+  "quelle": "_quelle/website/mediathek/2465_IMG_2225-HDR.jpg",
+  "frei": false,
+  "original": [
+   5590,
+   3727
+  ],
+  "breiten": [
+   480,
+   900
+  ],
+  "alt": "Der Eingang des Hauses am Abend",
+  "abbild": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAACwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoRwAB4MQ5uTx31nm4hat4AAAP7Nn8Gry1J8tXB0LhTR8o0pcHpLRFygPT0WuYYDGuKmuiy22aqgpsIXjuoC+CHcVeYlgusVGgcqg9KvGAHLVUh507TygaKwb43IX4HeS8T9vbu++0QcLP+SNXfYbmw2sNsuGKwTI8DNHfICu0DMhPc4vkNYOUgAVXY8m1KgAAA="
+ },
+ "olympia": {
+  "quelle": "_quelle/website/mediathek/2558_IMG_0890-HDR-1.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Die Olympia Suite unter dem Lärchendach",
+  "abbild": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JagCdACK84YhFtzHHRjhQAP6yKZKYsqLJdcd6VqaJ3KiI9P0z9YnkaSi51LL/urmoAl6X3ZybgjKhuKijJpt1wQg1SnlCmLkv3I6hZaTW9SFW//0h5iMhTB2aQ89gsPYcfXtoaZ1Bz1G3ynO45AnU2Aw/daNaFyP87NG1UCkpWSJQAAA="
+ },
+ "cryder": {
+  "quelle": "_quelle/website/mediathek/2778_IMG_1293-HDR.jpg",
+  "frei": false,
+  "original": [
+   5594,
+   3729
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Die Cry d’Er Suite",
+  "abbild": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JaACdMoAC+mV0wsXH010ZE0QA/lRK/HDwaI6yweV5jnT1keRUvD4dBDT8bIeD3WDK35H2u8nIl8g0XfbQhrAuRX+m5AuUscjv702oOw7VLoHu/QvdLiaE0StPfNwNzeAj8an2LyfCGAMjShtVZ0zwoAA="
+ },
+ "streif": {
+  "quelle": "_quelle/website/mediathek/2829_IMG_1172-HDR.jpg",
+  "frei": false,
+  "original": [
+   5597,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Die Saslonch | Streif Suite",
+  "abbild": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgA8nkuXkY4sGByWvMgAD+xGHHVMym+S9ffuVrehvSW5/KWq9pZSf61mpTaCLz2MRIqmgymlgKPPVXe6lbaReSTz76uyI0+2pyv1zHN0hnpuwKgH5XDRaVEcTWjdrL6UucdavmBE2Py1bHu23k55FbY6oTRAAAAA=="
+ },
+ "lauberhorn": {
+  "quelle": "_quelle/website/mediathek/2858_IMG_1204-HDR.jpg",
+  "frei": false,
+  "original": [
+   5598,
+   3732
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Die Lauberhorn | Stelvio Suite",
+  "abbild": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAADQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQAAJ0wN5UjLyRBc/fgAA/rQgnMN04OHb/qCaBLTYEBOqSRsRgCfET/1S7/NULbz7uC8mcOJnm39Tk0xBUkqlLQ8XJPk9kZ6djVFd2duJtSXdAuC+UUp9STHVvb/D8Tq5Ha9cqCDLi708pvsaKj5LrlZf72Tj2tK927J6tEZKnNjje+WwCQAA"
+ },
+ "matterhornsuite": {
+  "quelle": "_quelle/website/mediathek/2617_IMG_1077-HDR.jpg",
+  "frei": false,
+  "original": [
+   5594,
+   3729
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Die Matterhorn Suite",
+  "abbild": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBWAMZPaAvG/agp71HS7vYoAAP6Phz4JPtprFU/83uDAnYn77d6iitD21huUbfP0X7Uxk4C1hJTVeuHWuIa6X7H7SK+X6/0CpGx9PeobLVli3owMql3QUqf7F5PRXj0/pv5ye7+NLIY5criJh4iPWO2KlWehQlE495GFi0GRRILbZGSJ57aml5kWuAAA"
+ },
+ "deluxe": {
+  "quelle": "_quelle/website/mediathek/335_b-su-do4.jpg",
+  "frei": false,
+  "original": [
+   680,
+   453
+  ],
+  "breiten": [
+   680
+  ],
+  "alt": "Das Deluxe Doppelzimmer",
+  "abbild": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAAAQBQCdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoR4KGADlsGWI3TAaMTPj9bUuf5AAP7dr58FSp5btujggf2v309qXxniqEdUov2DqM/dEJVKFZ6T7VDKgqsvNZIugtEOq8bagZywA/bleV/2LII0vRIOMpNudq6ZC5UfPQFx9QuMr9Y4mGODB9OlRfMZ2DilGqi6ipfDaQE6371J2vOA4gi6eat4defwcj1nMiHrPWGsjeUQiA70BEALE5QAAAA="
+ },
+ "standard": {
+  "quelle": "_quelle/website/mediathek/336_b-su-do51.jpg",
+  "frei": false,
+  "original": [
+   680,
+   453
+  ],
+  "breiten": [
+   680
+  ],
+  "alt": "Das Standard Doppelzimmer",
+  "abbild": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZAC2yYxs3zV0uTX7FIrEfcAA/shSOOpEF0fu5vYmTL8CQ4uLApm07io5RqrQWv7JitZ+b3bCEoMSfL6yrC8KDDx67Ar4+pEa54egHmkEwQvSDPHopJSefQ04NK1avUpIdB+edv/ZRTg2oY2W/lndV2k5tvNNT0TfPvwcfa+NLWCYAAA="
+ },
+ "littledream": {
+  "quelle": "_quelle/website/mediathek/340_b-su-ld1.jpg",
+  "frei": false,
+  "original": [
+   680,
+   453
+  ],
+  "breiten": [
+   680
+  ],
+  "alt": "Das Chalet Little Dream",
+  "abbild": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZwAAWq1Uoc6cxQl/DgR0AP68TTb0POoM0umWlRLMatvWpNj+Jl8ngQaJy+ulJZlzfqbhYSwaVwEaXrgKack5A+JBH+Rn51YbhyDCPraB1CBVzHl1kTUKQGD3tRKHsfN5M7ujW4wttndDH4IRxL8rq+2VL0AA"
+ },
+ "balkon": {
+  "quelle": "_quelle/website/mediathek/2627_IMG_1092-HDR.jpg",
+  "frei": false,
+  "original": [
+   5594,
+   3729
+  ],
+  "breiten": [
+   900,
+   1600,
+   2560
+  ],
+  "alt": "Balkon einer Suite mit Blick aufs Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdAYx2p/1WoZiHs8NQXnIAAP6e+38ut56wheOzSQsIDionpC6FBmCtcQwnnzKcTmF0OA2BmntJX6cq6i1Q+m7Bt0eZ300bqF4aHNTk4WyLyG/nzYhHuzWC3ejHUoPw/BS2OYkWln15YRCsQMBEcAqxJLDYY68kox4v2g9QF1xB8FNCEgXfx4Y6T0VMEyF3/uDVVqdK3RRwAAA="
+ },
+ "fruehstueck": {
+  "quelle": "_quelle/website/mediathek-originale/3526_Frhstck-2.jpg",
+  "frei": false,
+  "original": [
+   5184,
+   3265
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Das Frühstück in der Suite",
+  "abbild": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAwBACdASoYAA8APu1iqU2ppaOiMAgBMB2JaACdMoAlwhVBnnh0dga/U5AA/uNSHNqDBOnxL4o135xGHTBxeGifflXwnxkCfQVrWcda5kd3IzVGCvAXsfoUCZgpKOAVlSNqm+XZxX37A/UIda6lnQoPA8BSxR3KwI+T9GwSGA1pTdwfQ2nTrge6R5hlzuFtldrK6idYzIQKxU/zUn4gqFHByyAAAA=="
+ },
+ "fruehstueck2": {
+  "quelle": "_quelle/website/mediathek-originale/3522_Frhstck.jpg",
+  "frei": false,
+  "original": [
+   4924,
+   3283
+  ],
+  "breiten": [
+   480,
+   900
+  ],
+  "alt": "Frühstück mit Hauswurst und Käse",
+  "abbild": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdMoR3ACndoeTCNUpyexbN4kAA/r5yYXbPKju4Vv4YsZUlD6mYOAJxo0vQJhEgODJ1G4996DjZnb97WzsxLtk6c5+hCMmRjZ3OX17/FEbHjAJ6OOQh58f5Affdkff4JMTSyEe+5w2WUmrVzbBZVZUCjEvmBOraGZf3B82wfrvxuboomTNaMb0D1TdqtqJZRg8RcAA="
+ },
+ "bademantel": {
+  "quelle": "_quelle/website/mediathek-originale/3105_IMG_2501.jpg",
+  "frei": false,
+  "original": [
+   5616,
+   3744
+  ],
+  "breiten": [
+   480,
+   900
+  ],
+  "alt": "Frühstück auf dem Balkon",
+  "abbild": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdAB9EKzhAdCtexOiIcAD+rUAbB7AHGw4VJVlCbD3KnZXEqUZBlIL7Pn6jsT1D6nNrPOEc13WiEmZLu/UOdJNXP6JXKtDeJi1TIxaYha8BJdqfIDqhxbU22Lu6KkGO2jXZG+rqxoYTok9hoOq7JLsUYyL2hn9+xic/tMAAAA=="
+ },
+ "dorf-winter": {
+  "quelle": "_quelle/website/mediathek/899_DJI_0015.jpg",
+  "frei": false,
+  "original": [
+   3992,
+   2242
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Zermatt im Schnee",
+  "abbild": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABQBACdASoYAA0APu1iqk4ppaQiMAgBMB2JZgCdACPTmU2jvb9877SLSLWAAP5V7YmOCbT7kc4b9c+OrmLN0Hbk/2gGht/bKNBrf1rWauD0ENbItadafbiiD9JFBsdnDlvThbdC7QvKpKw86hgqOTVGvBY5X4SbRBeMg1SvHvtyZGgQRqTQpVhgAAA="
+ },
+ "golf": {
+  "quelle": "_quelle/website/mediathek/3810_goldangebot.jpg",
+  "frei": false,
+  "original": [
+   1020,
+   977
+  ],
+  "breiten": [
+   1020
+  ],
+  "alt": "Golf im Sommer",
+  "abbild": "data:image/webp;base64,UklGRu4AAABXRUJQVlA4IOIAAACQBQCdASoYABcAPu1sqVGppaOiqAqpMB2JagCnQ8CAw13LXwdTFoko5bpqm/Lwf+DMQjNbQAD+6R30UzLvLgbZ+W0FCs2TcnHl2O5zy/UpeMWWK09Jpykf1AJLam3LWTVSGF5ZF1ZT4aZW/heK2q7P/XSDSgkzC+3dwQLZr/Y9oEiJFPTdU7FwJCvJbdp8gn0V0KezT8DZgpTgwP9QAc8y723V0rHiqUjb7alCIdQ8/0kLEPqcjAy+Brwva3pPrFgZ3Usz+y8AyE72F9JJlJu1TSkzZ2jVwdrCG0CUcSRxIsAA"
+ },
+ "sommer": {
+  "quelle": "_quelle/extern/myswitzerland/myswitzerland-0507bb23-664a-e90f-a83a-fb64d5462bfb.jpg",
+  "frei": false,
+  "original": [
+   5616,
+   3744
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Der Garten im Sommer, oben das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdACLP9l+0KRXPTnqfz+oAAP21nCfEqlQhi6IEmolNVfjURs5whJ+Nmo8r1JTe8piJEVmi7D87I+1/aIxYcN6FpusyKmooLPt81RT10einC/2y5TRWfeZFDmBCyvhlyNLRoFY1Aja3kxuk3G+JzqZVuA2zQtlgAA=="
+ },
+ "erlebnisbad": {
+  "quelle": "_quelle/website/mediathek/2469_IMG_1902-HDR.jpg",
+  "frei": false,
+  "original": [
+   5597,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Das Erlebnisbad unter dem Glasdach",
+  "abbild": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACsACPQMznn9epE9IcJ1mgA/ugzt7AYmBQM3VXL115PdAOYAkNakAUdKBsEqE75eUGKuNx4VdLafi8Jq2jnGD72RJnK5O8kNTfXI9yobrxA8yDJCAqMzz/0LFCvT2b+KXbJ6Ra1iEiE8MaeMYob3KD+gAAA"
+ },
+ "im-pool": {
+  "quelle": "_quelle/website/mediathek/2544_IMG_2328.jpg",
+  "frei": false,
+  "original": [
+   5616,
+   3744
+  ],
+  "breiten": [
+   480,
+   900
+  ],
+  "alt": "Im Aussen-Sole-Pool, gegenüber das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdIMgB41SkXiG7213rk8NQAP6g4ROTxhrBRrGuG2btpvVebcdhyvjDeqGTa0/yMo7eK5sZTcmhRIyE1kyUlVw/F6QZuZbPkXPtWUFBdjQMVA2sIrOtirt9N6wdbwbqE+5em4ExMgQQbFoeGfI77S9za2I+qQAAAA=="
+ },
+ "spa1": {
+  "quelle": "_quelle/website/mediathek-originale/3081_IMG_1328-HDR.jpg",
+  "frei": false,
+  "original": [
+   5597,
+   3731
+  ],
+  "breiten": [
+   480,
+   900
+  ],
+  "alt": "Ruheraum der Wellness",
+  "abbild": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOhxAAEKPFCZD6nvGKYAADOM3F/ub85BdQlfnGYD23q0wVqlm+FaNYeXNpVTYSXmIUDUU1rIBRO/qeEltCn2FmSs7hopbJRNtSi8nrF4wyEal0e6vsL905laxEqX/85y2iKhduf8xi8KzIO1ixHIPGtYl9wR9WRvHqTAAA="
+ },
+ "spa2": {
+  "quelle": "_quelle/website/mediathek-originale/3085_IMG_1334-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   480,
+   900
+  ],
+  "alt": "Sauna und Duschen",
+  "abbild": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCw7BupEsl3E9SN8enf7PIsYAD+0PLO0skwBvUYZBX9BCahawieh5LkV4DABIZaxeFHzWVblU1xE4Z+jyN770bMz+uluZNoeS/pwwc89fRLVmljqI3Piu6eAJ5El/llRBLFTQgCjfYHVSCR/WVHyTsO0IK+6KfPhuAODgAAAA=="
+ },
+ "haus-pool": {
+  "quelle": "_quelle/website/mediathek/2450_IMG_2202-HDR.jpg",
+  "frei": false,
+  "original": [
+   5590,
+   3727
+  ],
+  "breiten": [
+   900,
+   1600,
+   2560
+  ],
+  "alt": "Das Haus in der Dämmerung mit dem beleuchteten Pool",
+  "abbild": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAABwBACdASoYABAAPu1iqU2ppaQiMAgBMB2JbACdMoADZZ/WDmeT2OcUqcs8oAD+h+QT22QNrAzyxUKK1Mo+4swUvNGMTnqksMjE4OOAxTVRFV/jm0bQ77ZhwY7OI3zU1fuR1NjxgAWejEso+dKdcWyhYz+WfkSQ3rv4nnVP34kiA0WiSGR0NGdhBzhX02hbEsZlHOLJhGNUalqjETML9HV751P+4AAA"
+ },
+ "fondue": {
+  "quelle": "_quelle/website/mediathek-originale/3257_Fondueabend.jpg",
+  "frei": false,
+  "original": [
+   3072,
+   2048
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Fondue auf dem Balkon",
+  "abbild": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwCdAB4Q2RGdGbf8eLdU4TAA/oP7S3tZQYfAJllG+36R/ReCR4Gxx7eaDk/SnJ8d2xFxw1qVioGpuTyof51AoiHT3D4ZPBGdzJFkQIwUJuaisgo4W1C6nHcFw8NoANOqFfG85IbeQnS3Fg2gPhlhJNwRrpJ59qQABmg4b9Dvt0yW9xruEM9eAAA="
+ },
+ "blaue-stunde": {
+  "quelle": "_quelle/website/mediathek/2459_IMG_2237-HDR.jpg",
+  "frei": false,
+  "original": [
+   5590,
+   3727
+  ],
+  "breiten": [
+   900,
+   1600,
+   2560
+  ],
+  "alt": "Blaue Stunde über Zermatt, hinten das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoR4GCnKgsyL646ZoXiqyclAAP08miggkdUXbrpTLNoN3hFy4dJpvvpJxYo+ZaYE2CiBJJ1xWwQ0StOI2V77hHw79YYU6/SSvCAXJzAKmNxcyHKVamfRWId2jOZatMJz0nK3gCWPTzMHg84RAGimUQAA"
+ },
+ "ig1": {
+  "quelle": "_quelle/extern/ig/ig-01-CvNpxTZqqrp.jpg",
+  "frei": false,
+  "original": [
+   360,
+   640
+  ],
+  "breiten": [
+   480
+  ],
+  "alt": "Beitrag von @suitenhotelzurbriggen",
+  "abbild": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASoNABgAPu1iqU2ppaOiMAgBMB2JZgC7ABjREjvP0sb96MasuAD+wnoWMNNhncAP8lWmQXzkJWnStQ6mR8kYWtPXPZj529RQbBEagn+XyQ5ijAH8qgO69sWaojEBlnEa4MeFLGqSntVarPpQaXeAgsOagAA="
+ },
+ "ig2": {
+  "quelle": "_quelle/extern/ig/ig-03-DehTIOtNqaU.jpg",
+  "frei": false,
+  "original": [
+   360,
+   640
+  ],
+  "breiten": [
+   480
+  ],
+  "alt": "Beitrag von @suitenhotelzurbriggen",
+  "abbild": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADQAwCdASoNABgAPu1iqU2ppaQiMAgBMB2JaACdACHZJnavIXfeyjgA9j1djvdlQLqyT+RXR5plBnLC5M8hYcHLQop6rPTd0iMApgx0X5rIT3En/u/UkbhLXhcfHwTlHpFKywx4v8LYrag3aENUsNz+rdOM+0frKADZzNwsaT7RAbtH//Q4RBEDPeAAAA=="
+ },
+ "ig3": {
+  "quelle": "_quelle/extern/ig/ig-09-DbWFvuJNSJf.jpg",
+  "frei": false,
+  "original": [
+   360,
+   640
+  ],
+  "breiten": [
+   480
+  ],
+  "alt": "Beitrag von @suitenhotelzurbriggen",
+  "abbild": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADwAwCdASoNABgAPu1iqU2ppaQiMAgBMB2JYgCdABHpxwB2XkIlyFUgAP2dXIuZNguFGgUo9CXekF/nxiwgkeCu7LRCL+7XoJxdYF27JNeBaZEeFFlhdCogW2xCgY6IrjSJUd55fHttNmL1Wlr0rttNGe9dhUHoBOKUJDpvnwXewtg7ncDzfInDp21Pra5Mxu0xpUZNepZiAfQ9sDy4AA=="
+ },
+ "ig4": {
+  "quelle": "_quelle/extern/ig/ig-05-Dd4gUitNojB.jpg",
+  "frei": false,
+  "original": [
+   361,
+   640
+  ],
+  "breiten": [
+   480
+  ],
+  "alt": "Beitrag von @suitenhotelzurbriggen",
+  "abbild": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAQBACdASoOABgAPu1iqU2ppaQiMAgBMB2JaACsMoMxgBH9lyDRtPsZAADc1ij840gRszNYMPCGR2h+bTBzgQiBWTpG97z5AyhDPePJYknk95OukJ19U6VYEN5YTwy/qUYYq226t/aJtwefksZSlkuBJvJemvCIAYY/N9lIe35++f9yW7a6AAAA"
+ },
+ "ig5": {
+  "quelle": "_quelle/extern/ig/ig-06-Dbd4Cu6twR6.jpg",
+  "frei": false,
+  "original": [
+   361,
+   640
+  ],
+  "breiten": [
+   480
+  ],
+  "alt": "Beitrag von @suitenhotelzurbriggen",
+  "abbild": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACwAwCdASoOABgAPu1iqU2ppaQiMAgBMB2JZQC/OBE4gahtoC9qgAD+6/8++rWldNOGKHV4ETQV9xFzs06S8/GM8yzQmIqDQ0DZma4+KJmlRV//bT5Flqde17gtGv4hcnNin1ZCBbA+L8MWvtOcY91+T2fY3VnwlTGFparVkeG9NOoLtMa1U/uc9cAAAA=="
+ },
+ "ig6": {
+  "quelle": "_quelle/extern/ig/ig-08-DbYyW5ithfe.jpg",
+  "frei": false,
+  "original": [
+   360,
+   640
+  ],
+  "breiten": [
+   480
+  ],
+  "alt": "Beitrag von @suitenhotelzurbriggen",
+  "abbild": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwAwCdASoNABgAPu1iqU2ppaQiMAgBMB2JbACdL1ABrO2HnOiI6aIwAPxa9ph+XjXU4BwYBU/luMwxakmdO3V+At8+vhVf3met+6j2MRw0iQ3HZES2m0A5dTE8vNB4EPZ3WAZM3yzdNFyF7gHp93kpnoAjyWhUy7dwF03ZGaBmAAAA"
+ },
+ "matterhorn-frei": {
+  "quelle": "./_bau/matterhorn-frei.png",
+  "frei": true,
+  "original": [
+   2400,
+   1411
+  ],
+  "breiten": [
+   900,
+   1600,
+   2400
+  ],
+  "alt": "Das Matterhorn vom Trockenen Steg, freigestellt",
+  "abbild": ""
+ },
+ "matterhorn-frei-hoch": {
+  "quelle": "./_bau/matterhorn-frei.png",
+  "frei": true,
+  "original": [
+   1200,
+   1411
+  ],
+  "breiten": [
+   700,
+   1100
+  ],
+  "alt": "Das Matterhorn vom Trockenen Steg, freigestellt",
+  "abbild": ""
+ },
+ "calgary": {
+  "quelle": "_quelle/../pirmin-alte-seite/spiegel/pirmin/Triumph/Bilder/calgary.jpg",
+  "frei": false,
+  "original": [
+   269,
+   250
+  ],
+  "breiten": [
+   269
+  ],
+  "alt": "Pirmin Zurbriggen im Ziel der Olympia-Abfahrt von Calgary 1988",
+  "abbild": "data:image/webp;base64,UklGRvQAAABXRUJQVlA4IOgAAABwBQCdASoYABYAPu1qrFEppaQiqAqpMB2JaACsL68alocGolURWWMl8zLjhqM9hX7K35/AAP5zMACaZUoniaKiQ5DV5w/foSDhsT7esjlgQkHrzpHSf6945Akh0BG0Y53zdhc0GcBRFY1SOhcexpRmK9FohG/Ob9q6bHK6uAoIj6ifAhP2c08gTroHA6WNuiTu+XJ62uvdzTOcLlzTtqI84iS66x4QVmdHp7h++Mf+jtB/VTKJUMWN5EsMhW1GrtktuFtuufhHQ5QYErtXjHHKkeYlHPNokuKoO0CAXNl6cEsvD0RCGAAA"
+ },
+ "kugeln": {
+  "quelle": "_quelle/../pirmin-alte-seite/spiegel/pirmin/Kontakt/Bilder/champion.jpg",
+  "frei": false,
+  "original": [
+   237,
+   300
+  ],
+  "breiten": [
+   237
+  ],
+  "alt": "Pirmin Zurbriggen mit seinen Weltcupkugeln im Schnee",
+  "abbild": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAAAwBQCdASoTABgAPu1wsFKppiSiqAgBMB2JQBdnf9kGODv8bIzsfC5PbzDAZIHbnJIEyAD9trvYgJQKEU6fOywm1CE6sg3s2p7Hb+fkmZ6Lnyc5uoesNcesFAjMq4QGuEg9NS9wlFcHtpggzvZ+ja9vl9f4v3R2LT7vIXYmtVS6dn9UOHHrhxwEm2UAFm+JNZvrYTNFN+PZIs50NX5D2NGDJB1/CvBPKmRe4bMZIc/NFm/tUJgoRNb+1mj8u7g7/dybDAAA"
+ },
+ "bormio": {
+  "quelle": "_quelle/../pirmin-alte-seite/spiegel/pirmin/Ruckkehr/Bilder/bormio.jpg",
+  "frei": false,
+  "original": [
+   221,
+   350
+  ],
+  "breiten": [
+   221
+  ],
+  "alt": "Pirmin Zurbriggen in Bormio 1985",
+  "abbild": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAAAQBQCdASoPABgAPu1iqU2ppaOiMAgBMB2JbACdOUANEE0WKX/Psyxtuy8azsN9tK4AAP7D+UlmmYGY97cLyF12Ls4P0EVhEUcqil0VUcJUSS0bVblEYTyJkC7mLPyAGkChSt7BfgoF9kuKg/bhQ7jLsHv3P8eN4iWkexk9+kav65I60QR2j6Rs+gDwMmMj6/fimm4+GL3INzIi1xbx+iUYkEbqFRRRBKv5ALemTzwVKs32uHvSP7w3dk9u6yqORU6792sC4AA="
+ },
+ "familie2": {
+  "quelle": "_quelle/website/mediathek/896_Family-Kopie-e1492985971757.jpg",
+  "frei": false,
+  "original": [
+   2417,
+   1907
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Moni und Pirmin Zurbriggen mit ihren Kindern",
+  "abbild": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAADQBQCdASoYABMAPu1srVCppiQiqAqpMB2JYgDDNywaZ4RrQFHscDQTUIyUE1xyQT+fNRnaVnAAAP6Xku5Xu91rNfceRVCmhcKiBRYvnEj3K7UotCdSxvj4gaINNs+9Y90i5envMi4PmC5VP7fcYPGqe2yBxd+YzeelIdDBNMI7pgZDWzGjFFMYV8ViHrBWSL4Y49Smz4nU0HKXY480DXreT4lgGvCo1FCtVPXNfyZeHQhDTpAzwAAA"
+ },
+ "apero": {
+  "quelle": "_quelle/website/mediathek/209_sonst.jpg",
+  "frei": false,
+  "original": [
+   2000,
+   1333
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Zwei Gläser zum Apéro mit dem Zeichen des Hauses",
+  "abbild": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOkEn1IHvJGFG60Upll4iZwAPctPvG7LIalI/6621EW+3At/i7Q/s4/o2lqFXPGW/WOilen71HGdX0Aol+t4rHw23MRSn3LOfFDaNkKj5kEvS2y+QU96H4Ufgtbntnp5nkcBaSKIWJ0enn7gt2K4tLG6YkZsKrz7ucdqZ0a3+V3/t8Ra0sfKnvuxhjNbXMLXiXr2oSMXjgviTrVxqLEyBdxRwAA"
+ },
+ "winter-hang": {
+  "quelle": "_quelle/website/mediathek/59_matterhorn.jpg",
+  "frei": false,
+  "original": [
+   2500,
+   1667
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Winter vor dem Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgMZATjkr0+dOIsemq6vAAzD9d9Al6W3E9RPbLGbeI27Q/qWrta4xVIpfuc5d8mJWBjJ35YvVfPA2UFlTLltsaii05vewSsk0twsDQjjCKn//p6rrWwS1YpI2y8edszSxQFZT4oxGOuZKML/2+CHhREz9pIHTHJdgAAAA="
+ },
+ "waldweg": {
+  "quelle": "_quelle/website/mediathek/900_Way_.jpg",
+  "frei": false,
+  "original": [
+   5184,
+   3456
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Verschneiter Lärchenwald bei Zermatt",
+  "abbild": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQDImCB2E1TbGHhJ6uDDEaAA/sibXiFfddD6VXoN6owzsxhZojUc6GrZcjtmbJ2q7wG51AnxQv4o2bxIPEbt/Pik/3LqcdcTNNx8AkB9fr87yVyfjAZUtj4GQ1v1XL8O3nTp1RIVSDkfojOdhHgA"
+ },
+ "garten": {
+  "quelle": "_quelle/website/mediathek/1795_O4I1359-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Frühstückstisch im Garten, oben das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JaACw7B9ovQZin35f/gvRbAD+3Y/4BoFD1GMiflHe63LjQqXbT6sltUD/2tzhkVgW5Zbkv+Ai2P3gsDBpbGu8L9/Zn1ArjFPXhuQuWMgQyOMAd4XrGIgVVjY/50C4sfe9Nvz0+qVXsvd7ui4VEec7jgBMsTJcAAA="
+ },
+ "haus-winter": {
+  "quelle": "_quelle/website/mediathek/2279_118252431.jpg",
+  "frei": false,
+  "original": [
+   840,
+   460
+  ],
+  "breiten": [
+   840
+  ],
+  "alt": "Das Haus im Winter",
+  "abbild": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoYAA0APu1iqU2ppaOiMAgBMB2JYgC7AywBs4/O9ImzgoPLzpCAAPz5s6K9WJkQHlDG9gJywXOOFPvKQxnv6utooNhK5jhK9vlLEvvmOuR5f9KEw9+OMxYLbVHcfRi/OV3qT/cbohRWA1qJGhLgIOWPs11APS5rSpn1oJrVdq2jz+isIooAAA=="
+ },
+ "pool-nacht": {
+  "quelle": "_quelle/website/mediathek/1805_DSC02813-scaled.jpg",
+  "frei": false,
+  "original": [
+   1707,
+   2560
+  ],
+  "breiten": [
+   640,
+   1200
+  ],
+  "alt": "Das Erlebnisbad am Abend unter dem Glasdach",
+  "abbild": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAABQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbACdLwDs/wE/qURLCLtS6QtkAP7sD6PrvJVP5OxbHfMPSzD/CeOOg9qZMAkYLCGyL5uYtiSaP9yWsO5x8FxnMDzQ3K8yNYwq4KxZ1fayDS501wfXFuGL83BYGgL77cxsuk2lBkPSiOuxJNwqSuHU5defjLKP8S6mribYsHv/myxj+ElVH7Wu3/CSqj/mP9LygAAA"
+ },
+ "whirlpool": {
+  "quelle": "_quelle/website/mediathek/3095_IMG_2358-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Im warmen Wasser draussen, gegenüber das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAACwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZgAAQX2103Zr50blgADOLFk6+ySMLTrNjSGguzwDsNu1ULNsOLPYMF+LtfuXpqsqrMEQpL7YuqB/bFzmNofNdJUzPyWvxIMHthT/ICH0mI/3sAusUQFRN1BU6fHfJIAD+IQvWSZB3rYTRACgXMEXLEzN1vToSCO4uAAA"
+ },
+ "pool-gruen": {
+  "quelle": "_quelle/website/mediathek/3089_IMG_2208-HDR-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Der Aussen-Sole-Pool in der Dämmerung",
+  "abbild": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JagCdMoGv/gMn30uaHU276pwRoAD+6PRJD6w1FZ03XVrSMX13ba6iraX/BXKI8J+SzP1eLWF48wGX/DlV6wilz2Z7ok6mRAFOE9kR1V9fJgfHq8d4e/2ZSnjLTedaVn9q91LD+TbO7Njv8gAAAA=="
+ },
+ "lounge": {
+  "quelle": "_quelle/website/mediathek/1810_DSC03179-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Die Lounge am Abend",
+  "abbild": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoR3AdDo7Mt58nfNTyfS6IAA/r+kC0r9PmZ2Eictg5VXTnJ1izV6YwpmEWCdPLiY2yoFCvb/u3diuaFRcx4SpAuTStetGqIXJiKUwqr8IaCO/A2CQ1jS53YL8m/AujVLn7fG2sJ+6wPiCNhdO/nieve/lSLNeF7/vvgkJz82eK0nR5lFZVKiAlqfQMdbcWEEpdzAAA=="
+ },
+ "pool-fruehstueck": {
+  "quelle": "_quelle/website/mediathek/2538_IMG_2471-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Frühstück am Pool mit Blick aufs Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdAYyoXqPSbGHOAV/ugAD0BchfYMb9sZj2SG+iS6EjRh12hrsqFii2lRQjFpn7Wyjvs2t1n0APoTUmqaGbf2fwdVrhKVekaiqrYVPsxB0yXzUckV7XbEKLWnMUmpdICPBUz/qD5DHssLQFCliqyQb8mEpMZTCgKal4Xl5jnvAgAAA="
+ },
+ "glaeser": {
+  "quelle": "_quelle/website/mediathek/3530_IMG_5169-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Müsli, Nüsse und Früchte in Gläsern",
+  "abbild": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdAA8s4fjajh5FkBPAsAD+wKrgm7oBidcCayCOTAd/dhcoKbp6gS+0XVOLOUnmtLFy9BLzWhr10UYzfjS6G6bAknGhP16nMmmAKbsW290P2HujhWD29iCSXoQsSK+lce2sGqV6jCzJ3yijegAA"
+ },
+ "bircher": {
+  "quelle": "_quelle/website/mediathek/1867_LM200806_89_Birchermuesli-2560x1707-1.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Bircher-Müsli",
+  "abbild": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAADQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdAdwLgxS73xoaWsRZdEQNr+KyHgD+Cm5ehQf/5bvHkSyRz2pJwr3rE8eNlpd6OaK7/ycwtSZlTzYTmU1rcoGRl23rPgcn0RboxX1P6WcmsXpBB2ZCu+ktqW6SpQDIyX95vt1PN7OKAonRtl1uO8cMYV8V9RzG3wcb8onvhe7RoAtIjGehudXmhk4ZLlGgnAAA"
+ },
+ "joghurt": {
+  "quelle": "_quelle/website/mediathek/3534_IMG_5175-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Joghurt mit Früchten und Müsli",
+  "abbild": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdMoACBAayZU4wR04gAPzfX8NuiWBmsNMJUUlMQqkfXGLsnqC4peLJj0bPmRk791fIqcSR77DHBSB9Z3asRz4i2dGUH2WYUeghQ7bNDjdwIbezu4yxfNzCsJYvABOE7E7Fix3i7fuHgO7tPcD3tunyFhqYc5oEXPp8kRKIGLz2J6radtAA"
+ },
+ "wurst": {
+  "quelle": "_quelle/website/mediathek/3123_wurst.jpg",
+  "frei": false,
+  "original": [
+   5184,
+   3456
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Hauswurst und Brot",
+  "abbild": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdL1yBzh4Xblr9SMDSUAD+y4vdI4xK0r7oM41VJOt7SQy0s8/V1yY2e5qj1tcAPKnpjfi33JinufU7ac6gHtdJD4tpRXU1fQsAOxHBkqUKsue3qJfPcdoW96fc4xZkSE9sBCksJ5OMs4bkjAAzKlKsAAAA"
+ },
+ "dinner": {
+  "quelle": "_quelle/website/mediathek/2520_IMG_2095-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Abendessen draussen bei Kerzenlicht",
+  "abbild": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQC06CHvR/GF8mqlRb493AAA/qN13u/VFRCje29FicZtMmYcBn2yA0XjCD9CPaMnrNGCDJ2U/SpKCkFcMNvTlLrAWSmz9FTUmk3f0+ge9mWZmywtfCsM3/OCV9QLfThttPWYWNigdCDxMO5qlLwAAAA="
+ },
+ "teller": {
+  "quelle": "_quelle/website/mediathek/2486_IMG_2056-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Ein Teller vom Abend",
+  "abbild": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwCdAywYYJooSioKN/Pvs1lH0UF6wAD+agUnsyjMGvhN1DnoWG51oBRE79ZlPxrcVu0yxmvjxnfUibiQm2mYxV+fEPk04PxnAxtNoiqHnKWYxs8QpecRHQuMmwpSB8kHPHs4gzpF72bZp0v3/0MpmZ2HiARGjceU50GB/hRe0W0ZlWdDFVYp184JwO3cQ98nGsb7T1JAAA=="
+ },
+ "anstossen": {
+  "quelle": "_quelle/website/mediathek/2484_IMG_1634-1.jpg",
+  "frei": false,
+  "original": [
+   5616,
+   3744
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Anstossen vor dem Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdACKqr2dlzfJz1l0ZAAD+55GY3ZYbX83Ju5hwNA8goGpmR9bACgTj39sxhKKmyOLeXkSeAvdgVqw6EKGGK2HG4FZEHKmAjuMdJ5BsPtBGZukRddIpFu2tPRH7UnqunqSm4l9GFrDMlayLwVsIwT/Rm7pMAWDpVnd4qrT3gAAA"
+ },
+ "ol-2": {
+  "quelle": "_quelle/website/mediathek/878_Olympia-2.jpg",
+  "frei": false,
+  "original": [
+   5113,
+   3409
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Olympia Suite, Wohnraum unter dem Lärchendach",
+  "abbild": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOmUABwHE78bTB8j5Rj8AAA/PlJM/6Np8i6YEjXxqLk130d91/ASI7QC/pN2dpn3Jl5zOvZyr7mmOu2H2ffnYrVF0CfzhQWvs3pZ/an3qLsqyfhm9t+/RFTjCX7/gr5sfNF86rmzWzpkv+PpNVWFUHhwwYQEubAwcgAkihuxnA/ETVggAAA"
+ },
+ "ol-3": {
+  "quelle": "_quelle/website/mediathek/879_Olympia-1.jpg",
+  "frei": false,
+  "original": [
+   4770,
+   3456
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Olympia Suite, Essplatz vor den Fenstern",
+  "abbild": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACwBACdASoYABEAPu1wsFIppiSiqAgBMB2JYgC7ABBfeE6g/Ea3cmBXykdAQ7mcAP6ZWuzRqTnRge8Lct+I+AIfPzHfTj3D4TY5IheOuWYS49zap+lujP38QmdVl7mrJ5/qal2RAHoJ7jCe5rZKIq80ZiTOBtycAAr3aNC5V4Na6sOYpVAlI2bImnYknBYJcyv0xK6x5BAMCKQckw3mwvpoWAchBAAA"
+ },
+ "ol-4": {
+  "quelle": "_quelle/website/mediathek/880_Olympia.jpg",
+  "frei": false,
+  "original": [
+   5184,
+   3456
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Olympia Suite im Winter, draussen das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdABrPRVXosGDxYOgA/pkruSyfBcHLuuyS2T4EfMcbGhw2S2DJmdJFhQZdU5jSe/McSmHngrgU8P/SEkCvESWVsA2/KJyKz3+dJgXgYaFY2HvKUG8kN69EMqgeuByVTFwQJjIjNC4ga6p8LsLH+NQfTgAAAAA="
+ },
+ "cr-2": {
+  "quelle": "_quelle/website/mediathek/194_b-su-cr21.jpg",
+  "frei": false,
+  "original": [
+   1500,
+   999
+  ],
+  "breiten": [
+   640,
+   1200
+  ],
+  "alt": "Cry d’Er Suite, Wohnraum mit Blick in den Garten",
+  "abbild": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOkJA8AA1QhJPW0M2sdaTjnQLgA7/ftyC4cz+CdgsGZOrvy3hoYYISwlxhj1sAQMdfquRExAz7iJKVVKNbHyZytNJ32OTAcdplaQBoFx3GtSNQHiSsFRq/qHnxf8+13nSK0dBsOAwY+jXKWM7xdNAA0g0LchaLJkxy9CYg2B0sfUaif95/kcAA="
+ },
+ "cr-3": {
+  "quelle": "_quelle/website/mediathek/2047_Cry-der-3.jpg",
+  "frei": false,
+  "original": [
+   1030,
+   687
+  ],
+  "breiten": [
+   640,
+   1030
+  ],
+  "alt": "Cry d’Er Suite, Schlafzimmer",
+  "abbild": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOhxAAEq966kSs41p0LwpYA9gHVPhO3Td9phqFGmxIW44m4qJQDdatdt5VZNnk2Q7bK6jajt/3IpMU62X8m6wi8n3LuqucUsJ0aFDjF0sb6+FSNxMeFJRr9AnzaynkCpWGOTsWo+D3i0feqpjqm3AqArRGrtWFZ08Wq522aPsDgAAA="
+ },
+ "cr-4": {
+  "quelle": "_quelle/website/mediathek/2034_Cry-der-Suite.jpg",
+  "frei": false,
+  "original": [
+   680,
+   469
+  ],
+  "breiten": [
+   680
+  ],
+  "alt": "Cry d’Er Suite, Wohn- und Essbereich",
+  "abbild": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAAAQBQCdASoYABEAPu1orVCppaQiqAqpMB2JYgCdMy/BH/gfHc1XBXFdSddzsK9FbNIAAPTrerVp8hA/6Nn41leHnyrRieT/WfSWhQFaoA4cE+7GaNOiB0gbc6rfASYZMNY1ar1gJzSGPKvn8x8oI8FEg7o6oNuU2QEE43SZrkla3tWkq8q9Fyx1G4eOxpph+G3gGPNDxq9r5vVys0lUIBqT5++25F5RqXiTjOt1HFpXHZmqC6gFLDf8d9rXm8AA"
+ },
+ "sa-2": {
+  "quelle": "_quelle/website/mediathek/196_b-su-sa11.jpg",
+  "frei": false,
+  "original": [
+   1500,
+   999
+  ],
+  "breiten": [
+   640,
+   1200
+  ],
+  "alt": "Saslonch | Streif Suite, Wohnraum",
+  "abbild": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgA9K15rH6ooFXs2zWAAD+jab9S/TLj1YENEiWeMy7UBsUKyIqFlfI7Xt1H5y/unT1Lvy9RlEgIwsE6U7YqgGrJPdjK2RxJAU41fdAgT+yT/fz3EbZY9b2Rb17HOt8O4a1fnjIAA=="
+ },
+ "sa-3": {
+  "quelle": "_quelle/website/mediathek/208_sasslon.jpg",
+  "frei": false,
+  "original": [
+   2000,
+   1154
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Saslonch | Streif Suite, Kissen und Kerze",
+  "abbild": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JYwCAAAfRO1sHSGUYWyVwQADhXZ4HeMXburt830GNYCOOd2JXIlEBDdiyF0Y8M77qgc3u6b449qLAnvVLYXTFgYKWpA12pSP9/ebDH1QxiEFl1SRgEgxkSy952U+T6LVwUIhUEJt4M/vjrljU9ZuSsIAAAA=="
+ },
+ "sa-4": {
+  "quelle": "_quelle/website/mediathek/315_b-su-sa4.jpg",
+  "frei": false,
+  "original": [
+   680,
+   453
+  ],
+  "breiten": [
+   680
+  ],
+  "alt": "Saslonch | Streif Suite, Bad mit Blick in den Schnee",
+  "abbild": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACQAwCdASoYABAAPu1iqk2ppaQiMAgBMB2JQBOgAspMkqAZnXAAAPgp5RdqQ066ZoV+wN+PYmTGF4cmgSzBy6pGtmT8srpmTzAaTYXqtq7H/J7YpfotoqipUoZuNaOwkwSbfnhAcyDRoi4HsRK+nmbI4DFRH1NuhjdOrUy40oo1AufLwRK7VQ9ALAA="
+ },
+ "sa-plan": {
+  "quelle": "_quelle/website/mediathek/316_b-su-sa5.jpg",
+  "frei": false,
+  "original": [
+   680,
+   453
+  ],
+  "breiten": [
+   680
+  ],
+  "alt": "Grundriss der Saslonch | Streif Suite",
+  "abbild": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoYABAAPu1kqU4ppaOiMAgBMB2JaQAAW+yyyNk583ejn8wAAP7zdRLmOP508Tzo20DmpyfrIoQKh5HGGzj99d0yPPw4AAAA"
+ },
+ "la-2": {
+  "quelle": "_quelle/website/mediathek/195_b-su-la31.jpg",
+  "frei": false,
+  "original": [
+   1500,
+   999
+  ],
+  "breiten": [
+   640,
+   1200
+  ],
+  "alt": "Lauberhorn | Stelvio, Essplatz mit Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdAywBdohFnXG7BwN11ph6AADgNtqd2x7a3KVTYXLtJbERjzAxqQevWOe3/2faL/nN0lt7nKcgS2YQIr8LhqiS0TFFKZWoFdEDduG5zxYI8HE9RowkU6x9avg/t2lgllqxh8uKZbuVCQyeXTFRwslrtCvn1YrD3jtcJsgAAA=="
+ },
+ "la-3": {
+  "quelle": "_quelle/website/mediathek/321_b-su-la5.jpg",
+  "frei": false,
+  "original": [
+   680,
+   453
+  ],
+  "breiten": [
+   680
+  ],
+  "alt": "Lauberhorn | Stelvio, Schlafzimmer mit Blick in den Schnee",
+  "abbild": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdOUE6UASOvU21CvrL4DgA/raVxPKQirc333+e/kNQ4Auh03yy77nlN1YBcnd2PAHBOvjgkfJm3bV6K6UM6muwHEtGNeJrw1fvbWbt2zyp+fl7F/aOo76JFNxQN+GkkW++FqolH2rI9uZZry9ZG7FBU3YAAAA="
+ },
+ "la-4": {
+  "quelle": "_quelle/website/mediathek/322_b-su-la6.jpg",
+  "frei": false,
+  "original": [
+   680,
+   453
+  ],
+  "breiten": [
+   680
+  ],
+  "alt": "Lauberhorn | Stelvio, Küche",
+  "abbild": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdAB4PM6UooPcxtEmKOwWAAP7HIYAdhRx0Qz0XokFnsL3YXzVTJNPSAq6TnixeFs+Ruh5/0RlVx/ZGuHttr8H4oSkAgFRzyJ2Zzi8p6hWvuCWLBd6LY7l4ufsKQ5tNk25rXnGML6KmWbOZgwcSgaNQAA=="
+ },
+ "la-plan": {
+  "quelle": "_quelle/website/mediathek/323_b-su-la7.jpg",
+  "frei": false,
+  "original": [
+   680,
+   453
+  ],
+  "breiten": [
+   680
+  ],
+  "alt": "Grundriss der Lauberhorn | Stelvio",
+  "abbild": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAwCdASoYABAAPu1kqk4ppaQiMAgBMB2JaQAAXBtyJJ5gAP7zfu83t9m3ekda+5T/gKGwfyCHOFuNwkQp7/LmxQAAAA=="
+ },
+ "ma-2": {
+  "quelle": "_quelle/website/mediathek/369_Matterhorn-Suite-1.jpg",
+  "frei": false,
+  "original": [
+   5184,
+   3456
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Matterhorn Suite, Sitzplatz am Balkon",
+  "abbild": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgAybhVJbAwqIzA17AAP7mGBl/LgFrgqRz0s4K6kAVDqm7fAiiJftKU3SJdVaUwl4XmsOTYT4EEyZjugw5p1rVgGf/H3iMxfq/yyllL5/ps4L4gxrubdQkDRYj8szVThJfNxT6/pXxGXaaPoG5vd59UKs9rD3UDkL0AAA="
+ },
+ "ma-3": {
+  "quelle": "_quelle/website/mediathek/371_Matterhorn-Suite-31.jpg",
+  "frei": false,
+  "original": [
+   4516,
+   2820
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Matterhorn Suite, Wohn- und Schlafraum",
+  "abbild": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JagCdMoABdwoUkYMk+6sAAMr8tvwTT4zN+hNjs5XGyAmdPaibhxK6Vjrt/LQVXwDgsSD69lPi2rR0u2f5VYM5DR3cSdSvppmmicqAwGSkDvrRjOBPLM/JMgKMwskRkTKtCV+4+TNFC9v9aAA="
+ },
+ "ma-4": {
+  "quelle": "_quelle/website/mediathek/370_Matterhorn-Suite-2.jpg",
+  "frei": false,
+  "original": [
+   5184,
+   3456
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Matterhorn Suite, Rose und Zeichen des Hauses",
+  "abbild": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABwBACdASoYABAAPu1kq04ppaQiMAgBMB2JQBOkH+QVQgCpaGzWYMPAPoRgAAD+nvnhlZEl6hxR/FlSY9fMWkjGZGoQjO0fkMVCtAXeVGkQPUGMQ5lwb88G5el1DP3ke1FO0NZdBpWvk9YdlYgMsU/wbvXZpme+H2ZejjYRXGWnInxjIv0Zb28eDhmnCYiY0ijmUUxJAAA="
+ },
+ "do-plan": {
+  "quelle": "_quelle/website/mediathek/334_b-su-do3.jpg",
+  "frei": false,
+  "original": [
+   680,
+   453
+  ],
+  "breiten": [
+   680
+  ],
+  "alt": "Grundriss des Doppelzimmers",
+  "abbild": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JaQAAW+qtgSBEgAD+83UD02BQecPy5Vrd+nv0GzjkZgyt5eAAAA=="
+ },
+ "ld-2": {
+  "quelle": "_quelle/website/mediathek/1047_Little-Dream.jpg",
+  "frei": false,
+  "original": [
+   5120,
+   3456
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Chalet «Little Dream», Wohnraum",
+  "abbild": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdMoGv/gQHoQAJQD3XNEZskAD+cs+KKdNbtV737/u6C0Vlk+akr4SufzNYgJ67GT3n45ZTvJ9rOADcf0uZTLPne4o3C8JL2b/7SeuVuv91TAmGu919++IomnoTzD2XLfIhuHVb0PxpwjT1K0nZEASTiwyIUqVc3gPe/BAAAA=="
+ },
+ "ld-3": {
+  "quelle": "_quelle/website/mediathek/1045_Little-Dream-4.jpg",
+  "frei": false,
+  "original": [
+   5184,
+   3456
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Chalet «Little Dream», Schlafzimmer",
+  "abbild": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdMoABnasOvgJtsYCUVMZgAP7p2h4pnSKLT6nkAAbmcdSGAcApPi2PRrxxO+ed9ggZe2tw47Cqse+5V90/6vlCX9CNvtIUWxFAF0IXXx+uG5RuFil6JxfOSZfs2zeA8iiq/91rMIO08Id39+8KMAc/L8/8+i4u1AAA"
+ },
+ "ld-4": {
+  "quelle": "_quelle/website/mediathek/1044_Little-Dream-3.jpg",
+  "frei": false,
+  "original": [
+   4991,
+   3327
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Chalet «Little Dream», Kaminfeuer",
+  "abbild": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZQDLLCLqyehmeX+MbUoAAP7ql/If0blc1TZ+/D0Y7SGEd0xTbTjykx3dzaRYEg58Uo/ZY3Py4hGRndlB+On9Wc4KXn2V/mJ+p6RqBGWyWeafCPXhu2u1+wgSX46F4FNszpe/wm/rOgAA"
+ },
+ "ld-5": {
+  "quelle": "_quelle/website/mediathek/1050_Little-Dream-5.jpg",
+  "frei": false,
+  "original": [
+   5067,
+   3070
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Chalet «Little Dream», Dusche mit Glasdach",
+  "abbild": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoYAA8APu1iqU2ppaQiMAgBMB2JZwAAVGDtotxDgulFkxhAAP7c03vfkdGLUhJNaUWq6tmXv2+YBSESiAFMrJxhre13Ib2Z8SYW2ElGiKMoDO+NUy+G8+f+cMrG+CuZMMuOMw0V9bb5h9GigAA="
+ },
+ "haus-winter-nacht": {
+  "quelle": "_quelle/extern/portale/zermatt-tourismus-winter.jpg",
+  "frei": false,
+  "original": [
+   1800,
+   1200
+  ],
+  "breiten": [
+   900,
+   1600
+  ],
+  "alt": "Das Haus in einer Winternacht",
+  "abbild": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACsACFTIe785y5OYrrBgAD+8MuCoUJk58IAFXlbn6mj/mOkGry8daum7MYXOowzvr69IGbH2d+uRxEXO69QdKwNlCGeB3rzJhB4m/p4BniklHcR+FJah2MKOE99qrW55dDI4L1TxWPNzlT2uxRfRvX9ciR3xHB/odU4FsN2fzIufVLAAA=="
+ },
+ "massage": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-53417155.jpg",
+  "frei": false,
+  "original": [
+   1800,
+   1350
+  ],
+  "breiten": [
+   900,
+   1600
+  ],
+  "alt": "Der Massageraum vor der Steinwand",
+  "abbild": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBQCdASoYABIAPu1qr1CppiSiqAqpMB2JQBhmghr4SsXvEfyxvrothXNlG9Cm4xPNoAD+8qqVGT7vSMdbMFS85ogk3Zm/E7VY39i7EwCNjBThtRdQpQXRP+dgXCfQtejP49miQAGO+V0x8HE8ofZx+zmB8HcJx0Bz2QxYtrp7Q2eHk7odb2K0w/GCgWPnLBtrmsAA"
+ },
+ "pool-lounge": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-19385136.jpg",
+  "frei": false,
+  "original": [
+   2833,
+   1535
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Am Pool am Abend",
+  "abbild": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADwAwCdASoYAA0APu1iqU2ppaQiMAgBMB2JZACdAB04q9/1+PlTkCAAAP7NFHkzVLquyuOA3Brq7Ax1KNHAOopljPeo7CHNelHN7EUOpOgVRNH8A+CRMyGmRRrGfB7gbXYjAEuWdMaXXXUJSqgqiIsEAcmFmtb4RnUGHXcVvD8CRNz0PPgAAA=="
+ },
+ "pool-glas": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-19385103.jpg",
+  "frei": false,
+  "original": [
+   2833,
+   1535
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Liegen im Wintergarten am Pool",
+  "abbild": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADQAwCdASoYAA0APu1iqU2ppaQiMAgBMB2JZQC/OCESfKx2KJeKGngA/idDai4i22y6/s4OQzGO394y7lcIemHz5kJ/4I+C4IqjfgrLmGJIU+gLg69cXrWFuZwzzjtEsom+gWB1WK0U9YOFH9Fn0x0lcbjLwHmu9mrPT8/ILtNacMVAeN3s0AAA"
+ },
+ "wellness-nacht": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-19385089.jpg",
+  "frei": false,
+  "original": [
+   2833,
+   1535
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Licht am Pool am Abend",
+  "abbild": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACwBACdASoYAA0APu1iqU2ppaQiMAgBMB2JbACdMoR4GCxsz8f1BoqyH7Q7cG6gAP7p9vVtGswfUcprwl262qNEG35S+VtEtwktf7oE/W9LbYyGV7Av1QO+4FBA8BikhDzzTk+UyR4YFfBtkde6IvhkfNe5f2owH3Kodvfqrn6wfDhLe1+qxH9VVFzOJcq2/Q7XcsEPsO2LikqLkz1L98v89fdivqzTgbdbgAMos/zbAlyz8AA="
+ },
+ "pool-tag": {
+  "quelle": "_quelle/website/mediathek/2466_IMG_1902-HDR-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Das Erlebnisbad am Tag",
+  "abbild": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACsACPQfwx9v57FaKah/ctQAP7oM7ewGHBTchwOkWrCSFaNxse2MefC91vz3LdvbDn0RHBEAt49Nh0nbRzjBvQVwaltwsXokpjaiPuYsypiA4MtVnwARcTYuwWpjlVx8NwVu1sFmy9RfjLc1q7d1MAAAA=="
+ },
+ "pool-nacht2": {
+  "quelle": "_quelle/website/mediathek/1820_DSC03199-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Das Erlebnisbad am Abend",
+  "abbild": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbAAAXJDZz3i+z/yM4SDOIAD+wDLkwk7M3pC1rVbo9GLBmwKG6Nl8+tor8rKptw97fZvmKOA+aD8o5cL2MxodxgGIaStj7a19GO6C427D88DRCr8kNUqrVOPIwK0BV3lmx2gqfrmiQSQSVwAAAA=="
+ },
+ "aussenpool": {
+  "quelle": "_quelle/website/mediathek/2542_IMG_2328-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Im Aussen-Sole-Pool",
+  "abbild": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdIIjB4/pofANP9ei8vbfAAP6g4ROTxhq+Sy5x1Tu6oqDTk1WlT+QsgP11DKPn6OtaP1UkeuYHZ9kOobDumr0gzjF1djENMQMm8gQmQw8igZ+JntgESjA3zX3LX5BYvH2wTjPQRtXi8dyNdg4Iqs2Oian9aMAAAA=="
+ },
+ "relax-sw": {
+  "quelle": "_quelle/website/mediathek/501_IMG_5952.jpg",
+  "frei": false,
+  "original": [
+   2500,
+   1667
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Relaxliegen im Wintergarten",
+  "abbild": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZwATwBQgibOdBuJrR+ZRUwAA/svwFqpwWICSi8W+YGELZ8U4wkm7HCHnXVr4ow7afieWAWj2pis04LvxkuRBYN00sPBf8iye36c4o5j8eDO5JAS9FUupebfPOxm2gzlOY/LVspot9SnElWcYKW6RIYAAAA=="
+ },
+ "kamin": {
+  "quelle": "_quelle/website/mediathek/1815_DSC03183-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Die Lounge mit Kaminfeuer",
+  "abbild": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAADwAwCdASoYABAAPu1iqU2ppaQiMAgBMB2JagCdMoABtQU/Od3fKrI0AP7cvwDiQBqKdFPc21tAeo+qR/S8Q/CszFDzM3136MJpkKK1KD7nufBDIUVsaxJwI+J2gdd1m9tVKk0deUOvV6bqt1C9362smOjBEK28P/IKRnp3YM1uJLVGFvgVokJ6phwdn8OT/KHOCH2vgYlR3Fh6eTZxfQp/0NoDZD7hSXXX69Ltmk0nzROSQAA="
+ },
+ "winter-terrasse": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-53417250.jpg",
+  "frei": false,
+  "original": [
+   3000,
+   2000
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Winterliche Terrasse mit Windlicht",
+  "abbild": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdAywBq1OWGPaC0hNX1SgaAAD+NBENhvyPMprMZEk5cLskL5vmVO92TkGka79CIxCHm+xXmZR0MEit3ti3GjvLJJmkxoNFoSIF61qSQbxCRCEz3KjJu5KpWHGBCztkWBW391l7N5rAmQty31tXRQXmF+kWKq1RBBcQdCUK9cvrZaCVBsGCAAA="
+ },
+ "schlitten": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-53417286.jpg",
+  "frei": false,
+  "original": [
+   3000,
+   2000
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Schlitten im Schnee vor dem Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoYABAAPu1iqk2ppaQiMAgBMB2JYwCdABenha/fo5vfhKXgeVwAAMw/Wyn2t+7NXFOqQfXcsbxHIAhACPPlHXOwCmK1kbQfEX85A2I+LLxnsaoRvdiUySjY7AT8dnHZ2hE0JT8SEIjwjNfej8noD35INEZHPmNigQo1AjVvmnyXEvuCjayhxnKgkkCt3/4AAAA="
+ },
+ "winter-lounge": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-53417311.jpg",
+  "frei": false,
+  "original": [
+   2784,
+   2303
+  ],
+  "breiten": [
+   640,
+   1200,
+   1305
+  ],
+  "alt": "Liegen im Schnee am Wintergarten",
+  "abbild": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAwBQCdASoYABQAPu1urlIppiQiqAgBMB2JZwDI1ywApsW6MdvsCYXPj+aXvTkEkblXoAD8rMFxHMc10FkedI6xRjBi3nEybj5wwXzzxrQVkVIvRmXxTQnKanuWqR5aPvLBelseizSx/1qaNZxnotrDHGuXWTlHQn5aXJhxKwusUQb3itEp03jTqSoBEpTGphHxROM8tiYOy+L7f2987A/3NpU7cy7oJaDTI9WYAAAAAA=="
+ },
+ "garten-tisch": {
+  "quelle": "_quelle/extern/myswitzerland/myswitzerland-0507bb23-664a-e90f-a83a-fb64d5462bfb.jpg",
+  "frei": false,
+  "original": [
+   5616,
+   3744
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Der Garten mit gedecktem Tisch",
+  "abbild": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdACLP9l+0KRXPTnqfz+oAAP21nCfEqlQhi6IEmolNVfjURs5whJ+Nmo8r1JTe8piJEVmi7D87I+1/aIxYcN6FpusyKmooLPt81RT10einC/2y5TRWfeZFDmBCyvhlyNLRoFY1Aja3kxuk3G+JzqZVuA2zQtlgAA=="
+ },
+ "garten-yoga": {
+  "quelle": "_quelle/website/mediathek/459_yoga.jpg",
+  "frei": false,
+  "original": [
+   472,
+   315
+  ],
+  "breiten": [
+   640
+  ],
+  "alt": "Yoga im Garten vor dem Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAQBACdASoYABAAPu1qrU8ppiQiMAgBMB2JbAC7ABJti3tQMQSrnSp17AD+3LuIBGaP+PaZYjEUtb8W6agxHLHCDTwQ7iC21S3f1E67+zMwF1Kj+zeLlGE380JsnA99Yq1MhN6RPPr1vZ1iiNGHZEnx8yKbD5QkY2btmk6lAQ1vMBo3ZDSh5OkXq1NgRPAdEwAAAA=="
+ },
+ "apero2": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-53417342.jpg",
+  "frei": false,
+  "original": [
+   3000,
+   2000
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Zwei Gläser zum Apéro",
+  "abbild": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBYebQAJMiM1ejibXT6xEgAA/R4ao0kJDNwzwdbtsVmah0e7HAZONe71UAgSPWa2YKiUnHrmOm9MORcbATdlmcIZgCG6ueq0T1IsZiQXQnCS/asr8HK6kzIP2sFi5RrvhJtbOsOaXdhrbbeJte1fPEVw7cy9LynHMT0f1oq9iQuhzvBES0x9WqWgHbpQjI50AA=="
+ },
+ "karaffe": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-53417203.jpg",
+  "frei": false,
+  "original": [
+   3000,
+   2000
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Säfte und Blumen am Morgen",
+  "abbild": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbAC09BSyI7FcxOXjukh3XWle3gAA/Ue9S/s01LAIjbNSuhKAPxm4Qk8BZpUpMc8NIsNiSOeZQg83zcs4osvDIGxXFTxZqHryibp2+Vy3uSn23NvxbeMpCs1D3EmQBhCseqZPW2Pz8ieNbvZXJsgH0bGu2j4IDjq3Wr/V5+jiznPrzcnRRTG1rC5XWcZdf3HW3dam9Nb8RAAA"
+ },
+ "kerzen": {
+  "quelle": "_quelle/website/mediathek/1467_DSC02854-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Kerzenlicht am Abend",
+  "abbild": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADQBACdASoYABAAPu1kqk4ppaQiMAgBMB2JZgCdMoCGACP6JfOWSWohP4d0EUkYAAD+ztJ8+yvANNRZfn4Hpir6x9VlOr2njX1o1hXJra5k4ytvfvpQ37nW32Z+MkDYWLhIDN6ODBM8qb+6yJ1dsunsNXR+YMHX5XvJLtc+AwDKVP7pl7nSwAAA"
+ },
+ "feuer": {
+  "quelle": "_quelle/website/mediathek/1479_DSC02979-scaled.jpg",
+  "frei": false,
+  "original": [
+   1707,
+   2560
+  ],
+  "breiten": [
+   640,
+   1200
+  ],
+  "alt": "Feuer und Kerze",
+  "abbild": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbACdMoRwACoZZZVqt1azyeg8iUQA/tz1VxR76Twv/NMOcqnJOUZ27AVJ3rRD+huLcq4h06WGQtx7chrLUWj1uiDOuUTLWqM6+0Kj1GOJcG7j+AmvN6V/3VoLrmbGJkjz69AlUXM0/GTzBCJvW7Lm9vAJoaQSC/d1yIMa6FAsAA=="
+ },
+ "ig7": {
+  "quelle": "_quelle/extern/ig/ig-07-DbbP306NJeH.jpg",
+  "frei": false,
+  "original": [
+   361,
+   640
+  ],
+  "breiten": [
+   480
+  ],
+  "alt": "Beitrag von @suitenhotelzurbriggen",
+  "abbild": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASoOABgAPu1iqU2ppaOiMAgBMB2JZQC06Bxu2PY+aECWdFQEAAD+WgSVciZx/kBLhum42P3jBvyGhnWEZtXi+nR+4MSX88pd+oKlSzmS4lhV/s4iAXz1XJBuof3T+ryffYtc80yCJjGaaQlpYt9167qJAAA="
+ },
+ "ig10": {
+  "quelle": "_quelle/extern/ig/ig-10-DbBfb8CNWft.jpg",
+  "frei": false,
+  "original": [
+   360,
+   640
+  ],
+  "breiten": [
+   480
+  ],
+  "alt": "Beitrag von @suitenhotelzurbriggen",
+  "abbild": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoNABgAPu1iqU2ppaQiMAgBMB2JZgCdOUAAqc0Ee4e6z1EPyVAA/liFKsaKsOYMNgxSVR+uK7enn0mNRNvvuhsCECrut8fsCLhqiUbFCQ6umjKTlBinGX6+qoQQ9nD6tnxVhkvjntMRzeo3t24CZe28Y79AAA=="
+ },
+ "ig11": {
+  "quelle": "_quelle/extern/ig/ig-11-Da8dWN6t0nt.jpg",
+  "frei": false,
+  "original": [
+   360,
+   640
+  ],
+  "breiten": [
+   480
+  ],
+  "alt": "Beitrag von @suitenhotelzurbriggen",
+  "abbild": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADQAwCdASoNABgAPu1iqU2ppaOiMAgBMB2JYwCdABsuLbBH5mo6ioAA/pFUgeDVr3N6uViTgkZtgv2cgqD2Dw/f7FlaMl8m2VDsy7oHHvuF1fWgoJtXgdYUzoe3Xq5VtNoIKYjNzNXZfp1y0F2ePR+ZK9jb5G0MXshUGnxOw9EqOJ22tyLIAA=="
+ },
+ "ig2b": {
+  "quelle": "_quelle/extern/ig/ig-02-Ct4cSvkKy8u.jpg",
+  "frei": false,
+  "original": [
+   361,
+   640
+  ],
+  "breiten": [
+   480
+  ],
+  "alt": "Beitrag von @suitenhotelzurbriggen",
+  "abbild": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABwBACdASoOABgAPu1iqU2ppaQiMAgBMB2JbACdACHerp+NW8kU50QVIfSqsAD9ys44F7RyJn08OnxGKzTSXpRZVFTY5Bl9ATv/hiAdG3Yf9e62mJ91zSOiYHKzirTknBsC48kiB/y4pRusz9xLvh9m+zyL4REN/1nrU0lqaKNaVEZ1HcSue/V1wxAZtld8/FYYwAAA"
+ },
+ "ogi": {
+  "quelle": "_quelle/../pirmin-alte-seite/spiegel/pirmin/Anfang/Bilder/ogi.jpg",
+  "frei": false,
+  "original": [
+   245,
+   250
+  ],
+  "breiten": [
+   245
+  ],
+  "alt": "Der junge Pirmin Zurbriggen mit seinen Ski",
+  "abbild": "data:image/webp;base64,UklGRuQAAABXRUJQVlA4INgAAACwBQCdASoYABgAPu1qrVEppaQiqAqpMB2JaQAIEC6cimPqQDkTLzWbeJ2d8Kna6WfOpvOqTsAA/vOCgSQNiHuivYuo37EPjfttM3IYcgRbqcR3FaQDXyB61k/ogaO7FOMZoTMXG9VTGdbMyyDr3Gfs97PSgdrxdrtpWu7gNI43ZTyEZJHmQ2qeEmDWPHb8WLWd0rdIiBcT1dytTe/c4Qft/FjyNSquBxenab1Vn1raji8CyeJeKodgumx5ei0PaLMWvgo/OQrjnylBV/N9oA77dGk6SruQAAA="
+ },
+ "klein": {
+  "quelle": "_quelle/../pirmin-alte-seite/spiegel/pirmin/Anfang/Bilder/klein.jpg",
+  "frei": false,
+  "original": [
+   202,
+   292
+  ],
+  "breiten": [
+   202
+  ],
+  "alt": "Pirmin Zurbriggen als Kind im Saastal",
+  "abbild": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABwBACdASoRABgAPu1qrFEppaQiqAqpMB2JQBbZAZuq00ZNUOJjbmZORO3fAAD+04YnYXX7vyUCafbS+xK2oYaKM9ehYSIxETHjFcK+ZaiaDaIbFoC6Dm3prTc3kxUxl4xwvw6Klbo4+XJGBQb5fIql57p6i3bpzWCXQe4Uha+2Us87QYJUKIsTSRgAAA=="
+ },
+ "wc": {
+  "quelle": "_quelle/../pirmin-alte-seite/spiegel/pirmin/Palmares/Bilder/wc.jpg",
+  "frei": false,
+  "original": [
+   142,
+   400
+  ],
+  "breiten": [
+   142
+  ],
+  "alt": "Pirmin Zurbriggen im Rennanzug",
+  "abbild": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABwBACdASoJABgAPu1iqU2ppaQiMAgBMB2JbACdMoRwACIWHrMMKGWYyDGLAAD+h1cJqZ/RJp+GYs4dLh4O7SJsU8NMjrFVTJ1WRMOSkeE/340dYAFdICj0tjtDrNBIdhr95IM+fV3Fy2rJB4HlcXkWOXhOt/xWqAmfFmxkRWPz7R69pMfRtNn8qCl8FlAXjVOLfNyb/v0OmoMHRjrLL/oJAAA="
+ },
+ "garten-abend": {
+  "quelle": "_quelle/extern/neu-2026-10-18/video-standbilder/garten-abend-matterhorn.jpg",
+  "frei": false,
+  "original": [
+   2160,
+   3840
+  ],
+  "breiten": [
+   700,
+   1100,
+   1600
+  ],
+  "alt": "Der Garten am Abend, Laterne und Matterhorn (Standbild aus einem Video des Hauses)",
+  "abbild": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBACdASoNABgAPu1iqU2ppaOiMAgBMB2JYgC+SB31y409NFThGUoBgAD+TxBSnAyxbicOaONWkPDcm0RpYoWaLo2+aibxBGmPA72nBDC4AcD/XK0y5Qf7urFXNsyZSADbq5pxYLPiCxsaBIbk/kPgYezM4AAA"
+ },
+ "pool-kerzen": {
+  "quelle": "_quelle/extern/neu-2026-10-18/video-standbilder/aussenpool-abend-kerzen.jpg",
+  "frei": false,
+  "original": [
+   1080,
+   1920
+  ],
+  "breiten": [
+   700,
+   1080
+  ],
+  "alt": "Im Aussen-Sole-Pool am Abend, Kerzen und Matterhorn (Standbild aus einem Video des Hauses)",
+  "abbild": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwAwCdASoNABgAPu1iqU2ppaQiMAgBMB2JbAC7ACG8CnhkEF6AHobgAPkey3AJRVycmEqN75EvRPHsZQT227vdoPZrjLG50zqP8wTSW9V9f9hgQnunqD3gblrx+gV6rdIGEOb9bs9iMrxwopytIfH1f/IoJoTnNqh1K4MRr7pl6lcWoW8mAAAA"
+ },
+ "apero-platte": {
+  "quelle": "_quelle/extern/neu-2026-10-18/website/websitekoch-aufrecht.jpg",
+  "frei": false,
+  "original": [
+   1920,
+   2560
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Eine Platte mit Trockenfleisch und Käse am Fenster, draussen das Matterhorn im Schnee",
+  "abbild": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAADwBACdASoSABgAPu1sq1EppaOiqAqpMB2JQBOl8dAYaeArQ5gi3ItAygpDRekm2VgAzjRgy3tnC2e+mFlIWePEcrvObqBuAMbeqUdutStdGP2Puu0y/QwOf/mT7bPZN6GF9OMVpSv+lfJpo/2mSR/icztp0VAFoaEwX9IOv5h+nsdZVka2b10m9KI50aIrpMTk35fyxQ9l7AlJuyWHHVqyK2xQJkRhT38EasfSA/8dqwnaiupkOAAA"
+ },
+ "joghurt-gross": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-53417231.jpg",
+  "frei": false,
+  "original": [
+   3000,
+   2000
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Joghurt, Früchte und Kaffee auf dem Frühstückstisch",
+  "abbild": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdMoACBAaqqnGCYO3gAPzfX8NuiWBmsNMJUUlMQqkfXGLsnqC4peLJj0bPmRk791fIqcSR77DHBSB9Z3asR0PFU6bfEoz65ZRL1lgYOOojDKijau8Ajp3lkJ00eg1mTD+AAE64htJeYVPcLQ51c3YjiXwXoIkSZufT5IiUQMXnsT1W07aAAAA="
+ },
+ "glaeser-gross": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-53417236.jpg",
+  "frei": false,
+  "original": [
+   3000,
+   2000
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Müsli, Nüsse und Milch in Gläsern",
+  "abbild": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdAA8s4fjUVMvI7EOAAP7AquCbugGJ1wJrII5MB392FygpunqBL7RdU4s5Sea0sRDJhKIMdw6UlzXC72xpMpGBxzESI+goxpv/Smblb7ipPATHhHNQQWsCwpk8qvcrBPiFL+Lg4Lkvsr4UAAAA"
+ },
+ "garten-hell": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-53417140.jpg",
+  "frei": false,
+  "original": [
+   2304,
+   1536
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Der Garten im Sommer, oben das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JagCw7YzQ2UtVE4WL0wwXOrOAAP4nq3wqCHUr0odv5VxsPHcVdn+/md0qj2q4pLZ3uDxcXlEbjF49/InPW4dGi8bLZXbufiFD6sldD2c010u2LobSg2GwZ4bz22GWC4eBxgyNi5eV3dWV25MBvfvRD35/AFLROgrSzIQCBfjLfLLiG3PzNCLqJ+Y0aAAA"
+ },
+ "lounge-tulpen": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-53417318.jpg",
+  "frei": false,
+  "original": [
+   3000,
+   2000
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "In der Lounge, Tulpen auf dem Tisch",
+  "abbild": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOmUGUgB36EcZK/95KyhbzRQAD2pYrmVTeOCrJOaX3BWoZ7RzP/eHPr3gTRzRmSh/1QhUlVoRglWLYmCyb8l3gvCXRSRVkWIx5HlF9RuhXcc/QlZf+chyGCXy+90FSlzmoXyslROY0yvfiFHlNq9LoBr/pa1h3WWPGxBAU1T59jm/moVxfyXhXRzEQpwiFYZKKLwB1WhXAA"
+ },
+ "kissen": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-53417275.jpg",
+  "frei": false,
+  "original": [
+   3000,
+   2000
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Kissen auf der Terrasse, gegenüber das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JagCdAYvg4QuvU8vJ4+vvBASYuAAA/usEiAl3Hi6XkvDAtAoIOiwJB833w+Lkgz3EkcwFgwCQg7KF7HmGelJEtfeBtnOfRlhjy5lqc1xcYxGlc/s+6k/kvF8x7ktDd7w5LzkeLwsHrr3F8Lxd7xvvlhWz16ZaXabjvy+nD+DwK1equJTV9nUx1qkiZ5RPbQJDyN2AAAA="
+ },
+ "pirmin-2014": {
+  "quelle": "_quelle/extern/neu-2026-10-18/presse/pirmin-2014-commons.jpg",
+  "frei": false,
+  "original": [
+   889,
+   1369
+  ],
+  "breiten": [
+   640,
+   889
+  ],
+  "alt": "Pirmin Zurbriggen, 2014 (Foto: Christophe95, Wikimedia Commons, CC BY-SA 3.0)",
+  "abbild": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbACdL1yBGsNR2GaVs9zxAJ0AAP6NEeUA4RLVIfOtdcH3CHU4hOcIT5+P+E3vbJvac+tx50DAqEw9h1ijL6pk5gakYF4ccrub8iPxvtiX3rphjhvsV3vPNBSIwAAA"
+ },
+ "h-wellness": {
+  "quelle": "_quelle/../saas-almagell/extern/myswitzerland/myswitzerland-00044124_m.jpg",
+  "frei": false,
+  "original": [
+   7118,
+   4004
+  ],
+  "breiten": [
+   640,
+   1200
+  ],
+  "alt": "Wellness & Spa Pirmin Zurbriggen, Saas-Almagell",
+  "abbild": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAwBACdASoYAA4APu1iqU2ppaOiMAgBMB2JYgC06ywBaZs4opk3LK/GrpgA/p7pJ1luL2xzR0192Hz8UFU1/AWR7sHTRagCx3bDWKOmJ8ALmllj0oUe9aSPUFo5jls4HzhVPFsQXtJIHGf/Ef+rOPeAmu79WEnypr9XEV7Cek6qjqh5gRk5XtrOLMHgL0dFnRvx+9Vs5V3MqIWDQud0ewAA"
+ },
+ "h-monte": {
+  "quelle": "_quelle/../monte-moro/extern/myswitzerland/myswitzerland-00072098_m.jpg",
+  "frei": false,
+  "original": [
+   3734,
+   2447
+  ],
+  "breiten": [
+   640,
+   1200
+  ],
+  "alt": "Hotel Monte-Moro, Saas-Almagell",
+  "abbild": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JaACdIExgvhSolHk1TWnvdzdi2eAA/uaHjpZoo06alTKCzGsY7DHvmDhgQCRjyl9wxD2Ck1FPqDoiOA6oyx80rMT0IBriTuX5qt3vz7+VI4RSZrzETEOXrx79EXrPo3juy5yWksDKbNpCXLc6pWjO3dvdQmJCSmVsuG6hdx5Ll4rvhVN4O6pbTdMb00T2sasuwYuAgQAAAA=="
+ },
+ "h-loft": {
+  "quelle": "_quelle/../loft-suite/website/bilder/zimmer-2692-98628.jpg",
+  "frei": false,
+  "original": [
+   3000,
+   2001
+  ],
+  "breiten": [
+   640,
+   1200
+  ],
+  "alt": "Eine Loft-Suite im Loft-Suite Hotel, Saas-Almagell",
+  "abbild": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdMoAC2Mrx+Ru1aSlCsluwAPfUK6gcR88rUKPFyCbyeVn8iqnnk2oabd4HCZJmbRYUS7llmgcgOkTlInFXL7mQUE9pmAIaoq100AW4oYymAUnfjnrQxn7sbh+dtr1h0XHII8NJZ1vqyXWcYkr+hTkRfjVIVj08MyuAAAA="
+ },
+ "ol-wohn": {
+  "quelle": "_quelle/website/mediathek/2498_IMG_0928-HDR.jpg",
+  "frei": false,
+  "original": [
+   5597,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Olympia Suite, Wohnraum mit Blick ins Tal",
+  "abbild": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoMxhsACOxRQMv4PGGt68AAAzfzNPLmlbpu8Pb5g7aKLKVlE26EnuABDkEHutnI2Cek9GdkZLMhTER35/j9HaDsyt8/5cpuql65eiaOwgLQ81ZRN3R8BonnIB+1N4lMw0P+rlkJDQo1gOKuH6IfLbdZDEC8qJJ60/HNXbo6a6USnWV1I9DAAAA=="
+ },
+ "ol-kamin": {
+  "quelle": "_quelle/website/mediathek/2549_IMG_0938-HDR.jpg",
+  "frei": false,
+  "original": [
+   5595,
+   3730
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Olympia Suite, Sitzplatz am Kamin",
+  "abbild": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdMoR8edDEv3IbwnKSAU540AAA/urH5MhxA/9eVLRSVBSA5So0SadLk61P3q/xzbSpsqU6oAgVG+xbJficLMyVm4ckl9MPWIQ0efh6dGYl2rjxuQBwqmWeyc4wfuFqXWziUqGNG2htoe4k2cb8EcrZ5QAMI6PqmNOIKO9PvomwIiwjRz0ljAQzgu+00eJFYeOXYg0wif7sx8cOqq4A"
+ },
+ "ol-kueche": {
+  "quelle": "_quelle/website/mediathek/2553_IMG_0885-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Olympia Suite, Küche und Essplatz unter dem Lärchendach",
+  "abbild": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoAC23h5t9evlBtOtAD5DLWeNSPrwU0hc0RgSnacKG4AapbdSWHSfj6algLbQWkF/Q89PfxKQHzLqAuDQhlb5TQL08OGDk3D2rmzxm9CVLET0cTvIbLI7fm97YBOJ3AY3ArKSvkzUwxYqae1CTautc/Mz7L22YXuie9KVj42BChvaAAA"
+ },
+ "ol-schlaf": {
+  "quelle": "_quelle/website/mediathek/2569_IMG_0954-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Olympia Suite, Schlafzimmer unter dem Dach",
+  "abbild": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JagCdMoAluRCj2n6zvyKHpW8oAPo0QQSwa6QBl/vH5gK8RxAT4e8Q7Bc53dCBmPO8l7lm5t5f8eaelUtTqnHjXi9VOqr27nEH4D7DUwtqmpmSYOCj4/z4LmI/AOstZ4iwperPHngGaCiElRXPiUOCIcpGWkLeMgGXnXEDjhbbWV003lDHAXmoSNSmbPCjJurxGDHat/SAAA=="
+ },
+ "ol-schlaf2": {
+  "quelle": "_quelle/website/mediathek/2581_IMG_0981-HDR.jpg",
+  "frei": false,
+  "original": [
+   5597,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Olympia Suite, zweites Schlafzimmer",
+  "abbild": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoMlsnbAcB+InEzcWTy4loqXAAD+zfCpChfr64+CTdqinfdSxAXOpEn0HUMnJ3TsFM9LHkMqABITLQvY4BHHjfvTP55OOwZn4nqMJrazGXhHnb5HQcrCFWuWUbGEPAf7MV5fioLXD5jSL2AmovK3V1ydv7C6xOK5NY6SkeO8OqXTtrz0BqIHfHcXIAA="
+ },
+ "ol-schlaf3": {
+  "quelle": "_quelle/website/mediathek/2586_IMG_0987-HDR.jpg",
+  "frei": false,
+  "original": [
+   5597,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Olympia Suite, drittes Schlafzimmer",
+  "abbild": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoR8jf/gN5DO1bisuOxV/IWqPeAA+g17bJL5pU6nGt+w/1VkqSwNfyO6UjMU/HkifLT7BS1D4Lyg5ihSZX4Vx5K0p5jK8t0Ij+56HBqamowNEXdRoDh0GcsqbwWOFRNw/HlIboLKhfYUmpNtLf9Ln+7fV1BXjqTDvJiQOC9BmcMgWWtJaBvhZqiwAAA="
+ },
+ "ol-bad": {
+  "quelle": "_quelle/website/mediathek/2577_IMG_0963-HDR.jpg",
+  "frei": false,
+  "original": [
+   5598,
+   3732
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Olympia Suite, Bad mit Dusche",
+  "abbild": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoYABAAPu1mqk4ppaOiMAgBMB2JQAAK8uhA/BuNjn6aIx4saAAA/jtD1QrE4FgfA+TySELMxHtYKtUWmt0BBY05CifBkWlt5IKmANtffCVyXh1G6IViKwAeKTOonpAY7FO1XZH65Fw5GzMNV21gzDsPGbioPgKGDAi6G4NbLRx633LLqJxyu71QAAA="
+ },
+ "cr-lounge": {
+  "quelle": "_quelle/website/mediathek/2788_IMG_1323-HDR.jpg",
+  "frei": false,
+  "original": [
+   5597,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Cry d’Er Suite, Wohnraum mit Sofa",
+  "abbild": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdIBgDAanZtys/qKUvx574XQAA/dgdtWk+2b7R5tV7XzpF/a4HwZJ6me0oAwJNF+MCiD4jypRVO7sC69ShZcmzzBuEuN1vR8sqzyi4kyWUN5ljxLj9+zPyhQdpacsARdCrmriIaXkzUe+rMeb6n5vyNVT76ZUz1JLo/ssjEEgA"
+ },
+ "cr-fenster": {
+  "quelle": "_quelle/website/mediathek/2764_IMG_1272-HDR.jpg",
+  "frei": false,
+  "original": [
+   5594,
+   3729
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Cry d’Er Suite, Bett vor dem grossen Fenster in den Garten",
+  "abbild": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgC1CIjC9trOQzUIYVrsYD/owADieTfsTOMgKCJ4jXDQ4BMb31ikJgSr7Qy6Mi5p0LafBP8ilK8mPWI2s1lWHGTuqQR4pvVKflA8fDVf7ZtAZgDzr4fFis4qVtcxcdfkbgCcELzBX4BBA288XMNm63xzpqexbfQZPQAA"
+ },
+ "cr-schlaf": {
+  "quelle": "_quelle/website/mediathek/2756_IMG_1254-HDR.jpg",
+  "frei": false,
+  "original": [
+   5599,
+   3733
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Cry d’Er Suite, Schlafzimmer",
+  "abbild": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOmUAAnXNToYXdDwhlEgAD9+eXB7UlsWTeABg8esg5HvtFaitngMnarZCqpmNTLAJusQ/rZHb2hBkvoFWXsjDG0eg5+LaMMoX3iVYzMk/QNdXvtSTAOLyfH1BxKstoXDf3UQfvlPnzaTrhWtSKFK0U14KmwhCqAAA=="
+ },
+ "cr-schlaf2": {
+  "quelle": "_quelle/website/mediathek/2771_IMG_1283-HDR.jpg",
+  "frei": false,
+  "original": [
+   5585,
+   3723
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Cry d’Er Suite, zweites Schlafzimmer",
+  "abbild": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgBDhm3M9vp5+uq6/gAAD8dZMHS0nlL4mB0wBbv5yps8XsgZhd8dEd3BqT/+g3JYJE1hQMj401jUzB8XGFFnfqwhHIReplhcd5eNKDFe68DZTz/2dPHeh69yObId9jd2FSNIAAAA=="
+ },
+ "cr-bad": {
+  "quelle": "_quelle/website/mediathek/2766_IMG_1279-HDR.jpg",
+  "frei": false,
+  "original": [
+   5599,
+   3733
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Cry d’Er Suite, Bad",
+  "abbild": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOhwAAEb4sNhBP1y7gzbSO9LAAA/I/PFp+3FqgppJ8t0RE2Qm1s3+9bPfzsmCzaKND2ZzimUwi6B7mTuOTpNXL/W3wH7HuDZqMJRflh+4lR8y2mBS4pzUs0c11zJMhp2otQ/vjbTNKHfk1ZBZVb6Uqhs/n1zdNBUTqcsCDQAA=="
+ },
+ "cr-sessel": {
+  "quelle": "_quelle/website/mediathek/2784_IMG_1309-HDR.jpg",
+  "frei": false,
+  "original": [
+   5595,
+   3730
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Cry d’Er Suite, Sessel am Fenster zum Balkon",
+  "abbild": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOmUABYiObjZrqMWbIPjAAA/rX1PGKSS+EGb7bKUr6pAZmncSpB5W5YEIFP7gPaqCNsht24mtKZHCmOPT72mc2ulXRRqga5+5G6m7bruO/VuULZpLaVa+iXAjU4ne5lmZ0PuhzRXM+4IuuSV6Es/GWQLlYsSegusJxptwnEGhkoQAA="
+ },
+ "sa-wohn": {
+  "quelle": "_quelle/website/mediathek/2645_IMG_1145-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Saslonch | Streif Suite, Wohnraum und Essplatz",
+  "abbild": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdMoAC/KU1+NrG94CyF1IAAAD+jw7VNX8O4Cx+hrTMeQQcTuQ9aczBuR+39qVdrzwyHs6BXKYPNWFvPOr55aWiKdwVb1jyZ2mZV6u0ytWTvHY+FfYGfFLfTUS5oLdNwGNHRW4M0z0I6u2N7Ruv1WRXWAOwzvMqAqUCOm0fQq/3eDAAAA=="
+ },
+ "sa-ess": {
+  "quelle": "_quelle/website/mediathek/2641_IMG_1139-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Saslonch | Streif Suite, Essplatz vor dem Wald",
+  "abbild": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JaACdMoAlwAh/FS2KSnrscTmAAPfL1ftIxkUGBMp8WdNe3T9DqPlGpBn2U2r3SX3SgBSmiHZcD1k8geEmdeMdhzy/m+A8nVW3LxWNXyzbUyrhHMQNNVmO8cQZQTSNV5NwPEnyXJe68oGh5BFvOKs/vlbYcTKFzweTMyfwXK9TT6oJ7oWPypIslfLaDBU9/qlyjwAA"
+ },
+ "sa-blick": {
+  "quelle": "_quelle/website/mediathek/2651_IMG_1150-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Saslonch | Streif Suite, Blick vom Fenster aufs Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdABhWNX285e4T0FbAAP5llZmAlXtSPKgrOx54CwpIqaN5MjEgKR2VQt/s1ihbWlvM/PWuiO6UXdQTGUJMYn9F/zflo4z4B39BfHV9KO0j1nHAONZW/n+qd+fuD/7aQ/GetaoX6qCXdPAdFS1Uv0QRl06hki3ZtMRbDStJL55m6lUjWMZxnAAAAA=="
+ },
+ "sa-schlaf": {
+  "quelle": "_quelle/website/mediathek/2638_IMG_1128-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Saslonch | Streif Suite, Schlafzimmer",
+  "abbild": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgBHpK6Jqbq1UPScfz1FLcAP5YSEvNFiHbr4cvkl5dlTG94E4YopLcW7zeJU2zZqI31NJuPdd9bENTu9eS9h+8h19yW3W2QB3O5LS1Y4hsAhTcmJyvJcP6kc7+xDYcsrPRXmOKZ3AzfrOJ+QrG2Mi22vMX81+4Z/W8fdi1V/gSdi7RpP6AZ7AAAA=="
+ },
+ "sa-bad": {
+  "quelle": "_quelle/website/mediathek/2633_IMG_1122-HDR.jpg",
+  "frei": false,
+  "original": [
+   5597,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Saslonch | Streif Suite, Bad mit Wanne",
+  "abbild": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JYwCdBagAnmcJ9a7iOhvIAP5UUXUYwOBqLgb+JHsbOVN8CQ/4zAjLmbzEOrCjCzYsXRrfwTZYCoyH7Hmygh/X4N7MIwpI9jLOjhMJDMfmIGnvUh53udE4J/nbg82BASx9rkuTS9CAAA=="
+ },
+ "la-wohn": {
+  "quelle": "_quelle/website/mediathek/2853_IMG_1200-HDR.jpg",
+  "frei": false,
+  "original": [
+   5598,
+   3732
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Lauberhorn | Stelvio, Wohnraum mit Küche",
+  "abbild": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdMoAC+jjap4vFR0q7x+6lwAD+VgLMW1Mj1D3aZ7U8m60wR833WSvZ8AH2rjenc1CEDUlKZ0D1R350AP9HnnRfyy6CYV6inLlsFwDl16jclO0o/kIGzwzPn+JvYzjyhCB+mCBz0ItfZVg1+HFTXRykRMTTt7iWDGAx4QZCAAAA"
+ },
+ "la-schlaf": {
+  "quelle": "_quelle/website/mediathek/2832_IMG_1178-HDR.jpg",
+  "frei": false,
+  "original": [
+   5597,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Lauberhorn | Stelvio, Schlafzimmer",
+  "abbild": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JagCdMoADf2Nzs2Ju8O92/JpUS8wA4mtjOg8WbRHhfV7FeKISXASg/TjhT3ST6fQ7kEmGHVteMIFwiWjzgURjERhb6zEgjpLAWRqFb1FGmALfXFsoN4hTLjE8BIzWI9f7R93RZHyok6YOPUJVKlBdlH0Raim6+rU1fHGTWK3EWm7CuhGVGqVgU+IEwAAA"
+ },
+ "la-schlaf2": {
+  "quelle": "_quelle/website/mediathek/2836_IMG_1183-HDR.jpg",
+  "frei": false,
+  "original": [
+   5597,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Lauberhorn | Stelvio, Bett mit Blick zum Bad",
+  "abbild": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBACdASoYABAAPu1kqU2ppaQiMAgBMB2JQBOmUABp2U2tQ/0kecswo6iwAP7TSRGoZSa1jx/Uk6Jr2I5E2sIn8YLr/2N6PzRmftq7rE9wbEpwtD228n37Zr8bOq17Fr3fqto/RGP13ig+3vUzmzIFJP1C1n6eRaIiase6ukRgmdsfnkpknmvrCXUgKIAA"
+ },
+ "la-bad": {
+  "quelle": "_quelle/website/mediathek/2842_IMG_1193-HDR.jpg",
+  "frei": false,
+  "original": [
+   5598,
+   3732
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Lauberhorn | Stelvio, Bad mit Dusche",
+  "abbild": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JYgCdMoADQqtcfktxRjfbQAD+kWtzNORvGE/x3dfPCRJ9WIu//HyYCu+D+GMshcLror7eW6Ak6HpZbMTZQ3lEu0ieWz3YzURedWqk7AoT+HOmXJ0vYxdiFwg8zTDIsI3JGBe+Sxm1VAlo7p55fIKpd74bQaN++pIPpP6iJ4W9kAAA"
+ },
+ "ma-wohn": {
+  "quelle": "_quelle/website/mediathek/2610_IMG_1066-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Matterhorn Suite, Wohn- und Schlafraum",
+  "abbild": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOmUABeMvwYsjsrx99p3KqAAP7VmxQ9loNgyHFoAsk+pG1Bz8NqHjBsE22ZNqN5O5UMqAoz+JDiuN53nntQBIyS6KzxfypIAuacDKPIu2Ul1/rkeDhi8uF8KZdg2Gey+SfEZlHbZL6SuYJE3PNFs1wO+7ybAs8ayf70DKAAAA=="
+ },
+ "ma-schlaf": {
+  "quelle": "_quelle/website/mediathek/2629_IMG_1098-HDR.jpg",
+  "frei": false,
+  "original": [
+   5594,
+   3729
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Matterhorn Suite, Bett",
+  "abbild": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAwBACdASoYABAAPu1iqU2ppaQiMAgBMB2JQBWGUABqlzVlAfhhjBRVRlAA/uqMKX3hqgp7CRn+jukoeXL6bB5jKPO+NT/wQnEg+ijSD53gp4YASqWlyJngJhBE4akDI9S1C1ZoZju6wkCWTasHMr4dwnwD7W7UPuF6qjv9zukPCS4dlluhHeurgD+BG2CveEBlqTTD7W+mZ4/bc7RHQAAA"
+ },
+ "ma-bett": {
+  "quelle": "_quelle/website/mediathek/2623_IMG_1085-HDR.jpg",
+  "frei": false,
+  "original": [
+   5594,
+   3729
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Matterhorn Suite, Bett und Sitzplatz",
+  "abbild": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBACdASoYABAAPu1qrU8ppiQiMAgBMB2JZgCdACHh0MzOIGppflL6tAAA/mUlhhtTdS7rcNOqd6MasrQEDTOTHJodRu/YTafG9d8oo4Gz7To7E1yZXP6xv7E0YYBUoPWW4hQHOKS+Otene6Ilrel+OTRNiI40ogLPVNK+u11VhiYiOzpzQjZK5nvzNZmg8WrLO0HWy460K4AA"
+ },
+ "ma-bad": {
+  "quelle": "_quelle/website/mediathek/2615_IMG_1072-HDR.jpg",
+  "frei": false,
+  "original": [
+   5594,
+   3729
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Matterhorn Suite, Bad mit Wanne",
+  "abbild": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAQBQCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOmUDX/2KBbhFgArQnILWXf36KaQo2QAP62MYrtycLEnsc6E8CsiRZ39siojq2y8mWXUXsYRdZ9MjPtvsLliWMb+dUsusifsdgeai6reV93UZOhvRdTPkfo8+J9k/9X/rMx50momEi/1ewtvGVJKC9bXS//aAHD4w2CRhBrZ+Z9roSFTgQdRaQcVvz2dPIKAowmo9AAAA=="
+ },
+ "dx-raum": {
+  "quelle": "_quelle/website/mediathek/2595_IMG_1016-HDR.jpg",
+  "frei": false,
+  "original": [
+   5597,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Deluxe Doppelzimmer unter dem Lärchendach",
+  "abbild": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAADwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JagCdMoMYA0lROOZmggGKV70PJJaDQAAA/qar6faza7wZANJZBTF8VPSUV0bYsOmpEhs/otVfdsdVvmv4yGoLlHBDM8DC074n3oZbUbhqD3wmiBnzEPPmScF7f7CjIJa8OK2pz2kN25DUK2CRpdchwxYi/Cglcg7st4T6DLu47DF9kQjf9WSxVjCPirKA0YV6XuZpAui/1DWJaWw8oamtjcAAAA=="
+ },
+ "dx-bett": {
+  "quelle": "_quelle/website/mediathek/2601_IMG_1042-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Deluxe Doppelzimmer, Bett unter dem Dachfenster",
+  "abbild": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoAlvxZWhsi/eSG5B4jeAP4vETkxb/4oId8jhoOqGii59J2hZpdEyovXjCngJyG7tGPYuIojMoHWpStsz83Yp8YwvWOr3HApLTKwuIaC1ZjswD5rZBhfIewiHGGyfyk3wQM499yasYYMPs1HaKkQUgXMC+0RTOUgJjmrkIUdire0Ydb4T1Zy8irLIi+4LpgNTdLejgxEBm7JYh0ISKNEG1Jr2AAAAA=="
+ },
+ "dx-balkon": {
+  "quelle": "_quelle/website/mediathek/2606_IMG_1049-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Deluxe Doppelzimmer, Balkon mit Blick aufs Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoR8jf/gNA3em2NChNBmg7rfgKAA/s9zME9qBcBYObu0OZEc25q7h/nDgu7e7LtF/SZXAHpt1s4GJ209AQl0PNNpOSL41k1VtD8LzuZYxpcF8ALiSUaDuXkMHK6bo298yKhOpw7r67nbsyEhDsjEiMJzZRBKTQ07mmviBydbzKYPf3GAxz56Lw1Xia768Lqn9BEAAA=="
+ },
+ "dx-bad": {
+  "quelle": "_quelle/website/mediathek/2599_IMG_1022-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Deluxe Doppelzimmer, Bad",
+  "abbild": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAADwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoRwAkgPd0XrCt5NmfY4d8yI4gAA/i/MPJv2NVawqisA7h1HqO0cuB1VpaqlnMMtA/MCdv7ly4+jpw42hDDu7CaxqRC6Z3dw2NUkT3yZlhyx4c66+ppdlALp/DbjPRee288vjPa3yPd3TGavD57AqN3kEWdKzyWJk9aLoydh1o7qtDgO1fBaHdTgH63tr2eDuRPKN46TvVux4AAA"
+ },
+ "st-raum": {
+  "quelle": "_quelle/website/mediathek/2865_IMG_1221-HDR.jpg",
+  "frei": false,
+  "original": [
+   5594,
+   3729
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Standard Doppelzimmer",
+  "abbild": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoAlxBfMu23jAEkXDKjAAP5kXH5cyiYGtPGiUWq+0OCvcorfruwY010fl8BshrcMerA4+nQmYM4y+p47qM2v+msd/CeX5SJ1bezEP1b3b4hN+IqPCLqNXRIxUDA5GwrzOw4oOVNbHZWvTBuO4oaQrrkANxZcAGYAAAA="
+ },
+ "st-bad": {
+  "quelle": "_quelle/website/mediathek/2873_IMG_1240-HDR.jpg",
+  "frei": false,
+  "original": [
+   5596,
+   3731
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Standard Doppelzimmer, Bad",
+  "abbild": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JaACdMoRwABup1YbLwZsstAnQAPCvNiNFx1Qx5ZX3m30itH7M+Ttug3JyrFy7T7Idiy/rfwkKUsFtiv0dSqxXvcYg5tIw2u1RXmVaOWvjkGUoeO6CC+oreefdbN0/iGeP0b1UCqmtd1JW1AAAAA=="
+ },
+ "ld-6": {
+  "quelle": "_quelle/website/mediathek/1046_Little-Dream-6.jpg",
+  "frei": false,
+  "original": [
+   5171,
+   3447
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Chalet «Little Dream», Sitzplatz am Fenster",
+  "abbild": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgBH2PP2b+PTZ2dsbfmYAA/ZTqv8QbXxwA2fjvZM6i5GglmZZuEzIA4MKKswit7o3qddtACzf0TjTVxY2LS5KaieZOuqNFulgD6B/398tcwNuWJpczfnNhgJhDL+Ad5msDw4TEF/rSMRruAAAA"
+ },
+ "ld-kueche": {
+  "quelle": "_quelle/website/mediathek/1053_Little-Dream-2-3.jpg",
+  "frei": false,
+  "original": [
+   5074,
+   3383
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Chalet «Little Dream», Küche und Sofa",
+  "abbild": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdMoMzGEut8I36Osk5JLszAAD0XWI0kiWwf1opVMwFxuT0KuhgcY3vw3eM1gTCsnTpNYiyFf3IVuiuuomIEGKY7qfZZooXtyDa9lKtX/8GdX6f0aETeEdUde4DNdseBtISkdH7AoAGSgXj8QLGLUUFy8KMfNgnByQ/7wsggAAA"
+ },
+ "bademantel-gross": {
+  "quelle": "_quelle/website/mediathek/3105_IMG_2501-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Frühstück am Pool im Bademantel",
+  "abbild": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdIMggwRYl/GqTk+KlAW4wx7WAAP6tQBsGlSKjmblc7VMtdCVuyuEvTwpvg2zEe30VQ8NROO3eITuwU9iG4wH1FO3e8c0cOIgQr6LGkYih/OGs87wMM3rTarveR9DjLWksMweu4QZlfvcpc904Vt3tBT79nw5Q1yO5MAhPzCwwAAA="
+ },
+ "anstossen-balkon": {
+  "quelle": "_quelle/website/mediathek/2493_IMG_1372.jpg",
+  "frei": false,
+  "original": [
+   5616,
+   3744
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Anstossen auf dem Balkon, gegenüber das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACsLwABpr+Ipnn5kzwSCZnkgEAA/ut1bEai7WoV+cJlBFbHbgR2rEYvh1VMxd3jCy54We6aEa3hQPDXbA7OBLWLCex5tVpXqZqAGRRPJrU00IVUl/hj4ISh2448+lQ5qVlXB8Ajyt/micUF3K3FSwqRhLOxYWJffoTlTLCcOjvKRBUj/Hg8SiZAAA=="
+ },
+ "teller-gross": {
+  "quelle": "_quelle/website/mediathek/2488_IMG_2056.jpg",
+  "frei": false,
+  "original": [
+   5616,
+   3744
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Ein Teller vom Abend auf dem gedeckten Tisch",
+  "abbild": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwC7AYyUrTKf7O/53aDLQAD+ahFG1y+L0Ke39tPcBrdmoaBCWcScmy29NY9XQzdb1eXUxoWDxcgt89jmFR7savFT3jmX9U9Xa/beeSyUPSHXO2eIVLv6mLXkq/z82IRSkFZMo0Do8yHiwSInhxz/upcNlphafTkO8+wvKNrFf7Z10upkUEfPnnujpwYj5Bw15trWQPr7tD2AAAA="
+ },
+ "garten-nacht": {
+  "quelle": "_quelle/website/mediathek/2518_IMG_2181.jpg",
+  "frei": false,
+  "original": [
+   5616,
+   3744
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Abendessen im Garten unter dem Sonnensegel",
+  "abbild": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwCdACIMWSvfbtb1YRpB/NyJAAD+6+O3hwpeoaYe7LjXpfWSz2I5HI902lbQggIx/ZvF16jIl1ofjRYEtgQa3WBZLcVCICW+MTRSAAd91nM98SC/vqEIbBkhEEAA"
+ },
+ "haus-garten-abend": {
+  "quelle": "_quelle/website/mediathek/2455_IMG_2213-HDR.jpg",
+  "frei": false,
+  "original": [
+   5590,
+   3727
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Das Haus am Abend, davor der Garten mit Laternen",
+  "abbild": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoMlsn/AbZ+v6h+fef62ULES44AA4m1tx1Bza28yREe0xCu5ygZZGMV5agPsGczziA538EXiVe42pjXgEw/HAfWsnq/Bq3LJIlpuRM+D9eq8xXEn7VeztE/m+pzXf+l5Uqwp5SuZ0hVBJ9iFJrxP/8ArqVnsxHTDGJbGriMz3oP4WdRQ0Ge+llcAAAA="
+ },
+ "eingang-gross": {
+  "quelle": "_quelle/website/mediathek/2465_IMG_2225-HDR.jpg",
+  "frei": false,
+  "original": [
+   5590,
+   3727
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Der Eingang des Hauses am Abend",
+  "abbild": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAACwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoRwAB4MQ5uTx31nm4hat4AAAP7Nn8Gry1J8tXB0LhTR8o0pcHpLRFygPT0WuYYDGuKmuiy22aqgpsIXjuoC+CHcVeYlgusVGgcqg9KvGAHLVUh507TygaKwb43IX4HeS8T9vbu++0QcLP+SNXfYbmw2sNsuGKwTI8DNHfICu0DMhPc4vkNYOUgAVXY8m1KgAAA="
+ },
+ "saefte": {
+  "quelle": "_quelle/website/mediathek/466_IMG_5163.jpg",
+  "frei": false,
+  "original": [
+   2500,
+   1667
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Säfte und Enzian am Frühstückstisch",
+  "abbild": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoEUiAaSTq497DchOEgB25yAAP4jjqx2gDPiiI227WZriYYABeMPkS+pdIJbWXQayy4ewIQWpjt9PrGVwCjvJxzuLH6Wv0sYvZfn2U3gdL0n92Cz1xtc3roXYo7TIoAwKAKdhPHbR8jtk0FP2XXCgYo+8xBlV3CmN6k3fW0ajCNTPj+LLdtAzbhciuQLil5zx3hddAE5AAA="
+ },
+ "sauna-gross": {
+  "quelle": "_quelle/website/mediathek/3085_IMG_1334-HDR-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Sauna und Duschen",
+  "abbild": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCw7BupEsl3E9SN8k+PotfuAAD+0PLO0skwBvUYZBX9BCahawieh5LkV4DABIZaxeFHzWVblU1xE4Z+jyN770bMz+uluZNoeS/pwxhsPQtD72DQ1FFt6T+2pmQI366DmGgIjmVkHMyl5IKsExUQEwxt13yJV3RJkOUyk0AAAA=="
+ },
+ "ruheraum-gross": {
+  "quelle": "_quelle/website/mediathek/3081_IMG_1328-HDR-scaled.jpg",
+  "frei": false,
+  "original": [
+   2560,
+   1707
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Ruheraum der Wellness",
+  "abbild": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBYhkDYAAIUekGOrSIqttLDfAADOM3F/ub85BdQlfnGYD23q0wVqlm+FaNYeXNpVTYSXmIUDXxLLnychvbK2ss8ya5aK7rp7XvbUpl5PVlp36e6lnVIKc/OP5gOqxnZxChuC1oPc4PuZbxJxEnAo+wheRAdHnHWioAAA"
+ },
+ "pool-matterhorn": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-19385116.jpg",
+  "frei": false,
+  "original": [
+   2833,
+   1535
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Gäste im Aussen-Sole-Pool, gegenüber das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASoYAA0APu1iqk2ppaQiMAgBMB2JQBOgA6fFcBMvH7i/OfDVAAD+oWzBNv9RfAc95X9SC0oM/T5oUzjUmar1a/CLXNt0wmxSrk10Socbg81pZHhDTqm8ijKvwB85ijNsiE2HSIuEEoXDBuN1TNToixJAAAA="
+ },
+ "pool-kinder": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-19385121.jpg",
+  "frei": false,
+  "original": [
+   2833,
+   1535
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Im warmen Aussenpool, über dem Garten das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABwBACdASoYAA0APu1iqU2ppaOiMAgBMB2JQBOiP/1KBMgCd+MZ1HdMce+mgAD+wF6vdYFVtzDCm3q886QfsF7b5bGE2euEqLQ4AAGdGLby8Bl40IYMawb8CWYf3EbhKffLdvsSGCQl10TzQWt13PxI+xveZK7bg/aV2Dcn/zhJ2yhbnEgoAAAA"
+ },
+ "garten-matterhorn": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-19385111.jpg",
+  "frei": false,
+  "original": [
+   2833,
+   1535
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Frühstück im Garten, oben das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACQBACdASoYAA0APu1iqU2ppaOiMAgBMB2JZAC7MoC4AAzg2H3VgM/x4qhV5AAA/sDWaAsvM5nuQCveChpHCtPREwD/MQwIK2b+0BMK9DBRQ4M+44ElEw+dFOyZSpeTQeE16foBLyx3Oq+5dbMJIL5HgJGQ7vKDUqjlPccA3tGGe9Y2mlUqtcsotRzi4AAA"
+ },
+ "pool-garten": {
+  "quelle": "_quelle/extern/neu-2026-10-18/booking-gross/booking-19385115.jpg",
+  "frei": false,
+  "original": [
+   2833,
+   1535
+  ],
+  "breiten": [
+   640,
+   1200,
+   1920
+  ],
+  "alt": "Der Aussenpool im Garten, oben das Matterhorn",
+  "abbild": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABQBACdASoYAA0APu1iqU2ppaOiMAgBMB2JQBfnBEGMUsthEyLHKyw2jPLgAP7Bq1YNleLdE/pDrdi6/fvdUrvIu/5q78JzZHldt+HWhFZJU4bKJio7CIm9zY3PgstoQdiGlWGrbWbc+5G4735/dfB6kTJJSGN5enYaafEsYhl5oRNHvI/AUmmwAAA="
+ },
+ "pirmin-matterhorn": {
+  "quelle": "_quelle/extern/valais-wallis-tourismus/valais-01.jpg",
+  "frei": false,
+  "original": [
+   1800,
+   1291
+  ],
+  "breiten": [
+   640,
+   1200
+  ],
+  "alt": "Pirmin Zurbriggen vor dem Matterhorn (Foto: Wallis Promotion)",
+  "abbild": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAACwBACdASoYABEAPu1qrlCppaQiqAqpMB2JagC7AAmrzrzF23mFNxoB3bTkkP8wAP7qlZttoCufRQzqj4iFMm714YhR3naKGXuv3044D1fUU/5dRVzlQ/qmFxB6K6Ja1wXDcrZ7FqccNbFadX5SeQW/j88zmoyVgpA1u1wmQCbxaOxVLl3PrKTvlyqhpfLgqvcVTdJR83lb2Bi76uzBas8PlABySMOmQkHd5yJAAAA="
+ },
+ "pirmin-sessel": {
+  "quelle": "_quelle/extern/valais-wallis-tourismus/valais-05.jpg",
+  "frei": false,
+  "original": [
+   1800,
+   1181
+  ],
+  "breiten": [
+   640,
+   1200
+  ],
+  "alt": "Pirmin Zurbriggen im Sessel (Foto: Wallis Promotion)",
+  "abbild": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBYdhEFq2Xfx+QuizoAA/tZg6JZS4UR60PErOpW60YRvhd/EIvSNDEkgR8FOV6L3yZaZ9ojjw/4pGJTm9iI6wPvyFztG8T4/Qsf0Nr2LsUj64a5UTjMCHlRAIp3AAAA="
+ }
+}

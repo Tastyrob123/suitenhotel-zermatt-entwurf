@@ -1,0 +1,28 @@
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:400;src:url('zm-schrift/ZmSans-Regular.ttf') format('truetype')}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:500;src:url('zm-schrift/ZmSans-Medium.ttf') format('truetype')}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:600;src:url('zm-schrift/ZmSans-SemiBold.ttf') format('truetype')}
+@font-face{font-family:'DM Mono';font-style:normal;font-weight:400;src:url('zm-schrift/ZmMono-Regular.ttf') format('truetype')}
+@font-face{font-family:'DM Mono';font-style:normal;font-weight:500;src:url('zm-schrift/ZmMono-Regular.ttf') format('truetype')}
+@font-face{font-family:'Bricolage';font-style:normal;font-weight:800;src:url('zm-schrift/ZmBricolage-ExtraBold.ttf') format('truetype')}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#8d8b8f;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.blatt{position:relative;overflow:hidden;margin:8mm auto;color:#2E2C30}
+.abs{position:absolute;display:block}
+img.abs{max-width:none}
+.t{position:absolute;margin:0;font-family:'Instrument Sans',Arial,sans-serif;font-weight:400;line-height:1.35;font-kerning:normal}
+.t.s{font-weight:400;letter-spacing:-.025em;line-height:1.08}
+.t.b{font-family:'Bricolage',Arial,sans-serif;font-weight:800;letter-spacing:-.01em;text-transform:uppercase;line-height:1}
+.t.m{font-family:'DM Mono',Menlo,monospace;text-transform:uppercase;letter-spacing:.17em;line-height:1.45}
+.t.c{text-align:center}
+.t.r{text-align:right}
+html.einzeln body{background:#fff}
+html.einzeln .blatt{display:none;margin:0}
+html.einzeln .blatt.dran{display:block}
+html.vorschau,html.vorschau body{background:transparent}
+html.vorschau .blatt{margin:6mm auto}
+html.vorschau .blatt[data-form="tuer"]{-webkit-mask:radial-gradient(circle 17mm at 50mm 30mm,transparent 99.2%,#000 100%);mask:radial-gradient(circle 17mm at 50mm 30mm,transparent 99.2%,#000 100%)}
+html.vorschau .blatt[data-form="tuer"] .loch,html.vorschau .blatt[data-form="tuer9"] .loch{display:none}
+html.vorschau .blatt[data-form="tuer9"]{-webkit-mask:radial-gradient(circle 17mm at 45mm 30mm,transparent 99.2%,#000 100%);mask:radial-gradient(circle 17mm at 45mm 30mm,transparent 99.2%,#000 100%)}
+html.vorschau .blatt[data-form="anhaenger"]{-webkit-mask:radial-gradient(circle 2.6mm at 12mm 50%,transparent 98%,#000 100%);mask:radial-gradient(circle 2.6mm at 12mm 50%,transparent 98%,#000 100%);border-radius:3mm}
+html.vorschau .blatt[data-form="anhaenger"] .oese{display:none}
+@media print{html,body{background:#fff}.blatt{margin:0}}

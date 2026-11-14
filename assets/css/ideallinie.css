@@ -1,0 +1,230 @@
+/* Suitenhotel Zurbriggen, Zermatt · «Die Ideallinie» (Station 07, Neubau 18.10.2026, NEUER WEG; Probe der Zentrale proben/zermatt/).
+   Die Website ist eine Abfahrt: Start, Fahrten mit Toren, zwei Sprünge, Ziel. Eine rote Linie wie der Pinselstrich im Zeichen läuft
+   von Tor zu Tor, nur durch Lücken, nie durch Text; an jedem Tor eine Zwischenzeit (belegte Angabe). Kein Kachelraster, keine Platten,
+   keine Einkerbungen, kein Muster. Bewegung: Titel aus dem Schlitz, Stücke steigen deckend, Fotos zoomen; neu: die Linie fährt voraus,
+   die Torflaggen stellen sich auf. Nur transform, nativer Scroll. Markenbuch «Rot und Schnee»: Bricolage, Instrument Sans, DM Mono. */
+
+/* Schriften vom eigenen Server (OFL 1.1) */
+@font-face{font-family:'Bricolage';font-weight:800;font-display:swap;src:url(../fonts/BricolageGrotesque-ExtraBold.woff2) format('woff2')}
+@font-face{font-family:'Instrument Sans';font-weight:400 600;font-display:swap;src:url(../fonts/InstrumentSans-normal-400_600.woff2) format('woff2')}
+@font-face{font-family:'DM Mono';font-weight:400;font-display:swap;src:url(../fonts/DMMono-normal-400.woff2) format('woff2')}
+@font-face{font-family:'Bricolage Ersatz';src:local('Arial Black'),local('Arial Bold');size-adjust:96%}
+
+/* Farben aus dem Markenbuch */
+:root{--schnee:#F7F6EC;--getoent:#E7E7E4;--silber-h:#D6D7D9;--silber:#B1B2B4;--nacht:#2E2C30;--tief:#1F1E22;--rot:#E2001A;--samt:#AA0615;--grau:#6F6D73;
+  --titel:'Bricolage','Bricolage Ersatz',Arial,sans-serif;--text:'Instrument Sans',Arial,sans-serif;--mono:'DM Mono',ui-monospace,monospace;
+  --e1:cubic-bezier(.16,1,.3,1);--e2:cubic-bezier(.32,.72,0,1);--rand:clamp(18px,4.4vw,72px);--spur:64px}
+
+/* Grundlage */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;overflow-x:clip}
+body{margin:0;background:var(--schnee);color:var(--nacht);font:400 18px/1.62 var(--text);-webkit-font-smoothing:antialiased;overflow-x:clip}
+h1,h2,h3,p,ul,ol,figure,blockquote{margin:0;padding:0} ul,ol{list-style:none} a{color:inherit;text-decoration:none} img{display:block;max-width:100%;height:auto}
+button,input,select,textarea{font:inherit;color:inherit} button{background:none;border:0;padding:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--rot);outline-offset:3px;border-radius:4px}
+.t{font-family:var(--titel);font-weight:800;letter-spacing:-.01em;text-wrap:balance}
+.gross{text-transform:uppercase;letter-spacing:.01em}
+.mono{font:400 11.5px/1.55 var(--mono);letter-spacing:.17em;text-transform:uppercase}
+
+/* Kopf: Logo auf heller Platte (Querform am Rechner, quadratisch am Handy wie heute), Streckenplan, Buchen; weicht beim Runterscrollen */
+.kopf{position:fixed;z-index:40;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;gap:14px;padding:14px var(--rand);transition:transform .6s var(--e1)}
+.kopf.weg{transform:translateY(-120%)}
+.kopf__logo{display:block;background:#fff;border-radius:12px;padding:6px 12px;box-shadow:0 10px 26px -16px rgba(0,0,0,.6)} .kopf__logo img{height:46px;width:auto} .kopf__logo .q{display:none}
+.kopf__rechts{display:flex;gap:10px;align-items:center}
+.kopf__plan{height:50px;padding:0 20px;border-radius:999px;background:rgba(31,30,34,.82);color:#fff;font:400 11.5px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.kopf__plan i{width:16px;height:2px;background:currentColor;box-shadow:0 -5px 0 currentColor,0 5px 0 currentColor}
+.knopf{position:relative;overflow:hidden;isolation:isolate;display:inline-flex;align-items:center;gap:14px;height:54px;padding:0 7px 0 24px;border-radius:999px;background:linear-gradient(180deg,color-mix(in srgb,var(--rot) 78%,white),var(--rot) 52%,var(--samt));color:#fff;
+  font:400 12px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;white-space:nowrap;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),inset 0 -3px 0 rgba(70,0,8,.4),0 16px 28px -16px rgba(170,6,21,.75);transition:transform .5s var(--e2)}
+.knopf:hover{transform:translateY(-2px)} .knopf:active{transform:translateY(1px) scale(.985)}
+.knopf i{flex:none;width:40px;height:40px;border-radius:50%;background:#fff;position:relative;box-shadow:0 3px 6px rgba(0,0,0,.25)}
+.knopf i::after{content:"";position:absolute;inset:0;margin:auto;width:10px;height:10px;border-top:1.8px solid var(--rot);border-right:1.8px solid var(--rot);transform:translateX(-2px) rotate(45deg)}
+.knopf--hell{background:#fff;color:var(--nacht);box-shadow:inset 0 -2px 0 rgba(46,44,48,.12),0 14px 26px -16px rgba(0,0,0,.5)} .knopf--hell i{background:var(--rot)} .knopf--hell i::after{border-color:#fff}
+.knopf--klein{height:50px;font-size:11px} .knopf--klein i{width:36px;height:36px}
+@media (max-width:640px){.kopf{padding:10px 12px} .kopf__logo{padding:4px 8px} .kopf__logo .r{display:none} .kopf__logo .q{display:block;height:44px} .kopf__plan span{display:none} .kopf__plan{width:50px;padding:0;justify-content:center} .kopf .knopf span{display:none} .kopf .knopf{padding:0 7px}}
+
+/* Start: das Haus am Abend, der Satz des Hauses, das Starttor, die Startliste (Buchung) */
+.start{position:relative;min-height:max(100svh,640px);overflow:clip;background:var(--tief);color:#fff;display:grid;align-content:space-between;isolation:isolate}
+.start>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 58%;z-index:-2;transform:scale(1.06);transition:transform 3s var(--e1)}
+.start.da>img{transform:none}
+.start::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(20,20,24,.5),rgba(20,20,24,.05) 34%,rgba(20,20,24,.1) 55%,rgba(20,20,24,.82))}
+.start__text{padding:clamp(120px,18vh,200px) var(--rand) 0;max-width:1180px}
+.start h1{font-size:clamp(2.6rem,8vw,8rem);line-height:.94;text-shadow:0 2px 34px rgba(0,0,0,.3)}
+.start__satz{margin-top:20px;max-width:46ch;font-size:clamp(1rem,1.3vw,1.2rem);text-shadow:0 1px 16px rgba(0,0,0,.5)}
+.start__fuss{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:end;gap:20px;padding:0 var(--rand) 26px}
+.starttor{display:grid;justify-items:center;gap:8px}
+.starttor span{font:400 11.5px/1 var(--mono);letter-spacing:.32em}
+.starttor i{width:6px;height:64px;background:var(--rot);border-radius:3px;transform-origin:bottom;transform:scaleY(.2);transition:transform 1.2s var(--e1) .4s}
+.start.da .starttor i{transform:none}
+.startliste{display:flex;flex-wrap:wrap;gap:6px;align-items:stretch;padding:6px;border-radius:999px;background:rgba(247,246,236,.96);color:var(--nacht);justify-self:start}
+.startliste label{display:grid;gap:0;padding:6px 16px;border-radius:999px;min-width:118px}
+.startliste label span{font:400 9.5px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--grau)}
+.startliste input,.startliste select{border:0;background:none;padding:0;font-weight:600;font-size:15px}
+.start__stimme{justify-self:end;max-width:34ch;text-align:right;font-size:14.5px;line-height:1.5;color:rgba(255,255,255,.86)}
+.start__stimme b{display:block;font:400 10.5px/1.5 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.65);margin-top:6px}
+@media (max-width:980px){.start__fuss{grid-template-columns:1fr;justify-items:start} .starttor{order:-1;justify-self:center} .start__stimme{justify-self:start;text-align:left} .startliste{border-radius:26px}}
+
+/* Die Fahrt: Abschnitt mit Linie und Toren; die Linie liegt hinter dem Inhalt, eine Decke in der Farbe der Fahrt gibt sie beim Scrollen frei */
+.fahrt{position:relative;padding:clamp(50px,6vw,100px) 0 clamp(40px,5vw,80px);background:var(--grund,var(--schnee))}
+.fahrt--dunkel{--grund:var(--nacht);color:var(--schnee)}
+.linie{position:absolute;inset:0;pointer-events:none;z-index:0;overflow:clip}
+.linie svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.linie path{fill:none;stroke:var(--rot);stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+.linie__decke{position:absolute;left:0;right:0;top:0;height:100%;background:var(--grund,var(--schnee));will-change:transform}
+
+/* Zitat am Start der Fahrt */
+.zitat{position:relative;z-index:1;max-width:min(880px,60%);padding:clamp(20px,3vw,40px) 0 clamp(40px,6vw,80px) var(--rand)}
+.zitat q{display:block;font:800 clamp(1.6rem,3.2vw,2.9rem)/1.16 var(--titel);quotes:"«" "»"}
+.zitat span{display:block;margin-top:16px;font:400 11.5px/1.6 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--grau)}
+.fahrt--dunkel .zitat span{color:var(--silber)}
+
+/* Tor: Inhalt auf der einen Seite, Flagge und Zwischenzeit auf der anderen; wechselt die Seite von Tor zu Tor */
+.tor{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.14fr) minmax(0,.86fr);gap:clamp(24px,4vw,70px);align-items:center;padding:clamp(40px,5vw,84px) var(--rand)}
+.tor--r{grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr)} .tor--r .tor__inhalt{order:2}
+.tor__inhalt{display:grid;gap:24px;min-width:0}
+.tor__bild{position:relative;overflow:clip;border-radius:6px;box-shadow:0 34px 54px -36px rgba(20,18,22,.65);background:var(--getoent)}
+.tor__bild img{width:100%;aspect-ratio:3/2;object-fit:cover;transform:scale(1.12);transition:transform 2.6s var(--e1)}
+.tor.da .tor__bild img{transform:none}
+.tor__bild figcaption{position:absolute;left:12px;bottom:12px;padding:6px 12px;border-radius:4px;background:rgba(31,30,34,.78);color:#fff;font:400 10.5px/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.tor__text{display:grid;gap:14px;justify-items:start}
+.tor__text h2{font-size:clamp(1.9rem,3.4vw,3.2rem);line-height:1.02}
+.tor__text h2 em{font-style:normal;color:var(--rot)}
+.tor__text p{max-width:56ch}
+.zwischen{position:relative;display:grid;justify-items:start;gap:6px;padding-left:36px;justify-self:center;min-width:0}
+.flagge{position:relative;width:56px;height:86px;margin:0 0 12px -40px}
+.flagge::before{content:"";position:absolute;left:4px;top:0;bottom:0;width:4px;border-radius:2px;background:currentColor}
+.flagge::after{content:"";position:absolute;left:8px;top:4px;width:44px;height:30px;background:var(--rot);transform-origin:left top;transform:scaleY(.15);transition:transform 1s var(--e1) .25s}
+.tor.da .flagge::after{transform:none}
+.zwischen b{font:800 clamp(3rem,7vw,6.6rem)/.9 var(--titel);letter-spacing:-.02em}
+.zwischen span{font:400 11.5px/1.5 var(--mono);letter-spacing:.17em;text-transform:uppercase;color:var(--grau);max-width:28ch}
+.fahrt--dunkel .zwischen span{color:var(--silber)}
+
+/* Suiten: Startreihenfolge als Namen, daneben das Foto der gewählten Suite; das neue Foto fährt von unten über das alte */
+.reihe{display:grid;width:100%}
+.reihe button{display:grid;grid-template-columns:2.4rem minmax(0,1fr) auto;align-items:baseline;gap:12px;padding:13px 0 11px;border-top:1px solid var(--silber-h);text-align:left;transition:transform .5s var(--e2)}
+.reihe button:last-child{border-bottom:1px solid var(--silber-h)}
+.reihe .nr{font:400 11.5px/1 var(--mono);color:var(--grau);letter-spacing:.1em}
+.reihe .na{font:800 clamp(1.15rem,1.7vw,1.5rem)/1.1 var(--titel);text-transform:uppercase;letter-spacing:.02em}
+.reihe .gr{font:400 12px/1 var(--mono);letter-spacing:.12em;color:var(--grau)}
+.reihe button[aria-pressed="true"] .na,.reihe button:hover .na{color:var(--rot)} .reihe button[aria-pressed="true"]{transform:translateX(8px)}
+.wechsel{justify-self:stretch;position:relative;overflow:clip;border-radius:6px;aspect-ratio:3/2;background:var(--tief);box-shadow:0 34px 54px -36px rgba(20,18,22,.65)}
+.wechsel figure{position:absolute;inset:0} .wechsel img{width:100%;height:100%;object-fit:cover}
+.wechsel figure.neu{transform:translateY(100%);transition:transform .9s cubic-bezier(.36,0,.1,1)} .wechsel figure.neu.an{transform:none}
+.wechsel figcaption{position:absolute;left:12px;bottom:12px;z-index:2;padding:6px 12px;border-radius:4px;background:rgba(31,30,34,.78);color:#fff;font:400 10.5px/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.auch{font-size:15px;color:var(--grau)} .auch a{color:var(--nacht);text-decoration:underline;text-decoration-color:var(--rot);text-underline-offset:3px}
+
+/* Laufbahn: das Ergebnisblatt, Ort gross, Jahr rot, Ergebnis wörtlich aus dem Palmarès, die Suite gleichen Namens */
+.blatt{width:100%;display:grid}
+.blatt li{display:grid;grid-template-columns:5.2rem minmax(0,1fr) auto;gap:6px 18px;align-items:baseline;padding:14px 0;border-top:1px solid rgba(247,246,236,.16)}
+.blatt li:last-child{border-bottom:1px solid rgba(247,246,236,.16)}
+.blatt .j{font:800 1.5rem/1 var(--titel);color:var(--rot)} .blatt .o{font:800 clamp(1.2rem,1.9vw,1.6rem)/1.1 var(--titel);text-transform:uppercase}
+.blatt .e{grid-column:2/4;font-size:15px;color:var(--silber-h)} .blatt a{font:400 10.5px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--silber-h);white-space:nowrap}
+.blatt a:hover{color:#fff}
+
+/* Zutaten des Frühstücks und Angebote der Wellness als ruhige Zeilen (keine Kacheln) */
+.zeilen{display:grid;width:100%}
+.zeilen li{display:grid;grid-template-columns:minmax(0,12rem) minmax(0,1fr);gap:4px 20px;padding:12px 0;border-top:1px solid var(--silber-h)}
+.zeilen li:last-child{border-bottom:1px solid var(--silber-h)}
+.zeilen b{font:800 1rem/1.3 var(--titel);text-transform:uppercase;letter-spacing:.03em} .zeilen span{font-size:15.5px;line-height:1.5}
+.fahrt--dunkel .zeilen li{border-color:rgba(247,246,236,.16)}
+.namen{display:flex;flex-wrap:wrap;gap:6px 18px;font:800 15px/1.4 var(--titel);text-transform:uppercase;letter-spacing:.04em}
+.namen li{position:relative} .namen li+li::before{content:'';position:absolute;left:-11px;top:.55em;width:4px;height:4px;border-radius:50%;background:var(--rot)}
+.fahrt--dunkel .namen{color:var(--silber-h)}
+
+/* Zwei Bilder am Hang: Winter und Sommer nebeneinander, gleich hoch, am Handy untereinander */
+.hang{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.hang figure{position:relative;overflow:clip;border-radius:6px;box-shadow:0 34px 54px -36px rgba(20,18,22,.65)} .hang img{width:100%;aspect-ratio:4/5;object-fit:cover;transform:scale(1.12);transition:transform 2.6s var(--e1)}
+.tor.da .hang img{transform:none}
+.hang figcaption{position:absolute;left:12px;bottom:12px;padding:6px 12px;border-radius:4px;background:rgba(31,30,34,.78);color:#fff;font:400 10.5px/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase}
+
+/* Die Abendkarte als Rennverlauf */
+.verlauf{display:grid;gap:16px;width:100%}
+.verlauf div{display:grid;gap:6px;padding-top:12px;border-top:2px solid var(--rot)}
+.verlauf h3{font:800 clamp(1.15rem,1.7vw,1.5rem)/1.1 var(--titel)}
+.verlauf ul{display:flex;flex-wrap:wrap;gap:4px 16px;font:400 12px/1.5 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--silber-h)}
+
+/* Instagram: Laufband der Beiträge, läuft nur über transform und hält nie an */
+.laufband{position:relative;z-index:1;overflow:clip;padding:10px 0 20px}
+.laufband__zug{display:flex;gap:12px;width:max-content;animation:lauf 70s linear infinite}
+.laufband a{flex:none;width:clamp(160px,17vw,230px);aspect-ratio:9/14;overflow:clip;border-radius:6px} .laufband img{width:100%;height:100%;object-fit:cover}
+@keyframes lauf{to{transform:translateX(-50%)}}
+
+/* Haus-Finder der Familie: drei Fragen als Schalter, die Antwort tauscht an derselben Stelle */
+.frage{display:grid;gap:8px;width:100%} .frage>span{font:400 11px/1.4 var(--mono);letter-spacing:.15em;text-transform:uppercase;color:var(--grau)}
+.schalter{display:flex;flex-wrap:wrap;gap:8px}
+.schalter button{padding:11px 18px;border-radius:999px;border:1.5px solid var(--nacht);font-weight:600;font-size:15px;transition:transform .4s var(--e2)}
+.schalter button:active{transform:scale(.97)} .schalter button[aria-pressed="true"]{background:var(--nacht);color:#fff}
+.treffer{justify-self:stretch;position:relative;overflow:clip;border-radius:6px;aspect-ratio:3/2;color:#fff;display:grid;align-content:end;padding:22px;isolation:isolate;box-shadow:0 34px 54px -36px rgba(20,18,22,.65)}
+.treffer img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2} .treffer::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(20,20,24,0) 30%,rgba(20,20,24,.8))}
+.treffer b{font:800 clamp(1.3rem,2.2vw,1.9rem)/1.1 var(--titel)} .treffer p{margin:6px 0 14px;font-size:15px;max-width:44ch} .treffer .knopf{justify-self:start}
+
+/* Sprung: ein stehendes Bild, über das die Seite zieht; die Linie springt darüber (endet oben, setzt unten wieder an) */
+.sprung{position:relative;height:min(70vh,660px);display:grid;place-items:center;text-align:center;color:#fff;z-index:0}
+.sprung__b{position:fixed;inset:0;z-index:-1;visibility:hidden} .sprung.an .sprung__b{visibility:visible}
+.sprung__b img{width:100%;height:100%;object-fit:cover}
+.sprung__b::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 46% at 50% 50%,rgba(20,20,24,.42),rgba(20,20,24,0) 72%)}
+.sprung p{font:800 clamp(1.6rem,3.6vw,3.1rem)/1.1 var(--titel);max-width:22ch;padding:0 var(--rand);text-shadow:0 2px 30px rgba(0,0,0,.45);text-wrap:balance}
+.sprung small{display:block;margin-top:14px;font:400 11px/1.5 var(--mono);letter-spacing:.16em;text-transform:uppercase;text-shadow:0 1px 10px rgba(0,0,0,.6)}
+.fahrt,.ziel,.start{z-index:1}
+
+/* Ziel statt Fuss: Zielbalken, die Noten, Anreise, Buchen, die Häuser der Familie, Rechtliches */
+.ziel{position:relative;background:var(--tief);color:#fff;padding:clamp(70px,8vw,120px) var(--rand) 0;overflow:clip}
+.ziel__band{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:end;border-bottom:3px solid #fff;padding-bottom:20px}
+.ziel h2{font-size:clamp(4rem,14vw,13rem);line-height:.84}
+.ziel__noten{display:flex;gap:clamp(18px,3vw,44px);text-align:right}
+.ziel__noten div{display:grid;justify-items:end} .ziel__noten b{font:800 clamp(2.6rem,6vw,5.6rem)/.9 var(--titel)} .ziel__noten span{font:400 10.5px/1.6 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--silber)}
+.ziel__mitte{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);padding:clamp(34px,4vw,56px) 0}
+.ziel__anreise{display:grid;gap:16px;align-content:start} .ziel__anreise h3{font:800 clamp(1.5rem,2.4vw,2.2rem)/1.1 var(--titel)}
+.ziel__anreise dl{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;margin:0;font-size:15.5px} .ziel__anreise dt{font:400 10.5px/1.9 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--silber)} .ziel__anreise dd{margin:0}
+.ziel__anreise dl a{text-decoration:underline;text-decoration-color:rgba(255,255,255,.35);text-underline-offset:3px}
+.ziel .startliste{background:#fff;border-radius:26px;justify-self:stretch}
+.ziel__familie{display:grid;gap:14px;align-content:start} .ziel__familie h3{font:400 10.5px/1.5 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--silber)}
+.ziel__familie ul{display:grid;gap:0} .ziel__familie li{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid rgba(255,255,255,.12)}
+.ziel__familie li b{font:800 1rem/1.3 var(--titel)} .ziel__familie li span{font-size:13.5px;color:var(--silber);text-align:right} .ziel__familie li a[aria-current] b{color:var(--rot)}
+.studie{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:18px 0 28px;border-top:1px solid rgba(255,255,255,.14);font:400 12px/1.5 var(--mono);letter-spacing:.06em;color:rgba(255,255,255,.6)}
+.studie nav{display:flex;gap:18px}
+@media (max-width:900px){.ziel__band{grid-template-columns:1fr} .ziel__noten{justify-content:flex-start;text-align:left} .ziel__noten div{justify-items:start} .ziel__mitte{grid-template-columns:1fr}}
+
+/* Handy: die Linie läuft als Spur am linken Rand, Flaggen an der Spur */
+@media (max-width:860px){
+  .tor,.tor--r{grid-template-columns:1fr;padding-left:var(--spur);padding-right:var(--rand)} .tor--r .tor__inhalt{order:0}
+  .zwischen{order:-1;justify-self:start;padding-left:0} .zwischen .flagge{position:absolute;left:-50px;top:4px;margin:0;color:inherit} .zwischen .flagge::after{width:30px;height:22px}
+  .zwischen b{font-size:clamp(2.6rem,12vw,3.6rem)} .zitat{max-width:none;padding-left:var(--spur);padding-right:var(--rand)}
+  .hang{grid-template-columns:1fr 1fr} .zeilen li{grid-template-columns:1fr} .blatt li{grid-template-columns:4rem minmax(0,1fr)} .blatt a{grid-column:2}
+  .laufband{padding-left:var(--spur)}
+}
+
+/* Streckenplan (Menü) und Fenster (Dialoge) */
+dialog{border:0;padding:0;color:var(--nacht)} dialog::backdrop{background:rgba(20,20,24,.6)}
+.plan{margin:0 0 0 auto;height:100%;max-height:none;width:min(440px,100%);background:var(--tief);color:#fff;padding:26px var(--rand) 30px 34px}
+.plan ol{position:relative;display:grid;gap:2px;margin-top:40px;padding-left:24px} .plan ol::before{content:'';position:absolute;left:4px;top:8px;bottom:8px;width:3px;background:var(--rot);border-radius:2px}
+.plan li a{display:block;padding:9px 0;font:800 1.35rem/1.2 var(--titel)} .plan li small{display:block;font:400 10.5px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--silber)}
+.zu{position:absolute;right:14px;top:14px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.12);color:inherit;font-size:20px}
+.fenster{border-radius:14px;width:min(calc(100% - 24px),720px);max-height:calc(100svh - 40px);background:var(--schnee);box-shadow:0 50px 100px -40px rgba(0,0,0,.7)}
+.fenster__in{position:relative;padding:clamp(24px,3vw,38px);display:grid;gap:16px} .fenster .zu{background:var(--getoent)}
+.fenster h2{font:800 clamp(1.4rem,2.4vw,2rem)/1.1 var(--titel);padding-right:50px}
+.wahl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.feld{display:grid;gap:4px} .feld span{font:400 10px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--grau)}
+.feld input,.feld select,.feld textarea{border:1.5px solid var(--silber);border-radius:10px;padding:11px 13px;background:#fff;font-size:16px}
+.passend{display:grid;min-height:120px}
+.passend a{display:grid;grid-template-columns:92px minmax(0,1fr) auto;gap:14px;align-items:center;padding:10px 0;border-top:1px solid var(--silber-h)}
+.passend img{width:92px;height:62px;border-radius:4px;object-fit:cover} .passend b{font:800 1.05rem/1.2 var(--titel)} .passend small{display:block;font:400 10.5px/1.5 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--grau)}
+.passend .nr{font:800 1.5rem/1 var(--titel);color:var(--rot)}
+.hinweis{font-size:13.5px;line-height:1.5;color:var(--grau)}
+.zwei{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.danke{display:none;padding:14px 16px;border-radius:10px;background:var(--nacht);color:#fff} form.gesendet .danke{display:block}
+.haken{display:flex;flex-wrap:wrap;gap:8px} .haken label{display:flex;gap:8px;align-items:center;padding:9px 14px;border:1.5px solid var(--silber);border-radius:999px;font-size:15px}
+@media (max-width:640px){.wahl,.zwei{grid-template-columns:1fr} .passend a{grid-template-columns:72px minmax(0,1fr)} .passend .nr{display:none} .passend img{width:72px;height:52px}}
+
+/* Unterseiten: eigener Lauf mit Start, Toren und Ziel (Startbereich kürzer) */
+.start--seite{min-height:max(52svh,420px)} .fahrt>.recht{position:relative;z-index:1;padding:0 var(--rand)}
+.recht{display:grid;gap:14px;font-size:15.5px;line-height:1.62;max-width:760px} .recht h2{font:800 1.15rem/1.2 var(--titel);margin-top:12px} .recht a{text-decoration:underline;text-underline-offset:3px}
+
+/* Auftritte (Handschrift): Titel aus dem Schlitz, Stücke steigen deckend */
+@media (prefers-reduced-motion:no-preference){
+  .zl{display:block;overflow:clip;padding-bottom:.1em;margin-bottom:-.1em}
+  .zl>span{display:block;transform:translateY(108%);transition:transform 1.3s var(--e1);transition-delay:calc(var(--z,0)*90ms)}
+  [data-zeilen].da .zl>span{transform:none}
+  [data-s]{transform:translateY(40px);transition:transform 1.8s var(--e1);transition-delay:calc(var(--i,0)*90ms)}
+  [data-s].da{transform:none}
+}
+@media (prefers-reduced-motion:reduce){.linie__decke{display:none} .laufband__zug{animation:none} .start>img,.tor__bild img,.hang img{transform:none!important;transition:none!important}}

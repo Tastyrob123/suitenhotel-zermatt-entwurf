@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Designstudie: Adresse des Hauses als Platzhalter, wird beim Hochladen neu geschrieben -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://zurbriggen.ch/zermatt/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://zurbriggen.ch/zermatt/suiten.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://zurbriggen.ch/zermatt/pirmin.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://zurbriggen.ch/zermatt/zermatt.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://zurbriggen.ch/zermatt/genuss.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://zurbriggen.ch/zermatt/wellness.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://zurbriggen.ch/zermatt/anreise.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://zurbriggen.ch/zermatt/impressum.html</loc><lastmod>2026-10-23</lastmod></url>
+</urlset>

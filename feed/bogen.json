@@ -1,0 +1,545 @@
+{
+ "reihen": 20,
+ "stuecke": [
+  {
+   "id": "011-WillkommenzuHa",
+   "r": 1,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "012-dinner",
+   "r": 1,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/dinner-1920.webp"
+  },
+  {
+   "id": "013-sommer",
+   "r": 1,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/sommer-1920.webp"
+  },
+  {
+   "id": "021-cr-sessel",
+   "r": 2,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/cr-sessel-1920.webp"
+  },
+  {
+   "id": "022-pool-fruehstueck",
+   "r": 2,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/pool-fruehstueck-1920.webp"
+  },
+  {
+   "id": "023-MitBlickaufdas",
+   "r": 2,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "031-kissen",
+   "r": 3,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/kissen-1920.webp"
+  },
+  {
+   "id": "032-anstossen-balkon",
+   "r": 3,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/anstossen-balkon-1920.webp"
+  },
+  {
+   "id": "033-pool-garten",
+   "r": 3,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/pool-garten-1920.webp"
+  },
+  {
+   "id": "041-golf",
+   "r": 4,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/golf-1020.webp"
+  },
+  {
+   "id": "042-MatterhornGolf",
+   "r": 4,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "043-garten",
+   "r": 4,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/garten-1920.webp"
+  },
+  {
+   "id": "051-glaeser-gross",
+   "r": 5,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/glaeser-gross-1920.webp"
+  },
+  {
+   "id": "052-FilmDerSommerG",
+   "r": 5,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "053-eingang-gross",
+   "r": 5,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/eingang-gross-1920.webp"
+  },
+  {
+   "id": "061-ol-4",
+   "r": 6,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/ol-4-1920.webp"
+  },
+  {
+   "id": "062-pool-glas",
+   "r": 6,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/pool-glas-1920.webp"
+  },
+  {
+   "id": "063-PaketederSaiso",
+   "r": 6,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "071-saefte",
+   "r": 7,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/saefte-1920.webp"
+  },
+  {
+   "id": "072-la-2",
+   "r": 7,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/la-2-1200.webp"
+  },
+  {
+   "id": "073-winter-hang",
+   "r": 7,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/winter-hang-1920.webp"
+  },
+  {
+   "id": "081-PaketederSaiso",
+   "r": 8,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "082-bircher",
+   "r": 8,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/bircher-1920.webp"
+  },
+  {
+   "id": "083-sauna-gross",
+   "r": 8,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/sauna-gross-1920.webp"
+  },
+  {
+   "id": "091-lounge-tulpen",
+   "r": 9,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/lounge-tulpen-1920.webp"
+  },
+  {
+   "id": "092-familie",
+   "r": 9,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/familie-1920.webp"
+  },
+  {
+   "id": "093-WiedieSuitenhe",
+   "r": 9,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "101-relax-sw",
+   "r": 10,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/relax-sw-1920.webp"
+  },
+  {
+   "id": "102-ld-4",
+   "r": 10,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/ld-4-1920.webp"
+  },
+  {
+   "id": "103-dx-balkon",
+   "r": 10,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/dx-balkon-1920.webp"
+  },
+  {
+   "id": "111-teller-gross",
+   "r": 11,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/teller-gross-1920.webp"
+  },
+  {
+   "id": "112-DieAbendkarteE",
+   "r": 11,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "113-sa-blick",
+   "r": 11,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/sa-blick-1920.webp"
+  },
+  {
+   "id": "121-winter-lounge",
+   "r": 12,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/winter-lounge-1305.webp"
+  },
+  {
+   "id": "122-ma-2",
+   "r": 12,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/ma-2-1920.webp"
+  },
+  {
+   "id": "123-Kommzudirselbs",
+   "r": 12,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "131-joghurt-gross",
+   "r": 13,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/joghurt-gross-1920.webp"
+  },
+  {
+   "id": "132-16WellnessVomE",
+   "r": 13,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "133-erlebnisbad",
+   "r": 13,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/erlebnisbad-1920.webp"
+  },
+  {
+   "id": "141-waldweg",
+   "r": 14,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/waldweg-1920.webp"
+  },
+  {
+   "id": "142-winter-terrasse",
+   "r": 14,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/winter-terrasse-1920.webp"
+  },
+  {
+   "id": "143-PaketederSaiso",
+   "r": 14,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "151-schlitten",
+   "r": 15,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/schlitten-1920.webp"
+  },
+  {
+   "id": "152-cr-fenster",
+   "r": 15,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/cr-fenster-1920.webp"
+  },
+  {
+   "id": "153-kamin",
+   "r": 15,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/kamin-1920.webp"
+  },
+  {
+   "id": "161-fondue",
+   "r": 16,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/fondue-1920.webp"
+  },
+  {
+   "id": "162-haus-winter-nacht",
+   "r": 16,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/haus-winter-nacht-1600.webp"
+  },
+  {
+   "id": "163-Täglichab1800U",
+   "r": 16,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "171-apero-platte",
+   "r": 17,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/apero-platte-1920.webp"
+  },
+  {
+   "id": "172-ImWintereinmal",
+   "r": 17,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "173-wurst",
+   "r": 17,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/wurst-1920.webp"
+  },
+  {
+   "id": "181-umdieIdeallini",
+   "r": 18,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "182-pool-matterhorn",
+   "r": 18,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/pool-matterhorn-1920.webp"
+  },
+  {
+   "id": "183-15DieSuitenFün",
+   "r": 18,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "191-dorf-winter",
+   "r": 19,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/dorf-winter-1920.webp"
+  },
+  {
+   "id": "192-WinterOpeningW",
+   "r": 19,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "193-fruehstueck",
+   "r": 19,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/fruehstueck-1920.webp"
+  },
+  {
+   "id": "201-olympia",
+   "r": 20,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/olympia-1920.webp"
+  },
+  {
+   "id": "202-blaue-stunde",
+   "r": 20,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-suitenhotel-zermatt/Zurbriggen Suitenhotel Zermatt/website/assets/bilder/blaue-stunde-2560.webp"
+  },
+  {
+   "id": "203-WillkommenzuHa",
+   "r": 20,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  }
+ ]
+}
