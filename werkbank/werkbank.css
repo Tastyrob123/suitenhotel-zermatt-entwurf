@@ -1402,3 +1402,12 @@ html.cv-alle main>section.fl:not(#brief):not(#gefuege){content-visibility:visibl
 main>.fl:not(:nth-child(5),:nth-child(10),:nth-child(14),:nth-child(17),:nth-child(21)),main>.fl:not(:nth-child(5),:nth-child(10),:nth-child(14),:nth-child(17),:nth-child(21)) .ag-blatt,main>.fl:not(:nth-child(5),:nth-child(10),:nth-child(14),:nth-child(17),:nth-child(21)) .lu{background-image:none!important}
 #register.fl--navy,#gaeste.fl--navy,#k5.fl--navy,#geprueft.fl--navy{background-image:linear-gradient(rgba(46,44,48,.8),rgba(46,44,48,.8)),url(eigen/tapete-hero.svg)!important;background-size:auto,240px auto!important;background-repeat:repeat!important;background-position:50% 0!important}
 #vergleich.fl--nacht{background-image:linear-gradient(rgba(31,30,34,.8),rgba(31,30,34,.8)),url(eigen/tapete-hero.svg)!important;background-size:auto,240px auto!important;background-repeat:repeat!important;background-position:50% 0!important}
+/* titel-sofort-2026-11-14 */
+/* Hero-Titel sofort (Robert 14.11.2026): Zeilen liegen vor ihrem Auftritt ganz verdeckt, nichts lugt in der Hausfarbe hervor;
+   der Titel im Auftakt läuft beim ersten Bild los, ohne auf das Skript zu warten. */
+.z>span{transform:translateY(140%)}
+.da .z>span,.z.da>span{transform:none}
+.auftakt .zt .z>span{animation:zt-sofort 1.3s var(--e1) both;animation-delay:calc(var(--n,0)*120ms)}
+@keyframes zt-sofort{from{transform:translateY(140%)}to{transform:none}}
+@media(prefers-reduced-motion:reduce){.auftakt .zt .z>span{animation:none;transform:none}}
+@media print{.auftakt .zt .z>span{animation:none;transform:none}}
