@@ -595,3 +595,4 @@ html.ins-ruhe :is(.stapel .tel,.runter i,.zeile__z,.namenzug div,.wb-band__zug,.
 .ins-r--mb{order:9}
 /* Prüfung 20.11.2026, Punkt 15: Karten-Blätter auch zwischen 1000 und 1299 px so gross wie ab 1300 px */
 @media(min-width:1000px) and (max-width:1299px){#unterlagen .faecher--3{aspect-ratio:1/.86;max-width:none}#unterlagen .faecher--3 .blattk{width:41%}#unterlagen .faecher--3 .blattk--1{left:1%;top:4%}#unterlagen .faecher--3 .blattk--2{left:29.5%;top:13%}#unterlagen .faecher--3 .blattk--3{left:58%;top:22%}}
+@media(min-width:1000px) and (max-width:1299px){#unterlagen .faecher--3 .blattk{width:46%}#unterlagen .faecher--3 .blattk--1{left:0;top:2%}#unterlagen .faecher--3 .blattk--2{left:27%;top:14%}#unterlagen .faecher--3 .blattk--3{left:54%;top:26%}}
