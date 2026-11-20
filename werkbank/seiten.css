@@ -155,7 +155,7 @@
 /* Nachzug 14.11.2026 (Prüfpunkt 20): am schmalen Handy eine Spalte, die Sätze unter den Stücken laufen über die ganze Breite */
 @media(max-width:440px){.etk{grid-template-columns:minmax(0,1fr)}.etk p{max-width:32ch}}
 /* Prüfung 20.11.2026, Punkt 37: Bildzeilen der Drucksachen passen am Handy in ihre Spalte */
-@media (max-width:480px){.karton figcaption{letter-spacing:.06em}}
+@media (max-width:480px){.karton .sch figcaption,.karton figcaption{letter-spacing:.04em!important}}
 /* Prüfung 20.11.2026, Punkt 18: Beigaben und Befund auf breiten Bildschirmen höchstens 150 px Luft je Abschnitt oben und unten */
 .fl{padding-top:min(var(--abschnitt),150px);padding-bottom:min(var(--abschnitt),150px)}
 /* Prüfung 20.11.2026, Punkt 35: Kartenhülle und Text enden auf einer Linie */
