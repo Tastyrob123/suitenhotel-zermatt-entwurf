@@ -511,3 +511,6 @@ body.ma{margin:0;background:var(--raum);color:var(--tinte);font:400 17px/1.62 va
 #livre .m-schirme--zwei{padding-bottom:0}#livre .m-schirme--zwei .m-schirm--neben{display:none}
 #registre .m-schirme--zwei{padding-bottom:clamp(165px,20.81vw,375px)}}
 /* ---- Ende Spaltenhöhe je Saal ---- */
+/* Prüfung 20.11.2026: Titelzeile im kleinen Bildschirm bricht um statt über den Rand zu laufen (Punkt 37); Karte und Bildschirm enden auf einer Linie (Punkt 35) */
+.m-schirme .m-schirm__leiste span{white-space:normal;line-height:1.15;text-align:center;letter-spacing:.12em}
+#bureau .m-buehne,#reception .m-buehne,#registre .m-buehne{align-items:end}
