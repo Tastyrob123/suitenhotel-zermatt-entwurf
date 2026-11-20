@@ -285,3 +285,5 @@ textarea.ws-langfeld{display:block;width:100%;box-sizing:border-box;resize:none;
 .zm-angaben__kopf .ws-eintrag__t .ws-mono{margin:0;color:var(--klein);letter-spacing:.2em}
 .zm-angaben__kopf .ws-eintrag__t b{font-family:var(--titel);font-weight:var(--titel-g);letter-spacing:var(--titel-ls);font-size:calc(21px * var(--titel-mass));line-height:1.2}
 @media (max-width:560px){.ws.wo-app .ws-eintraege > .zm-angaben{margin:0}.zm-angaben__kopf{flex-direction:column;align-items:stretch;padding:14px;gap:14px}.zm-angaben__kopf .ws-eintrag__b{flex-basis:auto;width:100%}.zm-angaben .ws-eintrag__innen{padding:0 14px 16px}}
+/* Prüfung 20.11.2026, Punkt 37: Werkzeugname im Kopf bricht am Handy um, statt unter «Bereiche» zu laufen */
+@media (max-width:480px){.wo-kopf .wo-marke-w b{white-space:normal;line-height:1.05}}
