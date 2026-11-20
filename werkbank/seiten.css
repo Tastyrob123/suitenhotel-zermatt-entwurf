@@ -158,3 +158,5 @@
 @media (max-width:480px){.karton figcaption{letter-spacing:.06em}}
 /* Prüfung 20.11.2026, Punkt 18: Beigaben und Befund auf breiten Bildschirmen höchstens 150 px Luft je Abschnitt oben und unten */
 .fl{padding-top:min(var(--abschnitt),150px);padding-bottom:min(var(--abschnitt),150px)}
+/* Prüfung 20.11.2026, Punkt 35: Kartenhülle und Text enden auf einer Linie */
+#kartenhuelle .in{align-items:end}
