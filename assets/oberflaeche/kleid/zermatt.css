@@ -234,3 +234,5 @@ h1,h2,h3,h4,figcaption{text-wrap:balance}
   .wo-sp,.wo-an__st em,.rdg-karte .rdg-zu,.wo-sperr-mitte{text-indent:var(--wo-sperr)}
   :is(.wo-sp,.wo-an__st em,.wo-sperr-mitte) :is(i,svg,img){text-indent:0}
 }
+/* Prüfung 20.11.2026: Begrüssung im Kopf der Werkzeuge mit Luft zwischen den Zeilen (Vorlage Wellness) */
+.wo-sb__h{line-height:1.2}
