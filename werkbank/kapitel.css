@@ -541,7 +541,7 @@ html.ins-ruhe :is(.stapel .tel,.runter i,.zeile__z,.namenzug div,.wb-band__zug,.
 #unterlagen .karten>div:nth-child(2){grid-row:1/span 4!important;align-self:center}}   /* Überschrift links in der Textspalte: die Blätter stehen neben Überschrift und Text (Prüfpunkt 15) */
 @media(min-width:1300px){#unterlagen .faecher--3{aspect-ratio:1/.86;max-width:none}#unterlagen .faecher--3 .blattk{width:41%}
 #unterlagen .faecher--3 .blattk--1{left:1%;top:4%}#unterlagen .faecher--3 .blattk--2{left:29.5%;top:13%}#unterlagen .faecher--3 .blattk--3{left:58%;top:22%}}
-@media(max-width:1299px){#unterlagen .faecher--3 .blattk span{font-size:15px;letter-spacing:.06em;padding:8px 9px;justify-content:flex-start}#unterlagen .faecher--3 .blattk span b{display:none}}   /* schmale Blätter: nur der Name, ganz zu lesen */
+@media(max-width:1299px){#unterlagen .faecher--3 .blattk span{font-size:13px;letter-spacing:.06em;padding:8px 9px;justify-content:flex-start}#unterlagen .faecher--3 .blattk span b{display:none}}   /* schmale Blätter: nur der Name, ganz zu lesen */
 /* Robert 09.11.2026 (KORREKTUR-ROBERT.md 3): «Draussen» als vier Kacheln in einer Reihe am Rechner, 2 × 2 dazwischen, am Handy untereinander;
    gleiche Höhen, der Knopf unten bündig, kein Leerraum */
 .pk--hell .pk__b>.bogenb:nth-child(1){top:20%!important}.pk--hell .pk__b>.bogenb:nth-child(2){top:24%!important}.pk--hell .pk__b>.bogenb:nth-child(3){top:20%!important}   /* Drucksachen-Blätter tiefer: die Fläche ist bis unten belegt (Prüfpunkt 13 der Mac-Fassung) */
