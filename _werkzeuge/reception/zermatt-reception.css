@@ -533,3 +533,7 @@ mark.offen-feld{background:none;color:inherit;box-shadow:inset 0 -1px 0 var(--wo
   .re-start > .re-start__sp:last-child .re-q{grid-template-columns:auto minmax(0,1fr)}
   .re-start > .re-start__sp:last-child .re-q .re-a__st{grid-column:2;flex-direction:row;align-items:center;justify-self:start;margin-top:-6px}
 }
+/* Prüfung 20.11.2026, Punkt 21: Überschriften schweben auf kurzem Weg ein und kreuzen beim Einflug keine Karte */
+@keyframes sw-feder-h{from{translate:0 22px}}
+h2[data-sw]:not(.sw-da){translate:0 22px;scale:1}
+h2[data-sw].sw-da{animation-name:sw-feder-h}

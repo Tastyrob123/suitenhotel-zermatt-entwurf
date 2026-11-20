@@ -710,3 +710,5 @@ body.li{background:var(--wo-papier)}
   .wo-lage{grid-template-columns:minmax(0,1fr)}
   .wo-lage>.wo-lg+.wo-lg{border-left:0;border-top:1px solid var(--wo-linie-d)}
 }
+/* Prüfung 20.11.2026, Punkt 21: Begrüssung mit Luft zwischen den Zeilen */
+.li .wo-sb--voll .wo-sb__h{line-height:1.2}
