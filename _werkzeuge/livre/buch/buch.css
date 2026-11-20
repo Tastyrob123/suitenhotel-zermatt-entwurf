@@ -1,9 +1,9 @@
 /* Die Hausregeln · Suitenhotel Zurbriggen, Zermatt (buch.py). Kleid des Hauses wie die Website nach dem Feinschliff (zm.css): Schnee #F7F6EC, Schnee getönt #E7E7E4,
    Anthrazit #2E2C30 und #1F1E22, Silber #B1B2B4 für Linien von 1 px, Pinsel-Rot #E2001A nur als Punkt und Strich. Titel Instrument Sans gross und leicht, Etiketten DM Mono
    in Versalien gesperrt, Bricolage nur für ein grosses Wort. Radius 4 px, kein Muster. Knöpfe Anthrazit mit hellem Rund oder Schnee mit Silberlinie. Druck: A4 quer. */
-@font-face{font-family:"Instrument Sans";src:url(/assets/fonts/InstrumentSans-normal-400_600.woff2) format("woff2");font-weight:400 600;font-display:swap}
-@font-face{font-family:"DM Mono";src:url(/assets/fonts/DMMono-normal-400.woff2) format("woff2");font-weight:400;font-display:swap}
-@font-face{font-family:"Bricolage";src:url(/assets/fonts/BricolageGrotesque-ExtraBold.woff2) format("woff2");font-weight:800;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url(../../../assets/fonts/InstrumentSans-normal-400_600.woff2) format("woff2");font-weight:400 600;font-display:swap}
+@font-face{font-family:"DM Mono";src:url(../../../assets/fonts/DMMono-normal-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Bricolage";src:url(../../../assets/fonts/BricolageGrotesque-ExtraBold.woff2) format("woff2");font-weight:800;font-display:swap}
 :root{--schnee:#F7F6EC;--getoent:#E7E7E4;--blatt:#FBFAF3;--silber:#B1B2B4;--silber-h:#D6D7D9;--nacht:#2E2C30;--tief:#1F1E22;--grau:#6F6D73;--rot:#E2001A;
   --linie:rgba(177,178,180,.85);--linie-d:rgba(214,215,217,.24);--text-d:rgba(247,246,236,.78);
   --titel:"Instrument Sans",Arial,sans-serif;--lauf:"Instrument Sans",Arial,sans-serif;--mono:"DM Mono",ui-monospace,Menlo,monospace;--gross:"Bricolage","Arial Black",Arial,sans-serif;
