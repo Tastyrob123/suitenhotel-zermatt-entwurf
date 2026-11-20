@@ -1,0 +1,13 @@
+/* Suitenhotel Zurbriggen, Zermatt · Farben der Marke «Rot und Schnee» (08.11.2026) */
+:root{
+  --schnee:#F7F6EC; /* Schnee: Grund der hellen Flächen: der Schnee vor dem Haus */
+  --getoent:#E7E7E4; /* Schnee getönt: zweite helle Fläche, nie Weiss auf Weiss */
+  --nacht:#2E2C30; /* Anthrazit: Schrift, Knöpfe und dunkle Flächen, wie ZURBRIGGEN im Logo */
+  --tief:#1F1E22; /* Anthrazit tief: tiefste Fläche, Fuss und Kanten auf Dunkel */
+  --grau:#6F6D73; /* Grau: leise Schrift: zweite Zeilen, Bildunterschriften */
+  --silber:#B1B2B4; /* Silber: Linien von 1 px, wie ZERMATT im Logo */
+  --silber-h:#D6D7D9; /* Silber hell: feine Linien auf Schnee und auf Dunkel */
+  --laerche:#B9824E; /* Lärche: nur im Holz: Glastür, Rahmen, Wärme der Suiten */
+  --rot:#E2001A; /* Pinsel-Rot: nur als Punkt und Strich: Zeichen, Unterstrich, Ziellinie; nie als Fläche */
+  --samt:#AA0615; /* Samtrot: nur für Tiefe, nie als Fläche */
+}

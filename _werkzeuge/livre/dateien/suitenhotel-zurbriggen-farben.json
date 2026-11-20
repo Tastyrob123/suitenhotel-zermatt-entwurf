@@ -1,0 +1,122 @@
+[
+ {
+  "name": "Schnee",
+  "hex": "#F7F6EC",
+  "rgb": [
+   247,
+   246,
+   236
+  ],
+  "rolle": "Grund der hellen Flächen: der Schnee vor dem Haus",
+  "gruppe": "schnee",
+  "fundstelle": "zermatt-tourismus-winter.jpg (Galerie des Hauses bei Zermatt Tourismus), Schnee im Licht vor dem Haus"
+ },
+ {
+  "name": "Schnee getönt",
+  "hex": "#E7E7E4",
+  "rgb": [
+   231,
+   231,
+   228
+  ],
+  "rolle": "zweite helle Fläche, nie Weiss auf Weiss",
+  "gruppe": "schnee",
+  "fundstelle": "abgeleitet: Schnee mit Silber, der helle Grund der Seite (nie weiss auf weiss)"
+ },
+ {
+  "name": "Anthrazit",
+  "hex": "#2E2C30",
+  "rgb": [
+   46,
+   44,
+   48
+  ],
+  "rolle": "Schrift, Knöpfe und dunkle Flächen, wie ZURBRIGGEN im Logo",
+  "gruppe": "anthrazit",
+  "fundstelle": "210_logo_neu1.png, Schriftzug «ZURBRIGGEN» (Median aus 1.620 Pixeln)"
+ },
+ {
+  "name": "Anthrazit tief",
+  "hex": "#1F1E22",
+  "rgb": [
+   31,
+   30,
+   34
+  ],
+  "rolle": "tiefste Fläche, Fuss und Kanten auf Dunkel",
+  "gruppe": "anthrazit",
+  "fundstelle": "abgeleitet: Anthrazit, um ein Drittel abgedunkelt, für Kuhlen und Kanten auf Dunkel"
+ },
+ {
+  "name": "Grau",
+  "hex": "#6F6D73",
+  "rgb": [
+   111,
+   109,
+   115
+  ],
+  "rolle": "leise Schrift: zweite Zeilen, Bildunterschriften",
+  "gruppe": "anthrazit",
+  "fundstelle": "Wert der Website (zm.css)"
+ },
+ {
+  "name": "Silber",
+  "hex": "#B1B2B4",
+  "rgb": [
+   177,
+   178,
+   180
+  ],
+  "rolle": "Linien von 1 px, wie ZERMATT im Logo",
+  "gruppe": "silber",
+  "fundstelle": "210_logo_neu1.png, «ZERMATT» (Median aus 972 Pixeln); 56_logo_quadrat3.png, graues Dreieck (#B2B3B5)"
+ },
+ {
+  "name": "Silber hell",
+  "hex": "#D6D7D9",
+  "rgb": [
+   214,
+   215,
+   217
+  ],
+  "rolle": "feine Linien auf Schnee und auf Dunkel",
+  "gruppe": "silber",
+  "fundstelle": "210_logo_neu1.png, Glanzkante von «ZERMATT» (hellste Pixel)"
+ },
+ {
+  "name": "Lärche",
+  "hex": "#B9824E",
+  "rgb": [
+   185,
+   130,
+   78
+  ],
+  "rolle": "nur im Holz: Glastür, Rahmen, Wärme der Suiten",
+  "gruppe": "silber",
+  "fundstelle": "Wert der Website (zm.css)"
+ },
+ {
+  "name": "Pinsel-Rot",
+  "hex": "#E2001A",
+  "rgb": [
+   226,
+   0,
+   26
+  ],
+  "rolle": "nur als Punkt und Strich: Zeichen, Unterstrich, Ziellinie; nie als Fläche",
+  "gruppe": "rot",
+  "fundstelle": "210_logo_neu1.png (Median aus 5.606 Pixeln) und 56_logo_quadrat3.png (1.030 Pixel), das Pinselzeichen"
+ },
+ {
+  "name": "Samtrot",
+  "hex": "#AA0615",
+  "rgb": [
+   170,
+   6,
+   21
+  ],
+  "rolle": "nur für Tiefe, nie als Fläche",
+  "gruppe": "rot",
+  "fundstelle": "3728_rot.jpg, roter Samt in der Mediathek der heutigen Seite, 38,5 % des Bildes"
+ }
+]
