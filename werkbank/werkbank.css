@@ -1420,3 +1420,5 @@ main>.fl:not(:nth-child(5),:nth-child(10),:nth-child(14),:nth-child(17),:nth-chi
 /* Prüfung 20.11.2026, Punkt 37: Farbnamen brechen in ihrem Feld um */
 .hs2-chip b{white-space:normal}
 .hs2-gr>p{letter-spacing:.04em}
+/* Prüfung 20.11.2026, Punkt 10: Titel der Betreuung steht mittig neben der Liste, keine Leerfläche darunter */
+@media(min-width:900px){#sag-betreuung.sag-zwei>div:first-child{align-self:center}}
